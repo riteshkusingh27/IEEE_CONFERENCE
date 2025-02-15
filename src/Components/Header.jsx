@@ -29,9 +29,6 @@ const Header = () => {
               <NavLink to="/gallery" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-lg font-semibold">Gallery</NavLink>
             </li>
             <li>
-              <NavLink to="/register" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-lg font-semibold">Register</NavLink>
-            </li>
-            <li>
               <NavLink to="/events" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-lg font-semibold">Events</NavLink>
             </li>
             <li>
