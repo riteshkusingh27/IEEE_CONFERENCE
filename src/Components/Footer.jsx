@@ -6,8 +6,8 @@ import xcom from '../Images/icons/xcom.svg'
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r h-100px from-blue-900 to-blue-600 text-white py-6 mt-10">
-      <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+    <footer className="bg-gradient-to-r h-100px from-blue-900 to-blue-600 text-white py-6 mt-10 ">
+      <div className="w-full px-8 flex flex-col md:flex-row justify-between items-center">
         <div className="text-center md:text-left mb-4 md:mb-0">
           <h3 className="text-xl font-bold">IEEE Conference 2025</h3>
           <p className="text-sm">Organized by Dayananda Sagar University</p>
