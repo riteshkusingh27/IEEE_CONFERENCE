@@ -5,7 +5,7 @@ const HomeSection = () => {
   const [timeLeft, setTimeLeft] = useState('');
 
   useEffect(() => {
-    const targetDate = new Date('2025-12-01T00:00:00').getTime();
+    const targetDate = new Date('2025-03-01T00:00:00').getTime();
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
@@ -31,7 +31,7 @@ const HomeSection = () => {
   return (
     <section className="w-full min-h-screen relative flex flex-col items-center justify-center px-6 py-10">
          {/* background image  */}
-      <div className="absolute inset-0 bg-[url('https://mma.prnewswire.com/media/2383665/Dayananda_Sagar_University.jpg?p=facebook')] bg-cover bg-center opacity-50 z-0"></div>
+      
 
       {/* Content */}
       <div className="relative z-10 text-center mb-10">
@@ -61,8 +61,6 @@ const HomeSection = () => {
           { name: 'B', desc: 'Des 2', img: 'https://via.placeholder.com/150' },
           { name: 'C', desc: 'Des 3', img: 'https://via.placeholder.com/150' },
           { name: 'D', desc: 'Des 4', img: 'https://via.placeholder.com/150' },
-          { name: 'E', desc: 'Des 5', img: 'https://via.placeholder.com/150' },
-          { name: 'F', desc: 'Des 6', img: 'https://via.placeholder.com/150' }
         ].map((person, index) => (
           <div key={index} className="p-6 bg-white bg-opacity-80 rounded-xl shadow-md text-center hover:shadow-xl transition-all">
             <img src={person.img} alt={person.name} className="w-32 h-32 mx-auto rounded-full mb-4" />
@@ -75,7 +73,7 @@ const HomeSection = () => {
       {/* Countdown Timer */}
       <div className="relative z-10 text-center mt-6">
         <h2 className="text-2xl font-bold text-gray-800">Conference Starts In:</h2>
-        <p className="text-3xl font-mono text-indigo-700 mt-2">{timeLeft}</p>
+        <p className="text-3xl  text-orange-700 mt-2">{timeLeft}</p>
       </div>
     </section>
   );
