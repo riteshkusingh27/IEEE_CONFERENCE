@@ -1,4 +1,8 @@
 import React from 'react';
+import linkdein from '../Images/icons/linkdein.svg' 
+import instagram from '../Images/icons/instagram.svg' 
+import fb from '../Images/icons/fb.svg' 
+import xcom from '../Images/icons/xcom.svg' 
 
 const Footer = () => {
   return (
@@ -11,13 +15,14 @@ const Footer = () => {
             School Of Engineering Harohalli </span></a>
         </div>
         <div className="text-center mb-4 md:mb-0">
-          <p>&copy; 2025 IEEE Conference. All rights reserved.</p>
+          <p>&copy; 2025 IEEE Conference. All rights reserved some more information here</p>
         </div>
-        <div className="flex space-x-6">
-          <a href="#" className="hover:text-gray-300">Facebook</a>
-          <a href="#" className="hover:text-gray-300">Twitter</a>
-          <a href="#" className="hover:text-gray-300">Instagram</a>
-          <a href="#" className="hover:text-gray-300">LinkedIn</a>
+        <div className="flex space-x-4 justify-center md:justify-end">
+          <a href="#" ><img src={linkdein} alt="gf" className = 'w-6 h-6' /> </a>
+          <a href="#" ><img src={instagram} alt="gf" className = 'w-6 h-6' /> </a>
+          <a href="#" ><img src={fb} alt="gf" className = 'w-6 h-6' /> </a>
+          <a href="#" ><img src={xcom} alt="gf" className = 'w-6 h-6' /> </a>
+         
         </div>
       </div>
     </footer>

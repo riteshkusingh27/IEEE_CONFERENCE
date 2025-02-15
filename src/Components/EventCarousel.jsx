@@ -2,6 +2,7 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
+
 const EventCarousel = () => {
   const images = [
     '/images/poster1.jpg',
@@ -9,7 +10,7 @@ const EventCarousel = () => {
   ];
 
   return (
-    <div className="w-full mx-auto mt-6 px-3 h-[300px]">
+    <div className="w-full mx-auto mt-6 px-3 h-[300px] ">
       <Carousel
         autoPlay
         infiniteLoop
@@ -27,6 +28,7 @@ const EventCarousel = () => {
           </div>
         ))}
       </Carousel>
+      
     </div>
   );
 };

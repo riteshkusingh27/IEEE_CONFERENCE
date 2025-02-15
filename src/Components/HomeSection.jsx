@@ -3,7 +3,7 @@ import Guests from './Guests';
 import Countdown from './Countdown'
 import EventCarousel from './EventCarousel';
 import Footer from '../Components/Footer.jsx'
-
+import News from './News.jsx';
 
 const HomeSection = () => {
   const [timeLeft, setTimeLeft] = useState('');
@@ -50,22 +50,25 @@ const HomeSection = () => {
     </button>
   </div>
 
-  {/* welcome note */}
-  <div className="relative z-10 max-w-2xl text-center my-10">
-    <h2 className="text-3xl font-bold text-gray-800 mb-4">Welcome Note</h2>
-    <p className="text-gray-700 text-lg">
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur reiciendis modi consequuntur earum provident, quasi veniam atque nihil ducimus? Laborum magnam sunt ducimus aspernatur, numquam officiis, vero cum nisi eum perferendis ipsa necessitatibus in itaque possimus doloribus eius aliquam nobis delectus corporis quod quos? Porro veritatis quas provident neque excepturi maxime nisi omnis esse est! Voluptatem necessitatibus qui, distinctio omnis vitae dolorum sequi, nihil incidunt natus a itaque eum deserunt beatae, cum quasi quis dolore rerum at voluptas consequuntur? Cum, voluptatum in optio nemo maxime consectetur perspiciatis velit vitae aliquam quisquam libero quibusdam fugit neque nisi sapiente obcaecati nobis odit?
-    </p>
+  {/* welcome note  */}
+  <div className="relative z-10 grid grid-cols-3 gap-6 w-full mb-7">
+    <div className="col-span-2 p-6 bg-white rounded-lg shadow-lg">
+      <h2 className="text-3xl font-bold text-gray-800 mb-4">Welcome Note</h2>
+      <p className="text-gray-700 text-lg">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur reiciendis modi consequuntur earum provident, quasi veniam atque nihil ducimus? Laborum magnam sunt ducimus aspernatur, numquam officiis, vero cum nisi eum perferendis ipsa necessitatibus in itaque possimus doloribus eius aliquam nobis delectus corporis quod quos? Porro veritatis quas provident neque excepturi maxime nisi omnis esse est! Voluptatem necessitatibus qui, distinctio omnis vitae dolorum sequi, nihil incidunt natus a itaque eum deserunt beatae, cum quasi quis dolore rerum at voluptas consequuntur?
+      </p>
+    </div>
+    <div className="col-span-1">
+      <News />
+    </div>
   </div>
-
+    <h2 className="text-3xl font-bold text-gray-800 mb-4"> Speakers-Dignitories</h2>
   <Guests />   
   <Countdown timeLeft={timeLeft}  /> 
 
-  
 </section>
 <Footer/>
     </div>
-   
   );
 };
 
