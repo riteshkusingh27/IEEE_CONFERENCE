@@ -5,6 +5,7 @@ import Footer from './Components/Footer.jsx'
 import RootLayout from './Layout/RootLayout.jsx'
 import HomeSection from './Components/HomeSection'
 import About from './Components/About'
+import Gallery from './Components/Gallery'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Route path='/' element={<RootLayout/>}> 
          <Route  index element={<HomeSection/>}/>
          <Route path='/about' element={<About/>}/>
+         <Route path='/gallery' element={<Gallery/>}/>
       
       </Route>
     )

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '../Images/logo.png';
 import iee from '../Images/iee.png';
 
@@ -20,22 +20,22 @@ const Header = () => {
         <div className="flex-1 flex justify-center">
           <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6">
             <li>
-              <Link to="/" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-lg font-semibold">Home</Link>
+              <NavLink to="/" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-lg font-semibold">Home</NavLink>
             </li>
             <li>
-              <Link to="/about" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-lg font-semibold">About</Link>
+              <NavLink to="/about" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-lg font-semibold">About</NavLink>
             </li>
             <li>
-              <Link to="#" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-lg font-semibold">Gallery</Link>
+              <NavLink to="/gallery" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-lg font-semibold">Gallery</NavLink>
             </li>
             <li>
-              <Link to="#" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-lg font-semibold">Register</Link>
+              <NavLink to="/register" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-lg font-semibold">Register</NavLink>
             </li>
             <li>
-              <Link to="#" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-lg font-semibold">Events</Link>
+              <NavLink to="/events" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-lg font-semibold">Events</NavLink>
             </li>
             <li>
-              <Link to="#" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-lg font-semibold">IEE-Conference</Link>
+              <NavLink to="/iee" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-lg font-semibold">IEE-Conference</NavLink>
             </li>
           </ul>
         </div>

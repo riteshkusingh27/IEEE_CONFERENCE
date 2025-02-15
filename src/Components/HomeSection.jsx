@@ -4,10 +4,11 @@ import Countdown from './Countdown'
 import EventCarousel from './EventCarousel';
 import Footer from '../Components/Footer.jsx'
 import News from './News.jsx';
+import { NavLink, useNavigate} from 'react-router-dom'
 
 const HomeSection = () => {
   const [timeLeft, setTimeLeft] = useState('');
-
+  const navigate = useNavigate();
   useEffect(() => {
     const targetDate = new Date('2025-03-01T00:00:00').getTime();
 
@@ -45,8 +46,8 @@ const HomeSection = () => {
     <p className="text-lg md:text-xl text-gray-600 mb-6">
       Join us at Dayananda Sagar University to explore cutting-edge innovations and research.
     </p>
-    <button className="bg-indigo-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-indigo-700 transition-all">
-      Register Now
+    <button className="bg-indigo-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-indigo-700 transition-all" onClick={() => navigate('/register')}>  {/*used navigate  */}
+    Register Now
     </button>
   </div>
 
@@ -62,7 +63,7 @@ const HomeSection = () => {
       <News />
     </div>
   </div>
-    <h2 className="text-3xl font-bold text-gray-800 mb-4"> Speakers-Dignitories</h2>
+    <h2 className="text-3xl font-bold text-gray-800 mb-4"> Speakers/Dignitary</h2>
   <Guests />   
   <Countdown timeLeft={timeLeft}  /> 
 
