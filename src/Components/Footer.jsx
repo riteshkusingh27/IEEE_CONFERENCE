@@ -7,6 +7,8 @@ const Footer = () => {
         <div className="text-center md:text-left mb-4 md:mb-0">
           <h3 className="text-xl font-bold">IEEE Conference 2025</h3>
           <p className="text-sm">Organized by Dayananda Sagar University</p>
+        <a href="https://www.dsu.edu.in/"><span className="text-sm text-yellow-500 hover:text-black">
+            School Of Engineering Harohalli </span></a>
         </div>
         <div className="text-center mb-4 md:mb-0">
           <p>&copy; 2025 IEEE Conference. All rights reserved.</p>

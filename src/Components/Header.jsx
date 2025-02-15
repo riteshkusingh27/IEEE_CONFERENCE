@@ -1,6 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../Images/logo.png';
-import linkedin from '../Images/linkedin.svg';
 import iee from '../Images/iee.png';
 
 const Header = () => {
@@ -10,26 +10,39 @@ const Header = () => {
         {/* Logo Section */}
         <div className="flex items-center space-x-2 mb-4 md:mb-0">
           <img src={logo} className="h-16" alt="Logo" />
-          <img src={iee} className="h-14" alt="IEE Logo" />
+          <a href="https://www.ieee.org/" target="_blank"> 
+            <img src={iee} className="h-14" alt="IEE Logo" />
+          </a>
           <span className="text-xl font-bold text-gray-800 dark:text-white ml-2">Conference 2025</span>
         </div>
 
         {/* Navigation Links */}
         <div className="flex-1 flex justify-center">
           <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6">
-            {['Home', 'About', 'Gallery', 'Register', 'Events', 'IEE-Conference'].map((item) => (
-              <li key={item}>
-                <a href="#" className="text-indigo-700 hover:text-white dark:text-yellow-300 dark:hover:text-white text-base font-semibold">
-                  {item}
-                </a>
-              </li>
-            ))}
+            <li>
+              <Link to="/" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-base font-semibold">Home</Link>
+            </li>
+            <li>
+              <Link to="/about" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-base font-semibold">About</Link>
+            </li>
+            <li>
+              <Link to="#" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-base font-semibold">Gallery</Link>
+            </li>
+            <li>
+              <Link to="#" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-base font-semibold">Register</Link>
+            </li>
+            <li>
+              <Link to="#" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-base font-semibold">Events</Link>
+            </li>
+            <li>
+              <Link to="#" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-base font-semibold">IEE-Conference</Link>
+            </li>
           </ul>
         </div>
 
         {/* Register Button */}
         <div className="flex items-center mt-4 md:mt-0">
-          <button type="button" className="text-white text-sm bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-indigo-600 hover:to-blue-500 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-bold rounded-xl  px-5 py-2 shadow-lg transform transition-all duration-300 hover:scale-105">
+          <button type="button" className="text-white text-sm bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-indigo-600 hover:to-blue-500 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-bold rounded-xl  px-5 py-2 shadow-lg transform transition-all duration-300 hover:scale-100">
             <a href="https://www.ieee.org/">JOIN IEEE</a>
           </button>
         </div>
