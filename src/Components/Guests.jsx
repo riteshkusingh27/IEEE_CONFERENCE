@@ -2,7 +2,7 @@ import React from 'react'
 
 const Guests = () => {
   return (
-    <div className="relative z-10 grid grid-cols-1 md:grid-cols-4 gap-10 mb-10 w-300">
+    <div className="relative z-1 grid grid-cols-1 md:grid-cols-4 gap-10 mb-10 w-300">
         {[
           { name: 'A', desc: 'Des 1', img: 'https://via.placeholder.com/150' },
           { name: 'B', desc: 'Des 2', img: 'https://via.placeholder.com/150' },

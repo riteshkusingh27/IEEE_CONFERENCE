@@ -40,10 +40,10 @@ const HomeSection = () => {
   
   {/* Content */}
   <div className="relative z-10 text-center mb-10">
-    <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-4">
-      Welcome to IEEE Conference 2025
+    <h1 className="text-3xl md:text-6xl font-bold text-gray-800 mb-4">
+      Welcome to <span className="text-orange-500"> IEEE Centcon-2025</span>
     </h1>
-    <p className="text-lg md:text-xl text-gray-600 mb-6">
+    <p className="text-lg md:text-xl text-black mb-6">
       Join us at Dayananda Sagar University to explore cutting-edge innovations and research.
     </p>
     <button className="bg-indigo-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-indigo-700 transition-all" onClick={() => navigate('/register')}>  {/*used navigate  */}

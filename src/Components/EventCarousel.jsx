@@ -10,7 +10,7 @@ const EventCarousel = () => {
   ];
 
   return (
-    <div className="w-full mx-auto mt-6 px-3 h-[300px] ">
+    <div className="w-full mx-auto mt-6 px-3 h-[350px] ">
       <Carousel
         autoPlay
         infiniteLoop
@@ -19,7 +19,7 @@ const EventCarousel = () => {
         dynamicHeight={false}
       >
         {images.map((img, index) => (
-          <div key={index} className="h-[300px] flex justify-center items-center">
+          <div key={index} className="h-[350px] flex justify-center items-center">
             <img 
               src={img} 
               alt={`Event Poster ${index + 1}`} 

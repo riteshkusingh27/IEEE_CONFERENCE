@@ -5,7 +5,7 @@ import iee from '../Images/iee.png';
 
 const Header = () => {
   return (
-    <nav className="bg-pale-yellow border-gray-200 dark:bg-gray-900 relative z-20 w-full">
+    <nav className="bg-white border-gray-200  relative z-20 w-full ">
       <div className="w-full flex flex-col md:flex-row items-center justify-between px-4 py-3">
         {/* Logo Section */}
         <div className="flex items-center space-x-2 mb-4 md:mb-0">
@@ -13,26 +13,31 @@ const Header = () => {
           <a href="https://www.ieee.org/" target="_blank"> 
             <img src={iee} className="h-14" alt="IEE Logo" />
           </a>
-          <span className="text-xl font-bold text-gray-800 dark:text-white ml-2">Conference 2025</span>
+          <span className="text-xl font-bold  text-amber-700 ml-2">CENTCON 2025</span>
         </div>
 
         {/* Navigation Links */}
         <div className="flex-1 flex justify-center">
           <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6">
             <li>
-              <NavLink to="/" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-lg font-semibold">Home</NavLink>
+              <NavLink to="/" className="text-indigo-700 hover:text-black  text-lg font-semibold">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/about" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-lg font-semibold">About</NavLink>
+              <NavLink to="/about" className="text-indigo-700 hover:text-black text-lg font-semibold">About</NavLink>
+            </li>
+             <li>
+             <NavLink  className="text-indigo-700 hover:text-black text-lg font-semibold" to="/dsu"> 
+                Speakers
+             </NavLink>
+             </li>
+            <li>
+              <NavLink to="/gallery" className="text-indigo-700 hover:text-black   text-lg font-semibold">Gallery</NavLink>
             </li>
             <li>
-              <NavLink to="/gallery" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-lg font-semibold">Gallery</NavLink>
+              <NavLink to="/events" className="text-indigo-700 hover:text-black   text-lg font-semibold">Events</NavLink>
             </li>
             <li>
-              <NavLink to="/events" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-lg font-semibold">Events</NavLink>
-            </li>
-            <li>
-              <NavLink to="/iee" className="text-indigo-700 hover:text-black dark:text-yellow-300 dark:hover:text-white text-lg font-semibold">IEE-Conference</NavLink>
+              <NavLink to="/iee" className="text-indigo-700 hover:text-black text-lg font-semibold">Authors</NavLink>
             </li>
           </ul>
         </div>

@@ -9,13 +9,13 @@ const Footer = () => {
     <footer className="bg-gradient-to-r h-100px from-blue-900 to-blue-600 text-white py-6 mt-10 ">
       <div className="w-full px-8 flex flex-col md:flex-row justify-between items-center">
         <div className="text-center md:text-left mb-4 md:mb-0">
-          <h3 className="text-xl font-bold">IEEE Conference 2025</h3>
+          <h3 className="text-xl font-bold">IEEE CENTCON 2025</h3>
           <p className="text-sm">Organized by Dayananda Sagar University</p>
         <a href="https://www.dsu.edu.in/"><span className="text-sm text-yellow-500 hover:text-black">
             School Of Engineering Harohalli </span></a>
         </div>
         <div className="text-center mb-4 md:mb-0">
-          <p>&copy; 2025 IEEE Conference. All rights reserved some more information here</p>
+          <p>&copy; 2025 IEEE Conference Centcon-2025. All rights reserved.</p>
         </div>
         <div className="flex space-x-4 justify-center md:justify-end">
           <a href="#" ><img src={linkdein} alt="gf" className = 'w-6 h-6' /> </a>
