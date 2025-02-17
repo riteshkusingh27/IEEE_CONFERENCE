@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../Images/logo.png';
-import iee from '../Images/iee.png';
+import ieebangalore from '../Images/ieebangalore.png';
 
 const Header = () => {
   return (
@@ -11,7 +11,7 @@ const Header = () => {
         <div className="flex items-center space-x-2 mb-4 md:mb-0">
           <img src={logo} className="h-16" alt="Logo" />
           <a href="https://www.ieee.org/" target="_blank"> 
-            <img src={iee} className="h-14" alt="IEE Logo" />
+            <img src={ieebangalore} className="h-14 w-[25] " alt="IEE Logo" />
           </a>
           <span className="text-xl font-bold  text-amber-700 ml-2">CENTCON 2025</span>
         </div>
