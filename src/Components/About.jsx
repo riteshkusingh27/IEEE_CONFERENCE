@@ -27,7 +27,7 @@ The Society shall aid in promoting close cooperation and exchange of technical i
 
   
 
-          <div className="bg-none shadow-lg rounded-2xl p-6 hover:shadow-xl transition bg-white-500">
+          <div className="bg-none shadow-lg rounded-2xl p-6 hover:shadow-xl transition bg-white">
             <h3 className="text-2xl font-bold text-blue-800 mb-3 flex justify-center">Organizers</h3>
            <div className="parts flex flex-grow justify-start ">
            <div className="ul">
