@@ -8,10 +8,10 @@ const Header = () => {
     <nav className="bg-white border-gray-200  relative z-20 w-full ">
       <div className="w-full flex flex-col md:flex-row items-center justify-between px-4 py-3">
         {/* Logo Section */}
-        <div className="flex items-center space-x-2 mb-4 md:mb-0">
-          <img src={logo} className="h-16" alt="Logo" />
+        <div className="flex items-center align-middle space-x-2 mb-4 md:mb-0">
+          <img src={logo} className="h-16 w-45" alt="Logo" />
           <a href="https://www.ieee.org/" target="_blank"> 
-            <img src={ieebangalore} className="h-14 w-[25] " alt="IEE Logo" />
+            <img src={ieebangalore} className="h-14 w-45 " alt="IEE Logo" />
           </a>
           <span className="text-xl font-bold  text-amber-700 ml-2">CENTCON 2025</span>
         </div>
