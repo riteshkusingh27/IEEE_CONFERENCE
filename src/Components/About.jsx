@@ -14,7 +14,7 @@ The Society brings engineers, researchers, scientists and others involved in cir
 
 
         </p>
-        <div className="grid md:grid-cols-1 gap-6 text-left mt-6 ">
+        <div className="grid md:grid-cols-1 gap-6 text-left mt-6 mb-10 ">
           <div className="shadow-lg rounded-2xl p-6 hover:shadow-xl transition bg-green-300 ">
             <h3 className="text-2xl font-bold text-blue-800 mb-3"> Objectives</h3>
             <ul className="list-none  text-black text-xl">

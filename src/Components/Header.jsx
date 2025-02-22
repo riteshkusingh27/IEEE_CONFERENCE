@@ -34,7 +34,7 @@ const Header = () => {
               <NavLink to="/gallery" className="text-indigo-700 hover:text-black   text-lg font-semibold">Gallery</NavLink>
             </li>
             <li>
-              <NavLink to="/events" className="text-indigo-700 hover:text-black   text-lg font-semibold">Register</NavLink>
+              <NavLink to="/register" className="text-indigo-700 hover:text-black   text-lg font-semibold">Register</NavLink>
             </li>
             <li>
               <NavLink to="/iee" className="text-indigo-700 hover:text-black text-lg font-semibold">Authors</NavLink>

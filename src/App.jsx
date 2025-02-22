@@ -5,6 +5,7 @@ import HomeSection from './Components/HomeSection'
 import About from './Components/About'
 import Gallery from './Components/Gallery'
 import Speakers from './Components/Speakers.jsx'
+import Register from './Components/Register.jsx'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
          <Route path='/about' element={<About/>}/>
           <Route path ='/gallery' element={<Gallery/>}/>  
          <Route path='/speakers' element={<Speakers/>}/>
+         <Route path='/register' element={<Register/>}/>
       
       </Route>
     )
