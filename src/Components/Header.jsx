@@ -56,7 +56,7 @@ const Header = () => {
                 Authors ▾
               </button>
               {isDropdownOpen && (
-                <ul className="absolute left-0  w-48 bg-white border border-gray-300 rounded-lg shadow-lg z-20">
+                <ul className="absolute left-0  w-48 bg-white border border-gray-300 rounded-lg shadow-lg z-20 ">
                   <li>
                     <NavLink
                       to="/call-for-papers"
@@ -68,7 +68,7 @@ const Header = () => {
                   </li>
                   <li>
                     <NavLink
-                      to="/submission-guidelines"
+                      to="/author-guidelines"
                       className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                       onClick={() => setIsDropdownOpen(false)}
                     >

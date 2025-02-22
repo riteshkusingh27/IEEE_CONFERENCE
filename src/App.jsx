@@ -6,6 +6,8 @@ import About from './Components/About'
 import Gallery from './Components/Gallery'
 import Speakers from './Components/Speakers.jsx'
 import Register from './Components/Register.jsx'
+import Paper from './Components/Paper.jsx'
+import AuthorGuidelines from './Components/AuthorGuidelines.jsx'
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
           <Route path ='/gallery' element={<Gallery/>}/>  
          <Route path='/speakers' element={<Speakers/>}/>
          <Route path='/register' element={<Register/>}/>
+         <Route path='/call-for-papers' element={<Paper/>}/>
+         <Route path='/author-guidelines' element={<AuthorGuidelines/>}/>
       
       </Route>
     )
