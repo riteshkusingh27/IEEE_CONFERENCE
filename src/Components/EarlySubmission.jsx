@@ -3,10 +3,10 @@ import React from 'react';
 const EarlySubmission = () => {
   return (
     <div className='bg-gray-100 p-10'>
-      <h2 className='text-3xl font-bold mb-2 text-blue-900'>
+      <h2 className='text-3xl font-bold mb-1 text-blue-900'>
         <span className='underline'>Early Submission Advantage</span>
       </h2>
-      <p className='text-lg mb-5'>
+      <p className='text-lg mb-3'>
         Discount on Registration Fee to Authors who will submit their paper early and will not wait for the last date of submission. This discount is available on all categories of Authors.
       </p>
       <div className='overflow-x-auto'>

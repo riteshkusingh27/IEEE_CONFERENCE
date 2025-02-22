@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section className=" w-full h-full bg-gradient-to-r bg-white from-blue-50 to-blue-100   " id="about">
       <div className="max-w-5xl mx-auto pt-5">
-        <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-6 ">About the Conference</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-orange-500 mb-6 ">About the Conference</h2>
         <p className="text-xl text-black mb-4 font-semibold">
         The IEEE Circuits and Systems Society is the leading organization that promotes the advancement of the theory, analysis, design, tools, and implementation of circuits and systems.The field spans their theoretical foundations, applications, and architectures, as well as circuits and systems implementation of algorithms for signal and information processing. <br />
 

@@ -15,7 +15,7 @@ const registrationData = [
     return (
       <div className="main ">
         <div className=" text-black py-12 px-6">
-        <h2 className="text-4xl font-bold text-center mb-8 text-blue-900">Registrations</h2>
+        <h2 className="text-4xl font-bold text-center mb-8 text-orange-500">Registrations</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {registrationData.map((item, index) => (
             <div key={index} className="border border-black p-6 rounded-lg text-center">
