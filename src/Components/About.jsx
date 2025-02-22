@@ -37,8 +37,8 @@ The Society shall aid in promoting close cooperation and exchange of technical i
               <li>Chief Patreon <br/><span className='font-bold'>Dr. Arun Balodi </span> <br />Head of Deapartment </li>
             </ul>
            </div>
-           <div className="logos ml-30">
-               <img src={organizermain} alt="" className='h-30' />
+           <div className="logos ml-30 ">
+               <img src={organizermain} alt="" className='w-screen sm:w-auto h-auto sm:h-32 object-cover ' />
            </div>
             
            </div>
