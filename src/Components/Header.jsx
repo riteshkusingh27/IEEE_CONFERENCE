@@ -26,7 +26,7 @@ const Header = () => {
               <NavLink to="/about" className="text-indigo-700 hover:text-black text-lg font-semibold">About</NavLink>
             </li>
              <li>
-             <NavLink  className="text-indigo-700 hover:text-black text-lg font-semibold" to="/dsu"> 
+             <NavLink to='/speakers' className="text-indigo-700 hover:text-black text-lg font-semibold" > 
                 Speakers
              </NavLink>
              </li>
@@ -34,7 +34,7 @@ const Header = () => {
               <NavLink to="/gallery" className="text-indigo-700 hover:text-black   text-lg font-semibold">Gallery</NavLink>
             </li>
             <li>
-              <NavLink to="/events" className="text-indigo-700 hover:text-black   text-lg font-semibold">Events</NavLink>
+              <NavLink to="/events" className="text-indigo-700 hover:text-black   text-lg font-semibold">Register</NavLink>
             </li>
             <li>
               <NavLink to="/iee" className="text-indigo-700 hover:text-black text-lg font-semibold">Authors</NavLink>

@@ -63,7 +63,7 @@ const HomeSection = () => {
       <News />
     </div>
   </div>
-    <h2 className="text-3xl font-bold text-gray-800 mb-4"> Speakers/Dignitary</h2>
+    <h2 className="text-4xl font-bold text-gray-800 mb-4">Committee</h2>
   <Guests />   
   <Countdown timeLeft={timeLeft}  /> 
 
