@@ -10,7 +10,7 @@ const EventCarousel = () => {
   ];
 
         return (
-          <div className="w-full mx-auto mt-6 px-3 h-[350px] ">
+          <div className="w-full mx-auto mt-6 px-3 h-[350px]  ">
             <Carousel
                 autoPlay
                 infiniteLoop
