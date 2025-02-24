@@ -3,32 +3,32 @@ import React from "react";
 const speakers = [
   {
     id: 1,
-    name: "Dr. John Doe",
-    position: "Professor, XYZ University",
+    name: "Name",
+    position: "position",
     image: "https://via.placeholder.com/150",
   },
   {
     id: 2,
-    name: "Jane Smith",
-    position: "CEO, ABC Corp",
+    name: "Name",
+    position: "position",
     image: "https://via.placeholder.com/150",
   },
   {
     id: 3,
-    name: "Dr. Alex Brown",
-    position: "Research Scientist, Tech Labs",
+    name: "Name",
+    position: "position",
     image: "https://via.placeholder.com/150",
   },
   {
     id: 4,
-    name: "Emily White",
-    position: "CTO, Startup Inc.",
+    name: "Name",
+    position: "position",
     image: "https://via.placeholder.com/150",
   },
   {
     id: 4,
-    name: "Emily White",
-    position: "CTO, Startup Inc.",
+    name: "Name",
+    position: "position",
     image: "https://via.placeholder.com/150",
   },
 ];
