@@ -8,7 +8,7 @@ const About = () => {
       <div className="max-w-5xl mx-auto pt-5">
         <h2 className="text-3xl md:text-4xl font-bold text-orange-500 mb-6 ">About the Conference</h2>
         <p className="text-xl text-black mb-4 font-semibold">
-        The IEEE Circuits and Systems Society is the leading organization that promotes the advancement of the theory, analysis, design, tools, and implementation of circuits and systems.The field spans their theoretical foundations, applications, and architectures, as well as circuits and systems implementation of algorithms for signal and information processing. <br />
+        The IEEE is the leading organization that promotes the advancement of the theory, analysis, design, tools, and implementation of circuits and systems.The field spans their theoretical foundations, applications, and architectures, as well as circuits and systems implementation of algorithms for signal and information processing. <br />
 
 The Society brings engineers, researchers, scientists and others involved in circuits and systems applications access to the industry’s most essential technical information, networking opportunities, career development tools and many other exclusive benefits. <br />
 

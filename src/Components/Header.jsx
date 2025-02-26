@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../Images/logo.png";
+import logo from "../Images/organizermain.png";
 import ieebangalore from "../Images/ieebangalore.png";
+
 
 const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -11,9 +12,9 @@ const Header = () => {
       <div className="w-full flex flex-col md:flex-row items-center justify-between px-4 py-3">
         {/* Logo Section */}
         <div className="flex items-center align-middle space-x-2 mb-4 md:mb-0">
-          <img src={logo} className="h-16 w-45" alt="Logo" />
+        <a href="https://www.dsu.edu.in/" className="dsu">  <img src={logo} className="h-16 object-contain" alt="Logo" /></a>
           <a href="https://www.ieee.org/" target="_blank" rel="noopener noreferrer">
-            <img src={ieebangalore} className="h-14 w-45" alt="IEEE Logo" />
+            <img src={ieebangalore} className="h-13 w-45 " alt="IEEE Logo" />
           </a>
           <span className="text-xl font-bold text-amber-700 ml-2">CENTCON 2025</span>
         </div>
@@ -77,7 +78,7 @@ const Header = () => {
                   </li>
                   <li>
                     <NavLink
-                      to="/important-dates"
+                      to="/dates"
                       className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                       onClick={() => setIsDropdownOpen(false)}
                     >
@@ -101,6 +102,17 @@ const Header = () => {
             </button>
           </a>
         </div>
+        <div className="submit flex text-center justify-center ">
+    <a href="https://www.ieee.org/" className=' '>
+           <button
+             type="button"
+             className="text-white text-md w-32 bg-gradient-to-r from-orange-500 to-orange-600   focus:ring-indigo-300 font-bold rounded-xl  py-2 shadow-lg transition-transform duration-300 hover:scale-105  "
+           >
+             SUBMIT
+           </button> 
+         </a>
+    </div>
+        
       </div>
     </nav>
   );

@@ -56,14 +56,25 @@ const HomeSection = () => {
     <div className="col-span-2 p-6 bg-white rounded-lg shadow-lg">
       <h2 className="text-3xl font-bold text-gray-800 mb-4">Welcome Note</h2>
       <p className="text-gray-700 text-lg">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur reiciendis modi consequuntur earum provident, quasi veniam atque nihil ducimus? Laborum magnam sunt ducimus aspernatur, numquam officiis, vero cum nisi eum perferendis ipsa necessitatibus in itaque possimus doloribus eius aliquam nobis delectus corporis quod quos? Porro veritatis quas provident neque excepturi maxime nisi omnis esse est! Voluptatem necessitatibus qui, distinctio omnis vitae dolorum sequi, nihil incidunt natus a itaque eum deserunt beatae, cum quasi quis dolore rerum at voluptas consequuntur?
+       
+We are thrilled to invite you to the IEEE Centcon-2025 Conference, hosted by Dayananda Sagar University. This premier event brings together researchers, educators, students, practitioners, technologists, and policymakers from around the globe. The conference serves as a dynamic platform for exchanging ideas, showcasing achievements, and promoting advances in electrical engineering, electronics, computer engineering, and information technology. <br />
+<div className='m-2'>
+  
+</div>
+Our program features keynote speeches and invited talks by distinguished speakers, offering insights into emerging trends and cutting-edge innovations. Attendees will have the opportunity to participate in technical sessions, panel discussions, and exhibits highlighting current research and applications.
+
+Join us at IEEE Centcon-2025 at Dayananda Sagar University to be part of this vibrant community, where you can engage in meaningful discussions, network with industry leaders, and contribute to the future of technology.
+
+We look forward to welcoming you to an inspiring and impactful conference experience!
+
+Warm regards, The IEEE Centcon-2025 Organizing Committee
       </p>
     </div>
     <div className="col-span-1">
       <News />
     </div>
   </div>
-    <h2 className="text-4xl font-bold text-gray-800 mb-4">Committee</h2>
+    <h2 className="text-4xl font-bold text-gray-800 mb-4">Chief Patreon</h2>
   <Guests />   
   <Countdown timeLeft={timeLeft}  /> 
 

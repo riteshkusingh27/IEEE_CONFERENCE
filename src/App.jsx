@@ -8,6 +8,7 @@ import Speakers from './Components/Speakers.jsx'
 import Register from './Components/Register.jsx'
 import Paper from './Components/Paper.jsx'
 import AuthorGuidelines from './Components/AuthorGuidelines.jsx'
+import Idt from './Components/Idt.jsx'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
          <Route path='/register' element={<Register/>}/>
          <Route path='/call-for-papers' element={<Paper/>}/>
          <Route path='/author-guidelines' element={<AuthorGuidelines/>}/>
+         <Route path='/dates' element={<Idt/>}/>
       
       </Route>
     )
