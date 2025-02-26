@@ -38,8 +38,8 @@ const Header = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/gallery" className="text-indigo-700 hover:text-black text-lg font-semibold">
-                Gallery
+              <NavLink to="/committee" className="text-indigo-700 hover:text-black text-lg font-semibold">
+               Committee
               </NavLink>
             </li>
             <li>
