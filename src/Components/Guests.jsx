@@ -7,7 +7,8 @@ const Guests = () => {
           { name: 'Dr. D. HEMACHANDRA SAGAR', desc: 'Chancellor, DSU', img: './images/drhemachandra.jpeg' },
           { name: 'Dr. D. PREMACHANDRA SAGAR', desc: 'Pro Chancellor, DSU', img: './images/drpremachandra.jpeg' },
           { name: 'Dr. Amit R Bhatt', desc: 'Vice Chancellor, DSU', img: './images/dramitbhatt.jpeg' },
-          { name: 'Dr. UDAYA KUMAR REDDY K.R.', desc: 'Dean-School of Engineering', img: './images/udk.jpg' }, { name: 'Dr. Ramesh R Galigekere', desc: 'Professor & Dean Academics', img: './images/drramesh.jpeg' },{ name: 'Dr. UDAYA KUMAR REDDY K.R.', desc: 'Dean-School of Engineering', img: './images/udk.jpg' }, { name: 'Dr Puttamadappa C', desc: 'Professor and Registrar', img: './images/drputtamadappa.jpeg' },
+          { name: 'Dr. UDAYA KUMAR REDDY K.R.', desc: 'Dean-School of Engineering', img: './images/udk.jpg' }, { name: 'Dr. Ramesh R Galigekere', desc: 'Professor & Dean Academics', img: './images/drramesh.jpeg' },
+           { name: 'Dr Puttamadappa C', desc: 'Professor and Registrar', img: './images/drputtamadappa.jpeg' },
         ].map((person, index) => (
           <div key={index} className="p-6 bg-white bg-opacity-80 rounded-xl shadow-md text-center hover:shadow-xl transition-all">
             <img src={person.img} alt={person.name} className="w-42 h-42 mx-auto rounded-full mb-4" />
