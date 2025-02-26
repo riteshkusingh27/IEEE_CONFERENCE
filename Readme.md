@@ -7,3 +7,5 @@ Landing Page
   used reactcarousel lib for scrolling images in the homepage 
 
    fixed react redirect route broken pages on netlify using _redirects 
+
+   updated favicon 
