@@ -96,17 +96,17 @@ const Header = () => {
           <a href="https://www.ieee.org/">
             <button
               type="button"
-              className="text-white text-sm bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-indigo-600 hover:to-blue-500 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-bold rounded-xl px-7 py-2 mx-5 shadow-lg transition-transform duration-300 hover:scale-105"
+              className="text-white text-sm bg-gradient-to-r  from-blue-500 to-indigo-600 hover:from-indigo-600 hover:to-blue-500 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-bold rounded-xl px-7 py-2 mx-5 shadow-lg transition-transform duration-300 hover:scale-105"
             >
               JOIN IEEE
             </button>
           </a>
         </div>
-        <div className="submit flex text-center justify-center ">
+        <div className="submit flex text-center justify-center mt-4 md:mt-0">
     <a href="https://www.ieee.org/" className=' '>
            <button
              type="button"
-             className="text-white text-md w-32 bg-gradient-to-r from-orange-500 to-orange-600   focus:ring-indigo-300 font-bold rounded-xl  py-2 shadow-lg transition-transform duration-300 hover:scale-105  "
+             className="text-white text-sm bg-gradient-to-r from-orange-500 to-orange-600   focus:ring-indigo-300 font-bold rounded-xl px-7 py-2 mx-5shadow-lg transition-transform duration-300 hover:scale-105  "
            >
              SUBMIT
            </button> 
