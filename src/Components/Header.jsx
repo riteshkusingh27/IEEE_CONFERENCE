@@ -16,7 +16,7 @@ const Header = () => {
           <a href="https://www.ieee.org/" target="_blank" rel="noopener noreferrer">
             <img src={ieebangalore} className="h-13 w-45 " alt="IEEE Logo" />
           </a>
-          <span className="text-xl font-bold text-amber-700 ml-2">CENTCON 2025</span>
+          <span className="text-xl font-bold text-amber-700 ml-2">CENTCON2025</span>
         </div>
 
         {/* Navigation Links */}
