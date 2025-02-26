@@ -12,7 +12,7 @@ const Header = () => {
       <div className="w-full flex flex-col md:flex-row items-center justify-between px-4 py-3">
         {/* Logo Section */}
         <div className="flex items-center align-middle space-x-2 mb-4 md:mb-0">
-        <a href="https://www.dsu.edu.in/" className="dsu">  <img src={logo} className="h-16 object-contain" alt="Logo" /></a>
+        <a href="https://www.dsu.edu.in/" className="dsu">  <img src={logo} className="h-16 object-contain mr-0.5" alt="Logo" /></a>
           <a href="https://www.ieee.org/" target="_blank" rel="noopener noreferrer">
             <img src={ieebangalore} className="h-13 w-45 " alt="IEEE Logo" />
           </a>
