@@ -54,7 +54,7 @@ const HomeSection = () => {
   {/* welcome note  */}
   <div className="relative z-10 grid grid-cols-3 gap-6 w-full mb-7">
     <div className="col-span-2 p-6 bg-white rounded-lg shadow-lg">
-      <h2 className="text-3xl font-bold text-gray-800 mb-4">Welcome Note</h2>
+      <h2 className="text-4xl font-bold text-gray-800 mb-4">About Us</h2>
       <p className="text-gray-700 text-lg">
        
 We are thrilled to invite you to the IEEE Centcon-2025 Conference, hosted by Dayananda Sagar University. This premier event brings together researchers, educators, students, practitioners, technologists, and policymakers from around the globe. The conference serves as a dynamic platform for exchanging ideas, showcasing achievements, and promoting advances in electrical engineering, electronics, computer engineering, and information technology. <br />
