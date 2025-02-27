@@ -5,44 +5,170 @@ const committeeSections = [
     title: "Steering Committee",
     members: [
       {
-        name: "K V S Hari",
-        role: "Chair",
-        institution: "IISc",
-        image: "https://example.com/kvs_hari.jpg",
+        name: "Name",
+        role: "Role",
+        institution: "Institution",
+        image: "",
       },
       {
-        name: "Chandrakanta Kumar",
-        role: "Co-Chair",
-        institution: "ISRO",
-        image: "https://example.com/chandrakanta_kumar.jpg",
+        name: "Name",
+        role: "Role",
+        institution: "Institution",
+        image: "",
       },
       {
-        name: "Aloknath De",
-        role: "National Coordination",
-        institution: "IISc",
-        image: "https://example.com/aloknath_de.jpg",
+        name: "Name",
+        role: "Role",
+        institution: "Institution",
+        image: "",
       },
       {
-        name: "Debabrata Das",
-        role: "International Coordination",
-        institution: "IIITB",
-        image: "https://example.com/debabrata_das.jpg",
+        name: "Name",
+        role: "Role",
+        institution: "Institution",
+        image: "",
       },
     ],
+  
   },
+  {
+    title: "General Chair ",
+    members: [
+      {
+        name: "Name",
+        role: "Role",
+        institution: "Institution",
+        image: "",
+      },
+      {
+        name: "Name",
+        role: "Role",
+        institution: "Institution",
+        image: "",
+      }
+    ],
+  
+  },
+  {
+    title: "Steering Committee",
+    members: [
+      {
+        name: "Name",
+        role: "Role",
+        institution: "Institution",
+        image: "",
+      },
+      {
+        name: "Name",
+        role: "Role",
+        institution: "Institution",
+        image: "",
+      },
+      {
+        name: "Name",
+        role: "Role",
+        institution: "Institution",
+        image: "",
+      },
+      {
+        name: "Name",
+        role: "Role",
+        institution: "Institution",
+        image: "",
+      },
+    ],
+  
+  },
+  {
+    title: "Technical Program Committee",
+    members: [
+      {
+        name: "Name",
+        role: "Role",
+        institution: "Institution",
+        image: "",
+      },
+      {
+        name: "Name",
+        role: "Role",
+        institution: "Institution",
+        image: "",
+      },
+      {
+        name: "Name",
+        role: "Role",
+        institution: "Institution",
+        image: "",
+      },
+      {
+        name: "Name",
+        role: "Role",
+        institution: "Institution",
+        image: "",
+      },
+    ],
+  
+  }
+  ,
+  {
+    title: "Organizing Committee",
+    members: [
+      {
+        name: "Name",
+        role: "Role",
+        institution: "Institution",
+        image: "",
+      },
+      {
+        name: "Name",
+        role: "Role",
+        institution: "Institution",
+        image: "",
+      },
+      {
+        name: "Name",
+        role: "Role",
+        institution: "Institution",
+        image: "",
+      },
+      {
+        name: "Name",
+        role: "Role",
+        institution: "Institution",
+        image: "",
+      },
+    ],
+  
+  },{
+    title: "Finance Committee",
+    members: [
+      {
+        name: "Name",
+        role: "Role",
+        institution: "Institution",
+        image: "",
+      },
+      {
+        name: "Name",
+        role: "Role",
+        institution: "Institution",
+        image: "",
+      }
+    ],
+  
+  }
 ];
-
+    //    displaying memebers image 
 const CommitteeSection = ({ title, members }) => {
   return (
     <div className="text-center py-10">
       <h2 className="text-3xl font-bold mb-8">{title}</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 justify-center px-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center px-10">
         {members.map((member, index) => (
           <div key={index} className="rounded-lg shadow-md overflow-hidden bg-white">
             <img
               src={member.image}
-              alt={member.name}
-              className="w-full h-48 object-cover"
+              className="w-full  object-fill"
             />
             <div className="p-4 text-center">
               <h3 className="text-lg font-semibold">{member.name}</h3>
