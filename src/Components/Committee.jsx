@@ -162,7 +162,7 @@ const committeeSections = [
 const CommitteeSection = ({ title, members }) => {
   return (
     <div className="text-center py-10">
-      <h2 className="text-3xl font-bold mb-8">{title}</h2>
+      <h2 className="text-3xl font-bold mb-8 text-orange-600">{title}</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center px-10">
         {members.map((member, index) => (
           <div key={index} className="rounded-lg shadow-md overflow-hidden bg-white">
