@@ -9,3 +9,6 @@ Landing Page
    fixed react redirect route broken pages on netlify using _redirects 
 
    updated favicon 
+
+   added committee section templates , used maping to get the committee name and their members which is an array of object and array in the objects 
+   
