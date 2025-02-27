@@ -1,8 +1,11 @@
 import React from 'react'
+import Committees from './Committee.jsx'
 
 const Gallery = () => {
   return (
-    <div>gallery section </div>
+    <div>
+      <Committees/>
+    </div>
   )
 }
 
