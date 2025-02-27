@@ -74,7 +74,7 @@ Warm regards, The IEEE Centcon-2025 Organizing Committee
       <News />
     </div>
   </div>
-    <h2 className="text-4xl font-bold text-gray-800 mb-6">Chief Patreon</h2>
+    <h2 className="text-4xl font-bold text-gray-800 mb-6">Chief Patron</h2>
   <Guests />   
   <Countdown timeLeft={timeLeft}  /> 
 
