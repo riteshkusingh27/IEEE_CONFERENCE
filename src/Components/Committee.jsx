@@ -158,7 +158,7 @@ const committeeSections = [
   
   }
 ];
-    //    displaying memebers image 
+               //    displaying memebers image 
 const CommitteeSection = ({ title, members }) => {
   return (
     <div className="text-center py-10">

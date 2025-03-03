@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../Images/organizermain.png";
 import ieebangalore from "../Images/ieebangalore.png";
+import centcon from "../Images/centcon.png";
 
 
 const Header = () => {
@@ -9,14 +10,15 @@ const Header = () => {
 
   return (
     <nav className="bg-white border-gray-200 relative top-0 z-20 w-full">
-      <div className="w-full flex flex-col md:flex-row items-center justify-between px-4 py-3">
+      <div className="w-full flex flex-col md:flex-row items-center justify-between px-4 py-3  ">
         {/* Logo Section */}
-        <div className="flex items-center align-middle space-x-2 mb-4 md:mb-0">
+        <div className="flex items-center align-middle items-center space-x-2 mb-4 md:mb-0">
         <a href="https://www.dsu.edu.in/" className="dsu">  <img src={logo} className="h-16 object-contain mr-0.5" alt="Logo" /></a>
           <a href="https://www.ieee.org/" target="_blank" rel="noopener noreferrer">
             <img src={ieebangalore} className="h-13 w-45 " alt="IEEE Logo" />
           </a>
-          <span className="text-xl font-bold text-amber-700 ml-2">CENTCON2025</span>
+          {/* appending centcon logo here */}
+          <a href="" className=''><img src={centcon} alt="" className="h-13 w-38 object-cover ml-1 items-center" /></a>
         </div>
 
         {/* Navigation Links */}
@@ -96,7 +98,7 @@ const Header = () => {
           <a href="https://www.ieee.org/">
             <button
               type="button"
-              className="text-white text-sm bg-gradient-to-r  from-blue-500 to-indigo-600 hover:from-indigo-600 hover:to-blue-500 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-bold rounded-xl px-7 py-2 mx-5 shadow-lg transition-transform duration-300 hover:scale-105"
+              className="text-white text-sm bg-gradient-to-r  from-blue-500 to-indigo-600 hover:from-indigo-600 hover:to-blue-500 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-bold rounded-xl px-7 py-2 mx-5 shadow-lg transition-transform duration-300 hover:scale-105 "
             >
               JOIN IEEE
             </button>

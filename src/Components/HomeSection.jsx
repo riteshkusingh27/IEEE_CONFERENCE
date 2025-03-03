@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Guests from './Guests';
+import Guests from './Guests';  // updated to chief Patron
+import Patron from './Patron';
 import Countdown from './Countdown'
 import EventCarousel from './EventCarousel';
 import Footer from '../Components/Footer.jsx'
@@ -10,7 +11,7 @@ const HomeSection = () => {
   const [timeLeft, setTimeLeft] = useState('');
   const navigate = useNavigate();
   useEffect(() => {
-    const targetDate = new Date('2025-03-01T00:00:00').getTime();
+    const targetDate = new Date('2025-03-27T00:00:00').getTime();
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
@@ -75,7 +76,11 @@ Warm regards, The IEEE Centcon-2025 Organizing Committee
     </div>
   </div>
     <h2 className="text-4xl font-bold text-gray-800 mb-6">Chief Patron</h2>
-  <Guests />   
+  <Guests /> 
+  <h2 className="text-4xl font-bold text-gray-800 mb-6"> Patron</h2>
+  <Patron/> 
+
+
   <Countdown timeLeft={timeLeft}  /> 
 
 </section>
