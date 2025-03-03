@@ -33,8 +33,8 @@ The Society shall aid in promoting close cooperation and exchange of technical i
            <div className="ul">
            <ul className=" text-black">
               <li className ='text-xl font-semibold '>Department of Electronics And Communication </li>
-              <li className ='text-2xl font-semibold '>Dayananda Sagar University SOE Harohalli </li>
-              <li>Chief Patreon <br/><span className='font-bold'>Dr. Arun Balodi </span> <br />Head of Deapartment </li>
+              <li className ='text-2xl font-semibold mb-2'>Dayananda Sagar University SOE Harohalli </li>
+              <li> <span className='font-bold'>Dr. Arun Balodi </span> <br />Head of Deapartment </li>
             </ul>
            </div>
            <div className="logos ml-30 ">
