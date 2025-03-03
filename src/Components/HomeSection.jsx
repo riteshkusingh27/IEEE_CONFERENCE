@@ -42,7 +42,7 @@ const HomeSection = () => {
   {/* Content */}
   <div className="relative z-10 text-center mb-10">
     <h1 className="text-3xl md:text-6xl font-bold text-gray-800 mb-4">
-      Welcome to <span className="text-orange-500"> IEEE Centcon-2025</span>
+      Welcome to <span className="text-orange-500"> IEEE CENTCON-2025</span>
     </h1>
     <p className="text-lg md:text-xl text-black mb-6">
       Join us at Dayananda Sagar University to explore cutting-edge innovations and research.
