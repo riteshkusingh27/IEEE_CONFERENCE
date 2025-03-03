@@ -11,7 +11,7 @@ const ImportantDates = () => {
   return (
     <div className="p-6  w-full  pl-8 mt-5">
       <h2 className="text-3xl font-bold text-gray-900 text-center">
-        <span className="text-red-500">Important</span> Dates
+        <span className="text-orange-600 text-3xl ">IMPORTANT DATES</span>
       </h2>
       <div className="mt-4 overflow-x-auto">
         <table className="w-full border-collapse min-w-[300px]">
