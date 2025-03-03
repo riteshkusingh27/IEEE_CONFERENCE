@@ -1,9 +1,15 @@
 import React from 'react'
+import EarlySubmission from './EarlySubmission.jsx';
+import ImportantDates from './ImportantDates.jsx';
+import Footer from './Footer.jsx';
 
 const Idt = () => {
   return (
-    <div className='w-full text-center grid justify-center h-max'><p className='text-4xl '>
-       Comming soon! </p></div>
+  <div>
+      <ImportantDates/>
+    <EarlySubmission/>
+      <Footer/>
+  </div>
   )
 }
 

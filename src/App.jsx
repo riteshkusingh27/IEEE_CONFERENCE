@@ -23,7 +23,7 @@ function App() {
          <Route path='/register' element={<Register/>}/>
          <Route path='/call-for-papers' element={<Paper/>}/>
          <Route path='/author-guidelines' element={<AuthorGuidelines/>}/>
-         <Route path='/dates' element={<Idt/>}/>
+         <Route path='/imp-dates' element={<Idt/>}/>
       
       </Route>
     )

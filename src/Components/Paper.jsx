@@ -1,11 +1,11 @@
 import React from 'react';
-import EarlySubmission from './EarlySubmission.jsx';
+
 import Footer from './Footer.jsx';
 const Paper = () => {
   return (
     <div className=''>
-    <div className=' mt-5 ml-8'> 
-      <h1 className='font-bold text-4xl text-center '>CALL <span className='text-orange-500'> FOR PAPERS</span></h1>
+    <div className=' mt-5 ml-8 '> 
+      <h1 className='font-bold text-3xl text-center text-orange-600'>CALL FOR PAPERS</h1>
       
       <h1 className='ml-10 mt-3 font-bold text-3xl text-blue-900'>Dear Researcher,</h1>
       <p className='text-lg ml-10 pr-10 mt-2'>
@@ -16,29 +16,22 @@ const Paper = () => {
         You are invited to submit your original research work in any of the following:
       </p>
       
-      <div className='tracks'>
-        <p className='text-3xl ml-10 mt-2 font-bold text-blue-900'>Tracks</p>
+      
+      <div className='tracks mb-4'>
+        <p className='text-3xl ml-10 mt-2 font-bold text-blue-900'>Track Details</p>
         <ul className='text-lg ml-14 mt-2 list-disc'>
-          <li>Aerospace Systems Technologies</li>
-          <li>Defence Systems Technologies</li>
-          <li>Space Systems Technologies</li>
+          <li>IEEE SPS   [AI-Driven Sensing, Signal Processing, and Edge Intelligence for Smart Systems
+          ]</li>
+          <li>IEEE MTS  [Emerging Nanoelectronics, RF, and Photonics Technologies for Future Systems
+          ] </li>
+          <li>IEEE RAS [AI-Enabled Autonomous Systems and Intelligent Automation
+          ] </li>
         </ul>
       </div>
       
-      <div className='tracks'>
-        <p className='text-3xl ml-10 mt-2 font-bold text-blue-900'>Special Sessions</p>
-        <ul className='text-lg ml-14 mt-2 '>
-          {/* <li>Special Session on AI/ML for SPACE</li>
-          <li>Special Session on Quantum Technologies for SPACE</li>
-          <li>Special Session on Software Defined Radio Technologies for SPACE</li>
-          <li>Women-led Technology Developments for SPACE</li>
-          <li>Special Session on Advances in Measurements for SPACE Systems</li>
-          <li>Special Session on Bhartiya Antriksh Station</li> */}
-          <li>--------------------- to be added soon -----------------------------------------</li>
-        </ul>
-      </div>
+     
       
-      <div className='topics'>
+      <div className='topics mb-3'>
         <p className='text-3xl ml-10 mt-2 font-bold text-blue-900'>Topics</p>
         <p className='text-lg ml-10 pr-10 mt-2'>You are further requested to choose topics relevant to your paper work among the following:</p>
         <ul className='text-lg ml-14 mt-2 '>
@@ -53,13 +46,13 @@ const Paper = () => {
      <a href="https://www.ieee.org/" className=' '>
             <button
               type="button"
-              className="text-white text-xl w-sm bg-gradient-to-r from-orange-500 to-orange-600  focus:ring-4  focus:ring-indigo-300 font-bold rounded-xl px-7 py-2 mx-5 shadow-lg transition-transform duration-300 hover:scale-105  "
+              className="text-white text-xl w-sm bg-gradient-to-r from-orange-500 to-orange-600  focus:ring-4  focus:ring-indigo-300 font-bold rounded-xl px-7 py-2 mx-5 shadow-lg transition-transform duration-300 hover:scale-105 mb-6  "
             >
               SUBMIT YOUR PAPER
             </button>
           </a>
      </div>
-      <EarlySubmission />
+    
       </div>
       <Footer/>
    

@@ -2,9 +2,9 @@ import Footer from './Footer.jsx';
 import ImportantDates from './ImportantDates.jsx';
 export default function AuthorGuidelines() {
   return (
-    <div>
-      <div className="p-6 max-w-4xl mx-auto">
-        <h2 className="text-3xl font-bold text-orange-500 text-center mb-3">GUIDELINES TO AUTHORS</h2>
+    <div className='w-full overflow-hidden   '>
+      <div className=" py-8  w-full px-9 ">
+        <h2 className="text-3xl font-bold text-orange-500  text-center mb-3">GUIDELINES TO AUTHORS</h2>
         <div className="text-left">
           <p className="text-lg">
             Below are some useful instructions to assist the authors to submit their papers for CENTCON 2025:

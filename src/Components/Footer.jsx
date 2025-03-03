@@ -27,9 +27,9 @@ const Footer = () => {
           </a>
         </div>
         <div className="text-center mb-4 md:mb-0">
-          <p>&copy; 2025 IEEE Conference Centcon-2025. All rights reserved.</p>
+          <p>&copy; 2025 IEEE  Centcon-2025. All rights reserved. <br/> <b className='text-pink-100'>IEEE SPS, IEEE MTTS, IEEE CEDA & IEEE RAS</b></p>
         </div>
-        <div className="flex space-x-2 justify-center md:justify-end items-center">
+        <div className="flex space-x-3 justify-center md:justify-end items-center">
           <a href="#"><img src={linkdein} alt="LinkedIn" className="w-6 h-6" /></a>
           <a href="#"><img src={instagram} alt="Instagram" className="w-6 h-6" /></a>
           <a href="#"><img src={fb} alt="Facebook" className="w-6 h-6" /></a>

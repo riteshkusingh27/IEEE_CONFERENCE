@@ -1,3 +1,4 @@
+
 const ImportantDates = () => {
   const dates = [
     { title: "Paper Submission start date", date: "Dec 1, 2024", bold: true },
@@ -8,8 +9,8 @@ const ImportantDates = () => {
   ];
 
   return (
-    <div className="p-6 bg-gray-100 rounded-lg shadow-md max-w-4xl mx-auto">
-      <h2 className="text-xl font-bold text-gray-900 text-center">
+    <div className="p-6  w-full  pl-8 mt-5">
+      <h2 className="text-3xl font-bold text-gray-900 text-center">
         <span className="text-red-500">Important</span> Dates
       </h2>
       <div className="mt-4 overflow-x-auto">
