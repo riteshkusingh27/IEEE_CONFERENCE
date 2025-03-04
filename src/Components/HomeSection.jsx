@@ -46,9 +46,10 @@ const HomeSection = () => {
   
   {/* Content */}
   <div className="relative z-10 text-center mb-10">
-    <h1 className="text-3xl md:text-6xl font-bold text-gray-800 mb-4">
+    <h1 className="text-3xl md:text-6xl font-bold text-gray-800 ">
       Welcome to <span className="text-orange-500"> IEEE CENTCON-2025</span>
     </h1>
+    <p className="text-lg text-grey-600 mt-2 italic font-bold">December 04-05, 2025</p>
     <p className="text-md md:text-xl text-black mb-6">
     Bridging AI, Sensing, and Embedded Intelligence for a Smarter, Safer, and Sustainable World.
     </p>
