@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Guests from './Guests';  // updated to chief Patron
 import Patron from './Patron';
 import Countdown from './Countdown'
+import map from '/images/map.png'
 import EventCarousel from './EventCarousel';
 import Footer from '../Components/Footer.jsx'
 import News from './News.jsx';
@@ -11,7 +12,7 @@ const HomeSection = () => {
   const [timeLeft, setTimeLeft] = useState('');
   const navigate = useNavigate();
   useEffect(() => {
-    const targetDate = new Date('2025-03-27T00:00:00').getTime();
+    const targetDate = new Date('2025-12-4').getTime();
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
@@ -36,6 +37,10 @@ const HomeSection = () => {
 
   return (
     <div>
+     <div className="fixed bottom-5 right-1 z-50">
+        <NavLink to='https://maps.app.goo.gl/n1AvmHUBrhZgc1Lx5' target='_blank'>   <img src={map} alt="Map Icon" className="h-20 w-15 object-contain" /></NavLink>
+</div>
+
        <EventCarousel/>
          <section className="w-full min-h-screen relative flex flex-col items-center justify-center px-6 py-10">
   
@@ -47,28 +52,24 @@ const HomeSection = () => {
     <p className="text-lg md:text-xl text-black mb-6">
       Join us at Dayananda Sagar University to explore cutting-edge innovations and research.
     </p>
-    <button className="bg-indigo-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-indigo-700 transition-all" onClick={() => navigate('/register')}>  {/*used navigate  */}
-    Register Now
+    <button className="bg-indigo-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-indigo-700 transition-all" onClick={() => navigate('/call-for-papers')}>  {/*used navigate  */}
+    Call For Papers
     </button>
   </div>
 
   {/* welcome note  */}
-  <div className="relative z-10 grid grid-cols-3 gap-6 w-full mb-7">
+  <div className="relative z-10 grid grid-cols-3 gap-6  mb-7">
     <div className="col-span-2 p-6 bg-white rounded-lg shadow-lg">
       <h2 className="text-4xl font-bold text-gray-800 mb-4">About Us</h2>
       <p className="text-gray-700 text-lg">
        
-We are thrilled to invite you to the IEEE Centcon-2025 Conference, hosted by Dayananda Sagar University. This premier event brings together researchers, educators, students, practitioners, technologists, and policymakers from around the globe. The conference serves as a dynamic platform for exchanging ideas, showcasing achievements, and promoting advances in electrical engineering, electronics, computer engineering, and information technology. <br />
+      Dayananda Sagar University (DSU), established in 2014, is a premier private university located in Bengaluru, Karnataka, India. As a proud member of the Dayananda Sagar Institutions (DSI) family, which was founded in the early 1960s by Late Sri Dayananda Sagar, DSU has rapidly evolved into a global educational powerhouse. The university offers a diverse range of undergraduate, postgraduate, and doctoral programs across various disciplines, including engineering, management, health sciences, and arts. With state-of-the-art campuses and a strong emphasis on research and innovation, DSU fosters an environment that encourages creativity, critical thinking, and entrepreneurial spirit. ​
+      <br />
 <div className='m-2'>
   
 </div>
-Our program features keynote speeches and invited talks by distinguished speakers, offering insights into emerging trends and cutting-edge innovations. Attendees will have the opportunity to participate in technical sessions, panel discussions, and exhibits highlighting current research and applications.
+Dayananda Sagar University (DSU), established in 2014, is a premier private university located in Bengaluru, Karnataka, India. As a proud member of the Dayananda Sagar Institutions (DSI) family, which was founded in the early 1960s by Late Sri Dayananda Sagar, DSU has rapidly evolved into a global educational powerhouse. The university offers a diverse range of undergraduate, postgraduate, and doctoral programs across various disciplines, including engineering, management, health sciences, and arts. With state-of-the-art campuses and a strong emphasis on research and innovation, DSU fosters an environment that encourages creativity, critical thinking, and entrepreneurial spirit. ​
 
-Join us at IEEE Centcon-2025 at Dayananda Sagar University to be part of this vibrant community, where you can engage in meaningful discussions, network with industry leaders, and contribute to the future of technology.
-
-We look forward to welcoming you to an inspiring and impactful conference experience!
-
-Warm regards, The IEEE Centcon-2025 Organizing Committee
       </p>
     </div>
     <div className="col-span-1">
@@ -85,6 +86,8 @@ Warm regards, The IEEE Centcon-2025 Organizing Committee
 
 </section>
 <Footer/>
+
+
     </div>
   );
 };

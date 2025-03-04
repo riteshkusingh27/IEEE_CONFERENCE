@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../Images/organizermain.png";
+import logo from "../Images/logo.png";
 import ieebangalore from "../Images/ieebangalore.png";
 import centcon from "../Images/centcon.png";
 import centcon2 from "../Images/centcon2.png";
@@ -19,7 +19,7 @@ const Header = () => {
             <img src={ieebangalore} className="h-13 w-45 " alt="IEEE Logo" />
           </a>
           {/* appending centcon logo here */}
-          <a href="" className=''><img src={centcon} alt="" className="h-13 w-38 object-cover ml-1 items-center" /></a>
+          {/* <a href="" className=''><img src={centcon}/ alt=""className="h-13 w-38 object-cover ml-1 items-center" /></a> */}
         </div>
 
         {/* Navigation Links */}

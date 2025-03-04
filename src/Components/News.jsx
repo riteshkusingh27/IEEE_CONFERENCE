@@ -6,7 +6,7 @@ const News = () => {
   ];
 
   return (
-    <div className="w-full p-4 bg-gradient-to-r from-pal-50 to-purple-50 rounded-lg shadow-md">
+    <div className=" p-4 bg-gradient-to-r from-pal-50 to-purple-50 rounded-lg shadow-md">
       <h2 className="text-xl font-bold mb-4 text-purple-700">Latest News</h2>
       <ul className="space-y-3">
         {newsUpdates.map((news) => (

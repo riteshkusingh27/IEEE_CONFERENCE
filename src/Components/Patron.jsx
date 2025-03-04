@@ -2,7 +2,7 @@ import React from 'react'
 // import drhemachandra from '../images/drhemachandra.jpeg'
 const Patron = () => {
   return (
-    <div className="relative z-1 grid grid-cols-1 md:grid-cols-3 gap-10 mb-10 w-full">
+    <div className="relative z-1 grid grid-cols-1 md:grid-cols-3 gap-10 mb-10 ">
         {[
         
           { name: 'Dr. UDAYA KUMAR REDDY K.R.', desc: 'Dean-School of Engineering', img: './images/udk.jpg' }, { name: 'Dr. Ramesh R Galigekere', desc: 'Professor & Dean Academics', img: './images/drramesh.jpeg' },

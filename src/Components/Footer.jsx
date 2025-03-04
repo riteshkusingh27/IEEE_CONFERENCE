@@ -17,7 +17,7 @@ const ContactUsButton = () => {
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r h-100px from-blue-900 to-blue-600 text-white py-6">
+    <footer className="bg-gradient-to-r h-100px from-blue-900 to-blue-600 text-white py-6 pr-9">
       <div className="w-full px-8 flex flex-col md:flex-row justify-between items-center">
         <div className="text-center md:text-left mb-4 md:mb-0">
           <h3 className="text-xl font-bold">IEEE CENTCON 2025</h3>

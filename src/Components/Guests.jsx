@@ -2,7 +2,7 @@ import React from 'react'
 // import drhemachandra from '../images/drhemachandra.jpeg'
 const Guests = () => {
   return (
-    <div className="relative z-1 grid grid-cols-1 md:grid-cols-3 gap-10 mb-10 w-full">
+    <div className="relative z-1 grid grid-cols-1 md:grid-cols-3 gap-10 mb-10 ">
         {[
           { name: 'Dr. D. HEMACHANDRA SAGAR', desc: 'Chancellor, DSU', img: './images/drhemachandra.jpeg' },
           { name: 'Dr. D. PREMACHANDRA SAGAR', desc: 'Pro Chancellor, DSU', img: './images/drpremachandra.jpeg' },
