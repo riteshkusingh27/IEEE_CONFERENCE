@@ -384,10 +384,10 @@ const committeeSections = [
                 return (
                   <div>
                     {committeeSections.map((section, index) => (
-                      <CommitteeSection key={index} title={section.title} members={section.members} />
+                      <Committee key={index} title={section.title} members={section.members} />
                     ))}
                   </div>
                 );
               };
               
-              export default Committee;
+              export default Committees;
