@@ -349,7 +349,7 @@ const committeeSections = [
       {
         name: "Dr. Owais Ahmad Shah",
         role: "Associate Professor, DSU",
-        image: snehasharma,
+        image: "",
       }
     ],
   
@@ -363,10 +363,10 @@ const committeeSections = [
                     <h2 className="text-3xl font-bold mb-8 text-orange-600">{title}</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center px-10">
                       {members.map((member, index) => (
-                        <div key={index} className="rounded-lg overflow-hidden hover:shadow-md transition-shadow duration-300">
+                        <div key={index} className="rounded-lg overflow-hidden shadow-md transition-shadow duration-300">
                           <img
                             src={member.image}
-                            className="h-60 w-60 object-cover mx-auto"
+                            className="h-60 w-60 object-contain mx-auto pt-3 rounded-lg shadow-2xs"
                           />
                           <div className="p-4 text-center">
                             <h3 className="text-lg font-semibold">{member.name}</h3>
