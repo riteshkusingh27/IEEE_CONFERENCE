@@ -50,7 +50,7 @@ const HomeSection = () => {
       Welcome to <span className="text-orange-500"> IEEE CENTCON-2025</span>
     </h1>
     <p className="text-lg md:text-xl text-black mb-6">
-      Join us at Dayananda Sagar University to explore cutting-edge innovations and research.
+    Bridging AI, Sensing, and Embedded Intelligence for a Smarter, Safer, and Sustainable World.
     </p>
     <button className="bg-indigo-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-indigo-700 transition-all" onClick={() => navigate('/call-for-papers')}>  {/*used navigate  */}
     Call For Papers

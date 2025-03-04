@@ -2,17 +2,18 @@ import React from 'react';
 import Footer from './Footer';
 import mappin from '/images/mappin.svg';
 import AbtVerbose from './AbtVerbose.jsx';
+import Tracks from './Tracks.jsx';
 import Video from './Video.jsx'
 import video from '/images/video.mp4'
 
 const About = () => {
   return (
     <section className="h-full bg-gradient-to-r bg-white from-blue-50 to-blue-100" id="about">
-      <div className="mx-auto pt-5 ml-8 pr-6">
+      <div className="mx-auto pt-5 ml-8 pl-6 pr-5">
         <h2 className="text-3xl md:text-4xl font-bold text-orange-500 mb-6">About the Conference</h2>
          <AbtVerbose />    {/* Verbose Section */}
 
-
+          <Tracks/>
       <Video src={video}/>
          {/* flex-div with oraganizer one side and veue on other side */}
         <div className="bg-none shadow-lg rounded-2xl p-6 hover:shadow-xl transition bg-white mb-8">

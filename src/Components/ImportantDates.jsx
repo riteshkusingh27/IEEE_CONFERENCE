@@ -1,11 +1,13 @@
 
 const ImportantDates = () => {
   const dates = [
-    { title: "Paper Submission start date", date: "Dec 1, 2024", bold: true },
-    { title: "Last Date of Paper Submission", date: "Feb 28, 2025", bold: true },
-    { title: "Notification of Acceptance", date: "April 15, 2025" },
-    { title: "Last Date of Author Registration", date: "May 15, 2025" },
-    { title: "Last Date of Non-Author Registration", date: "June 30, 2025" },
+    { title: "Paper Submission start date", date: "August 1, 2025", bold: true },
+    { title: "Last Date of Paper Submission", date: "September 15, 2025", bold: true },
+    { title: "Notification of Acceptance", date: "October 30, 2025", bold:'true' },
+    
+    { title: "Last Date of Non-Author Registration", date: "November 10, 2025",bold:'true' },
+    { title: "Camera Ready Paper Submission", date: "November 15, 2025",bold:'true' },
+    {title:"Date Of Conference",date:"December 04-05, 2025",bold:true}
   ];
 
   return (

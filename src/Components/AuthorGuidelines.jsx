@@ -47,7 +47,7 @@ export default function AuthorGuidelines() {
             <a href="https://www.ieee.org/conferences/publishing/templates.html" className="text-blue-500 hover:underline"> Click here</a>
           </p>
         </div>
-        <ImportantDates/>
+     
       </div>
       <Footer/>
     </div>

@@ -15,11 +15,14 @@ const Header = () => {
         {/* Logo Section */}
         <div className="flex align-middle items-center space-x-2 mb-4 md:mb-0">
         <a href="https://www.dsu.edu.in/" className="dsu">  <img src={logo} className="h-16 object-contain mr-0.5" alt="Logo" /></a>
-          <a href="https://www.ieee.org/" target="_blank" rel="noopener noreferrer">
-            <img src={ieebangalore} className="h-13 w-45 " alt="IEEE Logo" />
-          </a>
+
+
+        {/* iee banaglore  */}
+          {/* <a href="https://www.ieee.org/" target="_blank" rel="noopener noreferrer">
+            <img src={ieebangalore} className="h-13  " alt="IEEE Logo" />
+          </a> */}
           {/* appending centcon logo here */}
-          {/* <a href="" className=''><img src={centcon}/ alt=""className="h-13 w-38 object-cover ml-1 items-center" /></a> */}
+          <a href="" className=''><img src={centcon}alt=""className="h-13 w-38 object-cover ml-1 items-center" /></a>
         </div>
 
         {/* Navigation Links */}
@@ -50,6 +53,15 @@ const Header = () => {
                 Register
               </NavLink>
             </li>
+            
+            <li>
+              <NavLink to="/call-for-papers" className="text-indigo-700 hover:text-black text-lg font-semibold">
+               Call for Papers
+              </NavLink>
+            </li>
+          
+                  
+                  
 
           
             <li className="relative">
@@ -61,15 +73,7 @@ const Header = () => {
               </button>
               {isDropdownOpen && (
                 <ul className="absolute left-0  w-48 bg-white border border-gray-300 rounded-lg shadow-lg z-20 ">
-                  <li>
-                    <NavLink
-                      to="/call-for-papers"
-                      className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
-                      onClick={() => setIsDropdownOpen(false)}
-                    >
-                      Call for Papers
-                    </NavLink>
-                  </li>
+                 
                   <li>
                     <NavLink
                       to="/author-guidelines"
@@ -106,14 +110,14 @@ const Header = () => {
           </a>
         </div>
         <div className="submit flex text-center justify-center mt-4 md:mt-0">
-    <a href="https://www.ieee.org/" className=' '>
+    {/* <a href="https://www.ieee.org/" className=' '>
            <button
              type="button"
              className="text-white text-sm bg-gradient-to-r from-orange-500 to-orange-600   focus:ring-indigo-300 font-bold rounded-xl px-7 py-2 mx-5shadow-lg transition-transform duration-300 hover:scale-105  "
            >
              SUBMIT
            </button> 
-         </a>
+         </a> */}
     </div>
         
       </div>
