@@ -2,15 +2,13 @@ import React from "react";
 
 const Video = ({ src, poster }) => {
   return (
-    <div className="flex justify-center items-center w-full my-6">
+    <div className="flex justify-center items-center w-full my-6 px-4">
       <video 
-        className="w-full max-w-3xl rounded-lg shadow-md"
+        className="w-full md:w-[90%] lg:w-[80%] xl:w-[70%] max-w-6xl rounded-lg shadow-md"
         poster={poster} 
-        controls 
         autoPlay 
         loop 
         muted
-        controlList="nodownload nofullscreen noremoteplayback"
         playsInline
       >
         <source src={src} type="video/mp4" />

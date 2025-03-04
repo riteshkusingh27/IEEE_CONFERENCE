@@ -8,7 +8,7 @@ const Tracks = () => {
     <ul className='text-lg ml-14 mt-2 font-bold list-disc'>
       <li>IEEE SPS   [AI-Driven Sensing, Signal Processing, and Edge Intelligence for Smart Systems
       ]</li>
-      <li>IEEE MTS  [Emerging Nanoelectronics, RF, and Photonics Technologies for Future Systems
+      <li>IEEE MTTS  [Emerging Nanoelectronics, RF, and Photonics Technologies for Future Systems
       ] </li>
       <li>IEEE CEDA Human-Centered AI, Embedded Intelligence, and Smart Consumer Technologies
       ] </li>

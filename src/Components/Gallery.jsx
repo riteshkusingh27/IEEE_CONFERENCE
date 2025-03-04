@@ -1,5 +1,5 @@
 import React from 'react'
-import Committees from './Committee.jsx'
+import Committee from './Committee.jsx'
 import Footer from './Footer.jsx';
 
 const Gallery = () => {

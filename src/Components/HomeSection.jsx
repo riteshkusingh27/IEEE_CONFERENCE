@@ -38,7 +38,7 @@ const HomeSection = () => {
   return (
     <div>
      <div className="fixed bottom-5 right-1 z-50">
-        <NavLink to='https://maps.app.goo.gl/n1AvmHUBrhZgc1Lx5' target='_blank'>   <img src={map} alt="Map Icon" className="h-20 w-15 object-contain" /></NavLink>
+        <NavLink to='https://maps.app.goo.gl/n1AvmHUBrhZgc1Lx5' target='_blank'>   <img src={map} alt="Map Icon" className="h-13 w-15 object-contain" /></NavLink>
 </div>
 
        <EventCarousel/>
@@ -49,7 +49,7 @@ const HomeSection = () => {
     <h1 className="text-3xl md:text-6xl font-bold text-gray-800 mb-4">
       Welcome to <span className="text-orange-500"> IEEE CENTCON-2025</span>
     </h1>
-    <p className="text-lg md:text-xl text-black mb-6">
+    <p className="text-md md:text-xl text-black mb-6">
     Bridging AI, Sensing, and Embedded Intelligence for a Smarter, Safer, and Sustainable World.
     </p>
     <button className="bg-indigo-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-indigo-700 transition-all" onClick={() => navigate('/call-for-papers')}>  {/*used navigate  */}
