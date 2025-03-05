@@ -1,11 +1,11 @@
 import React from 'react'
 // import drhemachandra from '../images/drhemachandra.jpeg'
-const Patron = () => {
+const   Patron = () => {
   return (
     <div className="relative z-1 grid grid-cols-1 md:grid-cols-3 gap-10 mb-10 ">
         {[
-        
-          { name: 'Dr. UDAYA KUMAR REDDY K.R.', desc: 'Dean-School of Engineering', img: './images/udk.jpg' }, { name: 'Dr. Ramesh R Galigekere', desc: 'Professor & Dean Academics', img: './images/drramesh.jpeg' },
+        { name: 'Dr. Amit R Bhatt', desc: ' Vice Chancellor, DSU', img: './images/dramitbhatt.jpeg' },
+          { name: 'Prof. R Janardhan', desc: 'Pro-Vice Chancellor, DSU', img: './images/udk.jpg' }, 
            { name: 'Dr Puttamadappa C', desc: 'Professor and Registrar', img: './images/drputtamadappa.jpeg' },
           
         ].map((person, index) => (
