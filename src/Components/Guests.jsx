@@ -3,10 +3,11 @@ import React from 'react'
 const Guests = () => {
   return (
     <div className="relative z-1 grid grid-cols-1 md:grid-cols-3 gap-10 mb-10 ">
-        {[
+        {[  { name: 'Dr. D. HEMACHANDRA SAGAR', desc: 'Chancellor, DSU', img: './images/drhemachandra.jpeg' },
+        { name: 'Dr. D. PREMACHANDRA SAGAR', desc: 'Pro Chancellor, DSU', img: './images/drpremachandra.jpeg' },
                { name: 'Dr. Amit R Bhatt', desc: ' Vice Chancellor, DSU', img: './images/dramitbhatt.jpeg' },
-          { name: 'Dr. D. HEMACHANDRA SAGAR', desc: 'Chancellor, DSU', img: './images/drhemachandra.jpeg' },
-          { name: 'Dr. D. PREMACHANDRA SAGAR', desc: 'Pro Chancellor, DSU', img: './images/drpremachandra.jpeg' },
+          
+          
          
           
       
