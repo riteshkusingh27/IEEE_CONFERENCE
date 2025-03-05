@@ -18,11 +18,11 @@ const Header = () => {
 
 
         {/* iee banaglore  */}
-          {/* <a href="https://www.ieee.org/" target="_blank" rel="noopener noreferrer">
-            <img src={ieebangalore} className="h-13  " alt="IEEE Logo" />
-          </a> */}
+          <a href="https://www.ieee.org/" target="_blank" rel="noopener noreferrer">
+            <img src={ieebangalore} className="h-13 w-40 " alt="IEEE Logo" />
+          </a>
           {/* appending centcon logo here */}
-          <a href="" className=''><img src={centcon}alt=""className="h-13 w-38 object-cover ml-1 items-center" /></a>
+          {/* <a href="" className=''><img src={centcon}alt=""className="h-13 w-38 object-cover ml-1 items-center" /></a> */}
         </div>
 
         {/* Navigation Links */}

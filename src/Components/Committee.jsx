@@ -112,7 +112,7 @@ const committeeSections = [
       {
         name: "Dr. Ashutosh Kedar",
         role: "Role",
-        image:chengappa,
+        image:ashutosh,
       },
       {
         name: "Dr. Abhishek Appaji",

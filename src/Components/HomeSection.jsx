@@ -37,7 +37,7 @@ const HomeSection = () => {
 
   return (
     <div>
-     <div className="fixed bottom-5 right-1 z-50">
+     <div className="fixed bottom-31 right-3 z-50">
         <NavLink to='https://maps.app.goo.gl/n1AvmHUBrhZgc1Lx5' target='_blank'>   <img src={map} alt="Map Icon" className="h-13 w-15 object-contain" /></NavLink>
 </div>
 
@@ -69,7 +69,7 @@ const HomeSection = () => {
 <div className='m-2'>
   
 </div>
-Dayananda Sagar University (DSU), established in 2014, is a premier private university located in Bengaluru, Karnataka, India. As a proud member of the Dayananda Sagar Institutions (DSI) family, which was founded in the early 1960s by Late Sri Dayananda Sagar, DSU has rapidly evolved into a global educational powerhouse. The university offers a diverse range of undergraduate, postgraduate, and doctoral programs across various disciplines, including engineering, management, health sciences, and arts. With state-of-the-art campuses and a strong emphasis on research and innovation, DSU fosters an environment that encourages creativity, critical thinking, and entrepreneurial spirit. ​
+The Department of Electronics & Communication Engineering (ECE) at DSU is dedicated to providing high-quality technical education and fostering innovation in the fields of electronics and communication. The department offers undergraduate (B.Tech) and postgraduate (M.Tech in Embedded Systems) programs designed to equip students with the necessary skills to excel in the industry.​ In line with our commitment to advancing knowledge and fostering innovation, DSU and the Department of ECE are proud to organize CENTCON 2025 – International Conference on Bridging AI, Sensing, and Embedded Intelligence for a Smarter, Safer, and Sustainable World. This conference aims to serve as a global platform for researchers, industry experts, and academicians to exchange ideas and explore breakthroughs in AI, nanotechnology, embedded intelligence, and autonomous systems.
 
       </p>
     </div>
