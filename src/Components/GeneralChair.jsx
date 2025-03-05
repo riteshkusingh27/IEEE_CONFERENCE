@@ -1,13 +1,11 @@
 import React from 'react'
+import udaykumar from "/committee/udaykumar.jpeg";
 // import drhemachandra from '../images/drhemachandra.jpeg'
-const   Patron = () => {
+const   GeneralChair = () => {
   return (
-    <div className="relative z-1 grid grid-cols-1 md:grid-cols-3 gap-10 mb-10 w-220 ">
+    <div className="relative z-1 grid grid-cols-1 md:grid-cols-1 gap-10 mb-10 w-70 ">
         {[
-        { name: 'Dr. Amit R Bhatt', desc: ' Vice Chancellor, DSU', img: './images/dramitbhatt.jpeg' },
-          { name: 'Prof. R Janardhan', desc: 'Pro-Vice Chancellor, DSU', img: './images/udk.jpg' }, 
-           { name: 'Dr Puttamadappa C', desc: 'Professor and Registrar', img: './images/drputtamadappa.jpeg' },
-          
+        { name: 'Dr. Udaya Kumar Reddy K R', desc: 'Dean School of Engineering , DSU', img: '/committee/udaykumar.jpeg' }
         ].map((person, index) => (
           <div key={index} className="p-6 bg-white bg-opacity-80 rounded-xl shadow-md text-center hover:shadow-xl transition-all">
             <img src={person.img} alt={person.name} className="w-42 h-42 mx-auto rounded-full mb-4" />
@@ -19,4 +17,4 @@ const   Patron = () => {
   )
 }
 
-export default Patron
+export default GeneralChair;

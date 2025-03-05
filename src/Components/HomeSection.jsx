@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Guests from './Guests';  // updated to chief Patron
 import Patron from './Patron';
 import Countdown from './Countdown'
+import GeneralChair from './GeneralChair'
 import map from '/images/map.png'
 import EventCarousel from './EventCarousel';
 import Footer from '../Components/Footer.jsx'
@@ -80,6 +81,8 @@ const HomeSection = () => {
         <Guests />
         <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-6">Patron</h2>
         <Patron />
+        <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-6">General Chair</h2>
+        <GeneralChair />
 
         <Countdown timeLeft={timeLeft} />
       </section>
