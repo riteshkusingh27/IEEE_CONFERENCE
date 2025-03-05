@@ -20,7 +20,7 @@ const Paper = () => {
       
       <div className='tracks mb-4'>
   <p className='text-3xl ml-10 mt-4 font-bold text-blue-900'>Track Details</p>
-  <ul className='text-lg ml-14 mt-2 list-disc'>
+  <ul className='text-lg ml-14 mt-2 '>
     <li>
       <span className='font-bold'>IEEE SPS [AI-Driven Sensing, Signal Processing, and Edge Intelligence for Smart Systems] </span>
       <ul className='list-disc ml-6'>
