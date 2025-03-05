@@ -377,9 +377,9 @@ const committeeSections = [
         {members.map((member, index) => (
           <div 
             key={index} 
-            className="rounded-lg overflow-hidden shadow-md transition-all duration-300 bg-yellow-50 hover:scale-95 hover:shadow-lg"
+            className="rounded-lg overflow-hidden shadow-md transition-all duration-300  hover:scale-95 hover:shadow-lg"
           >
-            <div className="bg-yellow-100 p-3 ">
+            <div className="bg-gradient-to-b from-[#fffce1f0] to-[#00796B]0 p-3 ">
               <img
                 src={member.image}
                 className="h-60 w-60 object-contain mx-auto rounded-lg shadow-sm"
