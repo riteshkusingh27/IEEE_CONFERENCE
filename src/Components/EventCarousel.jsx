@@ -6,7 +6,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 const EventCarousel = () => {
   const images = [
     '/images/poster1.jpg',
-    '/images/herosectionbg.jpeg',
+    '/images/soe2.jpg',
   ];
 
         return (
