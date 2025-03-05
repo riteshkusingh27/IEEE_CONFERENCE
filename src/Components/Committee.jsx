@@ -104,7 +104,7 @@ const committeeSections = [
       },
       {
         name: "Dr. Aloknath De",
-        role: "Role",
+        role: "IEEE Bangalore section Chair 2023",
         image:aloknath,
       },
       {
