@@ -36,7 +36,7 @@ const Paper = () => {
     </li>
 
     <li className='mt-5'>
-      <span className='font-bold'>IEEE MTS [Emerging Nanoelectronics, RF, and Photonics Technologies for Future Systems] </span>
+      <span className='font-bold'>IEEE MTTS [Emerging Nanoelectronics, RF, and Photonics Technologies for Future Systems] </span>
       <ul className='list-disc ml-6'>
         <li>RF and Microwave Innovations: mmWave, THz devices, RF filters, AI-driven RF design.</li>
         <li>Nanoelectronics and Semiconductor Devices: Quantum dots, 2D materials (Graphene, MoS₂), carbon nanotube transistors.</li>
