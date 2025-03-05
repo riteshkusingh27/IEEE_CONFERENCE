@@ -122,17 +122,17 @@ const committeeSections = [
     ],
   
   },
-  {
-    title: "General Chair",
-    members: [
-      {
-        name: "Dr. Udaya Kumar Reddy K R",
-        role: "Dean School of Engineering , DSU",
-        image: udaykumar,
-      }
-    ],
+  // {
+  //   title: "General Chair",
+  //   members: [
+  //     {
+  //       name: "Dr. Udaya Kumar Reddy K R",
+  //       role: "Dean School of Engineering , DSU",
+  //       image: udaykumar,
+  //     }
+  //   ],
   
-  },
+  // },
   {
     title: "Conference Chair",
     members: [
