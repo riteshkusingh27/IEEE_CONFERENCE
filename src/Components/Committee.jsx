@@ -9,6 +9,8 @@ import aloknath from "/committee/advisory/aloknath.jpeg";
 import chengappa from "/committee/advisory/chengappa.jpeg";
 import ashutosh from "/committee/advisory/ashutosh.jpeg";
 import DrAbhishekAppaji from "/committee/advisory/DrAbhishekAppaji.jpeg";
+import nippun from "/committee/advisory/nippun.jpeg";
+import param from "/committee/advisory/param.jpeg";
 
 // genreal chair 
 import udaykumar from "/committee/udaykumar.jpeg";
@@ -31,11 +33,13 @@ import mahesh from "/committee/technical/mahesh.jpeg";
 import anandi from "/committee/technical/anandi.jpeg";
 
 
+
 // publicity commitee
 import navya from "/committee/publicity/navya.jpeg";
 import mansa from "/committee/publicity/mansa.jpeg";
 import puneeth from "/committee/publicity/puneeth.jpeg";
 import nadeem from "/committee/publicity/nadeem.jpeg";
+import owais from "/committee/publicity/owais.jpeg";
 
 // organixing commitee
 
@@ -67,24 +71,23 @@ import pushpa from "/committee/organizing/pushpa.jpeg";
 
 
 
-
 const committeeSections = [
   {
     title: "Steering Committee",
     members: [
       {
         name: "Dr. Chandrakanta Kumar",
-        role: "ISRO,Chair, IEEE Bangalore Section  ", 
+        role: "ISRO,Chair-2025, IEEE Bangalore Section  ", 
         image: drChandrakantaKumar,
       },
       {
         name: "Dr. Puneet Kumar Mishra, ",
-        role: "Board of Governors, IEEE AESS Chair, IEEE AESS Bangalore Chapter",
+        role: "Board of Governors,IEEE AESS Chair (Present) , IEEE AESS Bangalore Chapter",
         image: drPuneetKumarMishra,
       },
       {
-        name: "Dr.T Srinivas, ",
-        role: "Professor, IISc, Bengaluru, Chair, IEEE Bangalore Section",
+        name: "Dr. T Srinivas, ",
+        role: "Professor, IISc, Bengaluru, Chair-2024, IEEE Bangalore Section",
   
         image: drtSrinivas,
       },
@@ -96,7 +99,7 @@ const committeeSections = [
     members: [
       {
         name: "Dr. Prasant Misra",
-        role: "Role",
+        role: "Chair-Elect 2025",
         image:prasantmisra,
       },
       {
@@ -106,18 +109,28 @@ const committeeSections = [
       },
       {
         name: "Dr. Chengappa Munjandira",
-        role: "Role",
+        role: "IEEE Bangalore Section Vice-Chair Technical Activities 2025",
         image:chengappa,
       },
       {
         name: "Dr. Ashutosh Kedar",
-        role: "Role",
+        role: "Execom Member IEEE Bangalore Section",
         image:ashutosh,
       },
       {
         name: "Dr. Abhishek Appaji",
-        role: "Role",
+        role: "Treasurer IEEE Education Society (EdSoc) 2025",
         image:DrAbhishekAppaji,
+      },
+      {
+        name: "Dr. A. A. Nippun Kumaar",
+        role: "Dr. A. A. Nippun Kumaar	Chair RASr 2025",
+        image:nippun,
+      },
+      {
+        name: "Dr. Parameshachari B D	",
+        role: "Chair, IEEE CEDA Bangalore Chapter",
+        image:param,
       }
     ],
   
@@ -189,7 +202,7 @@ const committeeSections = [
       },
       {
         name: "Dr. Godfrey",
-     
+        role: "Associate Professor, DSU",
         image: godfrey,
       },
       {
@@ -200,7 +213,7 @@ const committeeSections = [
       },
       {
         name: "Dr. Mahesh A",
-        role: "Associate Professor, DSU",
+        role: "Treasurer, IEEE Bangalore Section",
   
         image: mahesh,
       },
@@ -349,45 +362,49 @@ const committeeSections = [
       {
         name: "Dr. Owais Ahmad Shah",
         role: "Associate Professor, DSU",
-        image: "",
+        image: owais,
       }
     ],
   
   },
   
 ];
-               //    displaying memebers image 
-               const Committee = ({ title, members }) => {
-                return (
-                  <div className="text-center py-10">
-                    <h2 className="text-3xl font-bold mb-8 text-orange-600">{title}</h2>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center px-10">
-                      {members.map((member, index) => (
-                        <div key={index} className="rounded-lg overflow-hidden shadow-md transition-shadow duration-300">
-                          <img
-                            src={member.image}
-                            className="h-60 w-60 object-contain mx-auto pt-3 rounded-lg shadow-2xs"
-                          />
-                          <div className="p-4 text-center">
-                            <h3 className="text-lg font-semibold">{member.name}</h3>
-                            <p className="text-sm text-gray-500 font-medium">{member.institution}</p>
-                            <p className="text-sm text-gray-600">{member.role}</p>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                );
-              };
-              
-              const Committees = () => {
-                return (
-                  <div>
-                    {committeeSections.map((section, index) => (
-                      <Committee key={index} title={section.title} members={section.members} />
-                    ))}
-                  </div>
-                );
-              };
-              
-              export default Committees;
+           const Committee = ({ title, members }) => {
+  return (
+    <div className="text-center py-10">
+      <h2 className="text-3xl font-bold mb-8 text-orange-600">{title}</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center px-10">
+        {members.map((member, index) => (
+          <div 
+            key={index} 
+            className="rounded-lg overflow-hidden shadow-md transition-all duration-300 bg-yellow-50 hover:scale-95 hover:shadow-lg"
+          >
+            <div className="bg-yellow-100 p-3 ">
+              <img
+                src={member.image}
+                className="h-60 w-60 object-contain mx-auto rounded-lg shadow-sm"
+              />
+            </div>
+            <div className="p-4 text-center">
+              <h3 className="text-lg font-semibold">{member.name}</h3>
+              <p className="text-sm text-gray-500 font-medium">{member.institution}</p>
+              <p className="text-sm text-gray-600">{member.role}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+const Committees = () => {
+  return (
+    <div>
+      {committeeSections.map((section, index) => (
+        <Committee key={index} title={section.title} members={section.members} />
+      ))}
+    </div>
+  );
+};
+
+export default Committees;
