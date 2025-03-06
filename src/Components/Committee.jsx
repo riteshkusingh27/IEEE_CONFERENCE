@@ -81,12 +81,12 @@ const committeeSections = [
         image: drChandrakantaKumar,
       },
       {
-        name: "Dr. Puneet Kumar Mishra, ",
-        role: "Board of Governors,IEEE AESS Chair (Present) , IEEE AESS Bangalore Chapter",
+        name: "Dr. Puneet Kumar Mishra ",
+        role: "Board of Governors,IEEE AESS Chair 2025, IEEE AESS Bangalore Chapter",
         image: drPuneetKumarMishra,
       },
       {
-        name: "Dr. T Srinivas, ",
+        name: "Dr. T Srinivas ",
         role: "Professor, IISc, Bengaluru, Chair-2024, IEEE Bangalore Section",
   
         image: drtSrinivas,
@@ -124,7 +124,7 @@ const committeeSections = [
       },
       {
         name: "Dr. A. A. Nippun Kumaar",
-        role: "Dr. A. A. Nippun Kumaar	Chair RASr 2025",
+        role: "Chair , IEEE RAS Bangalore Chapter 2025",
         image:nippun,
       },
       {
@@ -196,30 +196,30 @@ const committeeSections = [
       },
       {
         name: "Dr. Shirshendu Roy",
-        role: "Associate Professor, DSU",
+        role: "Assistant Professor, DSU",
     
         image: shirshendu,
       },
       {
         name: "Dr. Godfrey",
-        role: "Associate Professor, DSU",
+        role: "Assistant Professor, DSU",
         image: godfrey,
       },
       {
         name: "Dr. Ambar Bajpai",
-        role: "IEEE Bangalore Section Execom Member",
+        role: "IEEE Bangalore Section Execom Member 2025",
    
         image: amarbajapai,
       },
       {
         name: "Dr. Mahesh A",
-        role: "Treasurer, IEEE Bangalore Section",
+        role: "Treasurer, IEEE Bangalore Section 2025",
   
         image: mahesh,
       },
       {
         name: "Dr. Anandi Giridharan",
-        role: "IEEE Bangalore Section Execom Member",
+        role: "IEEE Bangalore Section Execom Membe 2025r",
         
         image: anandi,
       }
@@ -236,18 +236,18 @@ const committeeSections = [
       },
       {
         name:" Mrs. Manasa K R",
-        role: "Associate Professor, DSU",
+        role: "Assistant Professor, DSU",
         image: mansa,
       },
       ,
       {
         name:"Mr. Puneeth S",
-        role: "Associate Professor, DSU",
+        role: "Assistant Professor, DSU",
         image: puneeth,
       },
       {
         name: "Mr. Nadeem Pasha",
-        role: "Associate Professor, DSU",
+        role: "Assitant Professor, DSU",
         image:nadeem,
       }
     ],
@@ -379,7 +379,7 @@ const committeeSections = [
             key={index} 
             className="rounded-lg overflow-hidden shadow-md transition-all duration-300  hover:scale-95 hover:shadow-lg"
           >
-            <div className="bg-gradient-to-b from-[#fffce1f0] to-[#00796B]0 p-3 ">
+            <div className="bg-gradient-to-b from-[#dcd8facb] to-[#00796B]0 p-3 ">
               <img
                 src={member.image}
                 className="h-60 w-60 object-contain mx-auto rounded-lg shadow-sm"
