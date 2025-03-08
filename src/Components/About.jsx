@@ -17,7 +17,7 @@ const About = () => {
       <Video src={video}/>
          {/* flex-div with oraganizer one side and veue on other side */}
         <div className="bg-none shadow-lg rounded-2xl p-6 hover:shadow-xl transition bg-white mb-8">
-          <h3 className="text-2xl font-bold text-blue-800 mb-3 flex justify-center">Organizers & Venue</h3>
+          <h3 className="text-2xl font-bold text-blue-800 mb-3 flex justify-center">Contact & Venue</h3>
           <div className="flex flex-col md:flex-row gap-6">
             
     

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../Images/logo.png";
-import ieebangalore from "../Images/ieebangalore.png";
+import ieebangalore from "../Images/icons/ieeeblue.jpeg";
 import centcon from "../Images/centcon.png";
 import centcon2 from "../Images/centcon2.png";
 
@@ -38,14 +38,15 @@ const Header = () => {
                 About
               </NavLink>
             </li>
-            <li>
-              <NavLink to="/speakers" className="text-indigo-700 hover:text-black text-lg font-semibold">
-                Speakers
-              </NavLink>
-            </li>
+            
             <li>
               <NavLink to="/committee" className="text-indigo-700 hover:text-black text-lg font-semibold">
                Committee
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/call-for-papers" className="text-indigo-700 hover:text-black text-lg font-semibold">
+               Call for Papers
               </NavLink>
             </li>
             <li>
@@ -55,10 +56,13 @@ const Header = () => {
             </li>
             
             <li>
-              <NavLink to="/call-for-papers" className="text-indigo-700 hover:text-black text-lg font-semibold">
-               Call for Papers
+              
+              <NavLink to="/speakers" className="text-indigo-700 hover:text-black text-lg font-semibold">
+                Speakers
               </NavLink>
             </li>
+           
+            
           
                   
                   
@@ -95,6 +99,7 @@ const Header = () => {
                 </ul>
               )}
             </li>
+           
           </ul>
         </div>
 

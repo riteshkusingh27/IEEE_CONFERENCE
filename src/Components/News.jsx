@@ -2,7 +2,12 @@ import React from 'react';
 
 const News = () => {
   const newsUpdates = [
-    { id: 1, date: 'August 1, 2025', content: 'Paper Submission Starts' }
+    { id: 1, date: 'August 1, 2025', content: 'Paper Submission Starts' },
+    { id: 1, date: 'September 15, 2025', content: 'Last Date of Paper Submission' },
+    { id: 1, date: 'October 30, 2025', content: 'Notification of Acceptance' },
+    { id: 1, date: 'November 10, 2025', content: 'Last Date of Non-Author Registration' },
+    { id: 1, date: 'November 15, 2025', content: 'Camera Ready Paper Submission' },
+    { id: 1, date: 'December 04-05, 2025', content: 'Date Of Conference' },
   ];
 
   return (
@@ -11,7 +16,7 @@ const News = () => {
       <ul className="space-y-3">
         {newsUpdates.map((news) => (
           <li key={news.id} className="border-l-4 border-purple-400 pl-3 bg-white rounded-lg p-2 shadow-sm">
-            <p className="text-sm font-bold text-black">{news.date}</p>
+            <p className="text-sm font-bold text-black select-none">{news.date}</p>
             <p className="text-base font-medium text-gray-900">{news.content}</p>
           </li>
         ))}
