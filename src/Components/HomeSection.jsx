@@ -77,12 +77,14 @@ const HomeSection = () => {
         </div>
 
         {/* Chief Patron & Patron Sections */}
-        <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-6">Chief Patron</h2>
+      <div className="patronsection">
+      <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-6">Chief Patron</h2>
         <Guests />
         <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-6">Patron</h2>
-        <Patron />
+        <Patron />     
         <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-6">General Chair</h2>
         <GeneralChair />
+      </div>
 
         <Countdown timeLeft={timeLeft} />
       </section>

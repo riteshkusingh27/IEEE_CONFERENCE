@@ -77,17 +77,17 @@ const committeeSections = [
     members: [
       {
         name: "Dr. Chandrakanta Kumar",
-        role: "ISRO,Chair-2025, IEEE Bangalore Section  ", 
+        role: "ISRO, Chair-2025, IEEE Bangalore Section  ", 
         image: drChandrakantaKumar,
       },
       {
         name: "Dr. Puneet Kumar Mishra ",
-        role: "Board of Governors,IEEE AESS Chair 2025, IEEE AESS Bangalore Chapter",
+        role: "Board of Governors, IEEE AESS Chair 2025",
         image: drPuneetKumarMishra,
       },
       {
         name: "Dr. T Srinivas ",
-        role: "Professor, IISc, Bengaluru, Chair-2024, IEEE Bangalore Section",
+        role: "Professor IISC Bengaluru, Chair-2024 IEEE Bangalore Section",
   
         image: drtSrinivas,
       },
@@ -104,7 +104,7 @@ const committeeSections = [
       },
       {
         name: "Dr. Aloknath De",
-        role: "IEEE Bangalore section Chair 2023",
+        role: "IEEE Bangalore Section Chair 2023",
         image:aloknath,
       },
       {
@@ -219,7 +219,7 @@ const committeeSections = [
       },
       {
         name: "Dr. Anandi Giridharan",
-        role: "IEEE Bangalore Section Execom Membe 2025r",
+        role: "IEEE Bangalore Section Execom Membe 2025",
         
         image: anandi,
       }
