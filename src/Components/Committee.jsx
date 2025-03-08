@@ -119,7 +119,7 @@ const committeeSections = [
       },
       {
         name: "Dr. Abhishek Appaji",
-        role: "Treasurer IEEE Education Society (EdSoc) 2025",
+        role: "Treasurer, IEEE Education Society (EdSoc) 2025",
         image:DrAbhishekAppaji,
       },
       {
@@ -227,28 +227,24 @@ const committeeSections = [
   
   },
   {
-    title: "Publicity Committee",
+    title: "Publication Committee",
     members: [
       {
-        name: "Dr. Navya R",
-        role: "Associate Professor, ECE, DSU", 
-        image:   navya     ,
+        name: "Dr. Pushpamala",
+        role: "Associate Professor, ECE, DSU",
+        image: pushpa,
       },
       {
-        name:" Mrs. Manasa K R",
+        name: "Dr. Sneha Sharma",
         role: "Assistant Professor, ECE, DSU",
-        image: mansa,
-      },
+        image: snehasharma,
+      }
+      ,
       ,
       {
-        name:"Mr. Puneeth S",
+        name: "Dr. Owais Ahmad Shah",
         role: "Assistant Professor, ECE, DSU",
-        image: puneeth,
-      },
-      {
-        name: "Mr. Nadeem Pasha",
-        role: "Assitant Professor, DSU",
-        image:nadeem,
+        image: owais,
       }
     ],
   
@@ -340,28 +336,34 @@ const committeeSections = [
   }
   ,
   {
-    title: "Publication Committee",
+    title: "Publicity Committee",
     members: [
       {
-        name: "Dr. Pushpamala",
-        role: "Associate Professor, ECE, DSU",
-        image: pushpa,
+        name: "Dr. Navya R",
+        role: "Associate Professor, ECE, DSU", 
+        image:   navya     ,
       },
       {
-        name: "Dr. Sneha Sharma",
+        name:" Mrs. Manasa K R",
         role: "Assistant Professor, ECE, DSU",
-        image: snehasharma,
-      }
-      ,
+        image: mansa,
+      },
       ,
       {
-        name: "Dr. Owais Ahmad Shah",
+        name:"Mr. Puneeth S",
         role: "Assistant Professor, ECE, DSU",
-        image: owais,
+        image: puneeth,
+      },
+      {
+        name: "Mr. Nadeem Pasha",
+        role: "Assitant Professor, DSU",
+        image:nadeem,
       }
     ],
   
   },
+ 
+ 
   
 ];
            const Committee = ({ title, members }) => {
@@ -372,12 +374,12 @@ const committeeSections = [
         {members.map((member, index) => (
           <div 
             key={index} 
-            className="rounded-lg overflow-hidden shadow-md transition-all duration-300  hover:scale-95 hover:shadow-lg"
+            className="rounded-lg overflow-hidden transition-all duration-300  hover:scale-95 hover:shadow-lg"
           >
             <div className="bg-gradient-to-b from-[#dcd8facb] to-[#00796B]0 p-3 ">
               <img
                 src={member.image}
-                className="h-60 w-60 object-contain mx-auto rounded-lg shadow-sm"
+                className="h-60 w-60 object-contain mx-auto "
               />
             </div>
             <div className="p-4 text-center">
