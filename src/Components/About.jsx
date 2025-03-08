@@ -27,6 +27,8 @@ const About = () => {
                 <li className="text-xl font-semibold">Department of Electronics And Communication</li>
                 <li className="text-md font-semibold mb-2">DSU SOE (Schoool Of Engineering) </li>
                 <li><span className="font-bold">Dr. Arun Balodi</span> <br />Head of Department</li>
+                <li className='text-black font-semibold'>Email   : </li>
+                <li className="text-black font-semibold">Contact : </li>
               </ul>
             </div>  
            {/* venue section with address link to dsucampus harohalli   */}
