@@ -8,7 +8,7 @@ const Paper = () => {
       <h1 className='font-bold text-3xl text-center text-orange-600'>CALL FOR PAPERS</h1>
       
       <h1 className='ml-10 mt-3 font-bold text-3xl text-blue-900'>Dear Researcher,</h1>
-      <p className='text-lg ml-10 pr-10 mt-2'>
+      <p className='text-lg ml-10 pr-10 mt-2 text-justify'>
       You are invited to submit your original research work to CENTCON 2025 –  Bridging AI, Sensing, and Embedded Intelligence for a Smarter, Safer, and Sustainable World, to be held on December 4-5, 2025, at Dayananda Sagar University (DSU), Bengaluru, India. The conference provides a platform for academicians, researchers, industry professionals, and students to present their novel contributions in Artificial Intelligence (AI), Sensing Technologies, Embedded Systems, and Automation. Submissions are encouraged in the key focus areas, including but not limited to AI-driven signal/Image processing, intelligent sensing, nanoelectronics, RF technologies, secure computing, cyber-physical systems, embedded intelligence, and autonomous systems. Accepted papers will undergo rigorous peer review, and selected works will be considered for publication in IEEE Xplore. We look forward to your contributions to drive innovation and shape the future of intelligent sensing, computing and automation.
 
       </p>

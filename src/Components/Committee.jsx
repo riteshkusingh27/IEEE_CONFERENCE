@@ -77,7 +77,7 @@ const committeeSections = [
     members: [
       {
         name: "Dr. Chandrakanta Kumar",
-        role: "ISRO, Chair-2025, IEEE Bangalore Section  ", 
+        role: "Chair-2025, IEEE Bangalore Section  ", 
         image: drChandrakantaKumar,
       },
       {
@@ -109,7 +109,7 @@ const committeeSections = [
       },
       {
         name: "Dr. Chengappa Munjandira",
-        role: "IEEE Bangalore Section Vice-Chair Technical Activities 2025",
+        role: "Vice-Chair Technical Activities-2025, IEEE Bangalore Section",
         image:chengappa,
       },
       {
@@ -219,7 +219,7 @@ const committeeSections = [
       },
       {
         name: "Dr. Anandi Giridharan",
-        role: "IEEE Bangalore Section Execom Membe 2025",
+        role: "IEEE Bangalore Section Execom Member 2025",
         
         image: anandi,
       }
@@ -258,7 +258,7 @@ const committeeSections = [
     "members": [
       {
         "name": "Dr. Arungalai Vendan",
-        "role": "Associate Professor, ECE, DSU",
+        "role": "Professor, ECE, DSU",
         "image": arungalai
       },
       {

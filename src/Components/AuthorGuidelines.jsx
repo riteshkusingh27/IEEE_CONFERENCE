@@ -7,7 +7,7 @@ export default function AuthorGuidelines() {
         <h2 className="text-3xl font-bold text-orange-500  text-center mb-3">GUIDELINES TO AUTHORS</h2>
         <div className="text-left">
           <p className="text-lg">
-            Below are some useful instructions to assist the authors to submit their papers for CENTCON 2025:
+            Below are some useful instructions to assist the authors for submit their papers for CENTCON 2025:
           </p>
           
           <h3 className="text-2xl font-bold text-blue-900 mt-4">ORIGINALITY OF SUBMITTED PAPERS</h3>
