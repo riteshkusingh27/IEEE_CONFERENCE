@@ -99,7 +99,7 @@ const committeeSections = [
     members: [
       {
         name: "Dr. Prasant Misra",
-        role: "Chair-Elect 2025",
+        role: "Chair-Elect 2025, IEEE Bangalore Section",
         image:prasantmisra,
       },
       {
@@ -219,7 +219,7 @@ const committeeSections = [
       },
       {
         name: "Dr. Anandi Giridharan",
-        role: "IEEE Bangalore Section Execom Member 2025",
+        role: "Execom Member 2025, IEEE Bangalore Section ",
         
         image: anandi,
       }
