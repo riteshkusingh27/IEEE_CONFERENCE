@@ -2,7 +2,7 @@ import React from 'react';
 
 const News = () => {
   const newsUpdates = [
-    { id: 1, date: 'August 1 2025', content: 'Paper Submission Starts' }
+    { id: 1, date: 'August 1, 2025', content: 'Paper Submission Starts' }
   ];
 
   return (
