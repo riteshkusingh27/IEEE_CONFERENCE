@@ -65,11 +65,7 @@ const HomeSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-7 px-4 md:px-0">
           <div className="md:col-span-2 p-4 md:p-6 bg-white rounded-lg shadow-lg">
             <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-4">About Us</h2>
-<<<<<<< HEAD
             <p className="text-black text-sm md:text-lg text-justify">
-=======
-            <p className="text-gray-700 text-sm md:text-lg text-justify">
->>>>>>> development
               Dayananda Sagar University (DSU), established in 2014, is a premier private university located in Bengaluru, Karnataka, India. As a proud member of the Dayananda Sagar Institutions (DSI) family, which was founded in the early 1960s by Late Sri Dayananda Sagar, DSU has rapidly evolved into a global educational powerhouse. The university offers a diverse range of undergraduate, postgraduate, and doctoral programs across various disciplines, including engineering, management, health sciences, and arts. With state-of-the-art campuses and a strong emphasis on research and innovation, DSU fosters an environment that encourages creativity, critical thinking, and entrepreneurial spirit.
               <br />
               <div className='m-2'></div>

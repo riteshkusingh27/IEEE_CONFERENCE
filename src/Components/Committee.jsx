@@ -77,7 +77,7 @@ const committeeSections = [
     members: [
       {
         name: "Dr. Chandrakanta Kumar",
-        role: "Chair-2025, IEEE Bangalore Section  ", 
+        role: "ISRO, Chair-2025, IEEE Bangalore Section  ", 
         image: drChandrakantaKumar,
       },
       {
@@ -97,15 +97,11 @@ const committeeSections = [
   {
     title: "Advisory Committee ",
     members: [
-<<<<<<< HEAD
       {
         name: "Dr. Prasant Misra",
-        role: "Chair-Elect 2025, IEEE Bangalore Section",
+        role: "Chair-Elect 2025",
         image:prasantmisra,
       },
-=======
-    
->>>>>>> development
       {
         name: "Dr. Aloknath De",
         role: "IEEE Bangalore Section Chair 2023",
@@ -113,17 +109,17 @@ const committeeSections = [
       },
       {
         name: "Dr. Chengappa Munjandira",
-        role: "Vice-Chair Technical Activities-2025, IEEE Bangalore Section",
+        role: "IEEE Bangalore Section Vice-Chair Technical Activities 2025",
         image:chengappa,
       },
       {
         name: "Dr. Ashutosh Kedar",
-        role: "Execom Member, IEEE Bangalore Section",
+        role: "Execom Member IEEE Bangalore Section",
         image:ashutosh,
       },
       {
         name: "Dr. Abhishek Appaji",
-        role: "Treasurer, IEEE Education Society (EdSoc) 2025",
+        role: "Treasurer IEEE Education Society (EdSoc) 2025",
         image:DrAbhishekAppaji,
       },
       {
@@ -168,17 +164,17 @@ const committeeSections = [
     members: [
       {
         name: "Dr. BM Ashwin Desai",
-        role: "Associate Professor, ECE, DSU", 
+        role: "Associate Professor, DSU", 
         image:   ashwin     ,
       },
       {
         name:" Dr. Gaythri KM",
-        role: "Associate Professor, ECE, DSU",
+        role: "Associate Professor, DSU",
         image: gaythri,
       },
       {
         name: "Dr. Sneha Sharma",
-        role: "Assistant Professor, ECE, DSU",
+        role: "Assistant Professor, DSU",
         image:snehasharma,
       }
     ],
@@ -188,30 +184,30 @@ const committeeSections = [
     members: [
       {
         name: "Dr. Theodre Chandra",
-        role: "Associate Professor, ECE, DSU",
+        role: "Associate Professor, DSU",
      
         image: theodre,
       },
       {
         name: "Dr. Gayathri K M",
-        role: "Associate Professor, ECE, DSU",
+        role: "Associate Professor, DSU",
   
         image: gayathri,
       },
       {
         name: "Dr. Shirshendu Roy",
-        role: "Assistant Professor, ECE, DSU",
+        role: "Assistant Professor, DSU",
     
         image: shirshendu,
       },
       {
         name: "Dr. Godfrey",
-        role: "Assistant Professor, ECE, DSU",
+        role: "Assistant Professor, DSU",
         image: godfrey,
       },
       {
         name: "Dr. Ambar Bajpai",
-        role: "Execom Member 2025, IEEE Bangalore Section",
+        role: "IEEE Bangalore Section Execom Member 2025",
    
         image: amarbajapai,
       },
@@ -223,7 +219,7 @@ const committeeSections = [
       },
       {
         name: "Dr. Anandi Giridharan",
-        role: "Execom Member 2025, IEEE Bangalore Section ",
+        role: "IEEE Bangalore Section Execom Membe 2025",
         
         image: anandi,
       }
@@ -231,131 +227,22 @@ const committeeSections = [
   
   },
   {
-    title: "Publication Committee",
-    members: [
-      {
-        name: "Dr. Pushpamala",
-        role: "Associate Professor, ECE, DSU",
-        image: pushpa,
-      },
-      {
-        name: "Dr. Sneha Sharma",
-        role: "Assistant Professor, ECE, DSU",
-        image: snehasharma,
-      }
-      ,
-      ,
-      {
-        name: "Dr. Owais Ahmad Shah",
-        role: "Assistant Professor, ECE, DSU",
-        image: owais,
-      }
-    ],
-  
-  },
-  {
-    "title": "Organizing committee",
-    "members": [
-      {
-        "name": "Dr. Arungalai Vendan",
-        "role": "Professor, ECE, DSU",
-        "image": arungalai
-      },
-      {
-        "name": "Dr. Vinu R",
-        "role": "Associate Professor, ECE, DSU",
-        "image": vinu
-      },
-      {
-        "name": "Dr. Arun Ananthanarayanan",
-        "role": "Associate Professor, ECE, DSU",
-        "image": arunananth
-      },
-      {
-        "name": "Dr. Mukti Chaturvedi",
-        "role": "Assistant Professor, ECE, DSU",
-        "image":mukti
-      },
-      {
-        "name": "Dr. Divyashree H B",
-        "role": "Assistant Professor, ECE, DSU",
-        "image": divya
-      },
-      {
-        "name": "Dr. Rashmita Sahoo",
-        "role": "Assistant Professor, ECE, DSU",
-        "image": rashmitha
-      },
-      {
-        "name": "Dr. Deepthi Chamkur V",
-        "role": "Assistant Professor, ECE, DSU",
-        "image":deepthi
-      },
-      {
-        "name": "Dr. G Santhosh",
-        "role": "Assistant Professor, ECE, DSU",
-        "image": santhosh
-      },
-      {
-        "name": "Mrs. Kanmani B.S",
-        "role": "Assistant Professor, ECE, DSU",
-        "image": kanmani
-      },
-      {
-        "name": "Mr. Abhinav Karan",
-        "role": "Assistant Professor, ECE, DSU",
-        "image":boss
-      },
-      {
-        "name": "Mrs. Kokila S",
-        "role": "Assistant Professor, ECE, DSU",
-        "image": kokila
-      },
-      {
-        "name": "Mr. Sharanabasavaraj",
-        "role": "Assistant Professor, ECE, DSU",
-        "image": sharan
-      },
-      {
-        "name": "Ms. Jaishree Ramadevaru",
-        "role": "Assistant Professor, ECE, DSU",
-        "image": jaishree
-      },
-      {
-        "name": "Ms. Jisy N K",
-        "role": "Assistant Professor, ECE, DSU",
-        "image": jisy
-      },
-      {
-        "name": "Mr. V Sudharsan",
-        "role": "Assistant Professor, ECE, DSU",
-        "image": sudharshan
-      },
-      {
-        "name": "Dr. Supraja Eduru",
-        "role": "Assistant Professor, ECE, DSU",
-        "image": supraja
-      }
-    ]
-  }
-  ,
-  {
     title: "Publicity Committee",
     members: [
       {
         name: "Dr. Navya R",
-        role: "Associate Professor, ECE, DSU", 
+        role: "Associate Professor, DSU", 
         image:   navya     ,
       },
       {
         name:" Mrs. Manasa K R",
-        role: "Assistant Professor, ECE, DSU",
+        role: "Assistant Professor, DSU",
         image: mansa,
       },
       ,
       {
         name:"Mr. Puneeth S",
-        role: "Assistant Professor, ECE, DSU",
+        role: "Assistant Professor, DSU",
         image: puneeth,
       },
       {
@@ -366,8 +253,120 @@ const committeeSections = [
     ],
   
   },
- 
- 
+  {
+    "title": "Organizing committee",
+    "members": [
+      {
+        "name": "Dr. Arungalai Vendan",
+        "role": "Associate Professor, DSU",
+        "image": arungalai
+      },
+      {
+        "name": "Dr. Vinu R",
+        "role": "Associate Professor, DSU",
+        "image": vinu
+      },
+      {
+        "name": "Dr. Arun Ananthanarayanan",
+        "role": "Associate Professor, DSU",
+        "image": arunananth
+      },
+      {
+        "name": "Dr. Mukti Chaturvedi",
+        "role": "Assistant Professor, DSU",
+        "image":mukti
+      },
+      {
+        "name": "Dr. Divyashree H B",
+        "role": "Assistant Professor, DSU",
+        "image": divya
+      },
+      {
+        "name": "Dr. Rashmita Sahoo",
+        "role": "Assistant Professor, DSU",
+        "image": rashmitha
+      },
+      {
+        "name": "Dr. Deepthi Chamkur V",
+        "role": "Assistant Professor, DSU",
+        "image":deepthi
+      },
+      {
+        "name": "Dr. G Santhosh",
+        "role": "Assistant Professor, DSU",
+        "image": santhosh
+      },
+      {
+        "name": "Mrs. Kanmani B.S",
+        "role": "Assistant Professor, DSU",
+        "image": kanmani
+      },
+      {
+        "name": "Mr. Abhinav Karan",
+        "role": "Assistant Professor, DSU",
+        "image":boss
+      },
+      {
+        "name": "Mrs. Kokila S",
+        "role": "Assistant Professor, DSU",
+        "image": kokila
+      },
+      {
+        "name": "Mr. Sharanabasavaraj",
+        "role": "Assistant Professor, DSU",
+        "image": sharan
+      },
+      {
+        "name": "Mrs. Shwetha M P",
+        "role": "Assistant Professor, DSU",
+        "image": shwetha
+      },
+      {
+        "name": "Ms. Jaishree Ramadevaru",
+        "role": "Assistant Professor, DSU",
+        "image": jaishree
+      },
+      {
+        "name": "Ms. Jisy N K",
+        "role": "Assistant Professor, DSU",
+        "image": jisy
+      },
+      {
+        "name": "Mr. V Sudharsan",
+        "role": "Assistant Professor, DSU",
+        "image": sudharshan
+      },
+      {
+        "name": "Dr. Supraja Eduru",
+        "role": "Assistant Professor, DSU",
+        "image": supraja
+      }
+    ]
+  }
+  ,
+  {
+    title: "Publication Committee",
+    members: [
+      {
+        name: "Dr. Pushpamala",
+        role: "Associate Professor, DSU",
+        image: pushpa,
+      },
+      {
+        name: "Dr. Sneha Sharma",
+        role: "Assistant Professor, DSU",
+        image: snehasharma,
+      }
+      ,
+      ,
+      {
+        name: "Dr. Owais Ahmad Shah",
+        role: "Assistant Professor, DSU",
+        image: owais,
+      }
+    ],
+  
+  },
   
 ];
            const Committee = ({ title, members }) => {
@@ -378,12 +377,12 @@ const committeeSections = [
         {members.map((member, index) => (
           <div 
             key={index} 
-            className="rounded-lg overflow-hidden transition-all duration-300  hover:scale-95 hover:shadow-lg"
+            className="rounded-lg overflow-hidden shadow-md transition-all duration-300  hover:scale-95 hover:shadow-lg"
           >
             <div className="bg-gradient-to-b from-[#dcd8facb] to-[#00796B]0 p-3 ">
               <img
                 src={member.image}
-                className="h-60 w-60 object-contain mx-auto "
+                className="h-60 w-60 object-contain mx-auto rounded-lg shadow-sm"
               />
             </div>
             <div className="p-4 text-center">
