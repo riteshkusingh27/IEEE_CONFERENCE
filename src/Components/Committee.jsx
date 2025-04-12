@@ -21,12 +21,12 @@ import drarun from "/committee/drarun.jpeg";
 // cochair
 import ashwin from "/committee/cochair/ashwin.jpeg";
 import gaythri from "/committee/cochair/gaythri.jpeg";
-import snehasharma from "/committee/cochair/snehasharma.jpeg";
+import snehasharma from "/committee/cochair/snehasharma.jpg";
 
 // technical 
-import theodre from "/committee/technical/theodre.jpeg";
+import theodre from "/committee/technical/theodre.jpg";
 import gayathri from "/committee/technical/gayathri.jpeg";
-import shirshendu from "/committee/technical/shirshendu.jpeg";
+import shirshendu from "/committee/technical/shirshendu.jpg";
 import godfrey from "/committee/technical/godfrey.jpeg";
 import amarbajapai from "/committee/technical/amarbajapai.jpeg";
 import mahesh from "/committee/technical/mahesh.jpeg";
@@ -36,30 +36,30 @@ import anandi from "/committee/technical/anandi.jpeg";
 
 // publicity commitee
 import navya from "/committee/publicity/navya.jpeg";
-import mansa from "/committee/publicity/mansa.jpeg";
+import mansa from "/committee/publicity/mansa.jpg";
 import puneeth from "/committee/publicity/puneeth.jpeg";
 import nadeem from "/committee/publicity/nadeem.jpeg";
 import owais from "/committee/publicity/owais.jpeg";
 
 // organixing commitee
 
-import arungalai from "/committee/organizing/arungalai.jpeg";
+import arungalai from "/committee/organizing/arungalai.jpg";
 import vinu from "/committee/organizing/vinu.jpeg";
 import arunananth from "/committee/organizing/arunananth.jpeg";
 import mukti from "/committee/organizing/mukti.jpeg";
-import divya from "/committee/organizing/divya.jpeg";
-import rashmitha from "/committee/organizing/rashmitha.jpeg";
-import deepthi from "/committee/organizing/deepthi.jpeg";
+import divya from "/committee/organizing/divya.png";
+import rashmitha from "/committee/organizing/rashmitha.jpg";
+import deepthi from "/committee/organizing/deepthi.png";
 import santhosh from "/committee/organizing/santhosh.jpeg";
-import kanmani from "/committee/organizing/kanmani.jpeg";
+import kanmani from "/committee/organizing/kanmani.jpg";
 import boss from "/committee/organizing/boss.jpeg";
 import kokila from "/committee/organizing/kokila.jpeg";
-import sharan from "/committee/organizing/sharan.jpeg";
+import sharan from "/committee/organizing/sharan.png";
 import shwetha from "/committee/organizing/shwetha.jpeg";
 import jaishree from "/committee/organizing/jaishree.jpeg";
 import jisy from "/committee/organizing/jisy.jpeg";
 import sudharshan from "/committee/organizing/sudharshan.jpeg";
-import supraja from "/committee/organizing/supraja.jpeg";
+import supraja from "/committee/organizing/supraja2.jpeg";
 import pushpa from "/committee/organizing/pushpa.jpeg";
 
 
@@ -97,11 +97,15 @@ const committeeSections = [
   {
     title: "Advisory Committee ",
     members: [
+<<<<<<< HEAD
       {
         name: "Dr. Prasant Misra",
         role: "Chair-Elect 2025, IEEE Bangalore Section",
         image:prasantmisra,
       },
+=======
+    
+>>>>>>> development
       {
         name: "Dr. Aloknath De",
         role: "IEEE Bangalore Section Chair 2023",

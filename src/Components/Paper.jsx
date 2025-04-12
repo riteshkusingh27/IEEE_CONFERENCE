@@ -23,7 +23,7 @@ const Paper = () => {
   <ul className='text-lg ml-14 mt-2 '>
     <li>
       <span className='font-bold'>IEEE SPS [AI-Driven Sensing, Signal Processing, and Edge Intelligence for Smart Systems] </span>
-      <ul className='list-disc ml-6'>
+      <ul className='list-disc ml-6 text-justify'>
         <li>AI and ML in Signal Processing: Deep learning for signal enhancement, AI-driven denoising, speech and audio processing, biomedical signal interpretation.</li>
         <li>Edge AI and Distributed Computing: Low-power AI for edge devices, federated learning, real-time inference, neuromorphic computing.</li>
         <li>Multimodal Sensing and Fusion: Sensor fusion for autonomous systems, multimodal signal integration, heterogeneous data processing.</li>
