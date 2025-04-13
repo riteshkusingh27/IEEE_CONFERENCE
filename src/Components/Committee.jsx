@@ -97,11 +97,7 @@ const committeeSections = [
   {
     title: "Advisory Committee ",
     members: [
-      {
-        name: "Dr. Prasant Misra",
-        role: "Chair-Elect 2025",
-        image:prasantmisra,
-      },
+    
       {
         name: "Dr. Aloknath De",
         role: "IEEE Bangalore Section Chair 2023",
