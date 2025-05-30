@@ -168,10 +168,56 @@ const committeeSections = [
         role: "Associate Professor, DSU",
         image: gaythri,
       },
+     
+    ],
+  
+  },
+  {
+    title: "Finance Chair",
+    members: [
+      
       {
         name: "Dr. Sneha Sharma",
         role: "Assistant Professor, DSU",
         image:snehasharma,
+      }
+    ],
+  
+  },
+  ,
+  {
+    title: "Publication Chair",
+    members: [
+    
+      {
+        name: "Dr. Owais Ahmad Shah",
+        role: "Assistant Professor, DSU",
+        image: owais,
+      }
+    ],
+    
+  
+  },
+  ,
+  {
+    title: "Publication Committee",
+    members: [
+      {
+        name: "Dr. Pushpamala",
+        role: "Associate Professor, DSU",
+        image: pushpa,
+      },
+      {
+        name: "Dr. Sneha Sharma",
+        role: "Assistant Professor, DSU",
+        image: snehasharma,
+      }
+      ,
+      ,
+      {
+        name: "Dr. Owais Ahmad Shah",
+        role: "Assistant Professor, DSU",
+        image: owais,
       }
     ],
   
@@ -189,6 +235,11 @@ const committeeSections = [
         role: "Associate Professor, DSU",
   
         image: gayathri,
+      },
+       {
+        name: "Dr. BM Ashwin Desai",
+        role: "Associate Professor, DSU", 
+        image:   ashwin     ,
       },
       {
         name: "Dr. Shirshendu Roy",
@@ -339,31 +390,7 @@ const committeeSections = [
       }
     ]
   }
-  ,
-  {
-    title: "Publication Committee",
-    members: [
-      {
-        name: "Dr. Pushpamala",
-        role: "Associate Professor, DSU",
-        image: pushpa,
-      },
-      {
-        name: "Dr. Sneha Sharma",
-        role: "Assistant Professor, DSU",
-        image: snehasharma,
-      }
-      ,
-      ,
-      {
-        name: "Dr. Owais Ahmad Shah",
-        role: "Assistant Professor, DSU",
-        image: owais,
-      }
-    ],
-  
-  },
-  
+ 
 ];
            const Committee = ({ title, members }) => {
   return (

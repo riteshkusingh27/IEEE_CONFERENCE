@@ -14,7 +14,7 @@ const HomeSection = () => {
   const [timeLeft, setTimeLeft] = useState('');
   const navigate = useNavigate();
   useEffect(() => {
-    const targetDate = new Date('2025-12-4').getTime();
+    const targetDate = new Date('2026-01-23').getTime();
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
@@ -49,13 +49,17 @@ const HomeSection = () => {
       <section className="w-full min-h-screen flex flex-col items-center justify-center px-4 md:px-6 py-10">
         {/* Content */}
         <div className="text-center mb-10 px-4 md:px-0">
-          <h1 className="text-2xl md:text-6xl font-bold text-gray-800">
-            Welcome to <span className="text-orange-500"> IEEE CENTCON-2025</span>
+          <h1 className="text-2xl md:text-3xl font-bold text-gray-800">
+         
+             <span className="bg-gradient-to-r from-blue-800 to-orange-600 text-transparent bg-clip-text md:text-4xl md:mb-3">
+    IEEE International Conference on Disruptive Technologies for <br /> Multi-Disciplinary Research and Applications
+  </span>
           </h1>
-          <p className="text-md md:text-lg  mt-2 italic font-bold">December 04-05, 2025</p>
-          <p className="text-sm md:text-xl text-black mb-6 px-2 md:px-0">
+           <p className="text-sm md:text-xl text-black px-2  md:mt-2 md:px-0">
             Bridging AI, Sensing, and Embedded Intelligence for a Smarter, Safer, and Sustainable World.
           </p>
+          <p className="text-md md:text-lg bold font-bold md:mb-3 ">January 23-24, 2026</p>
+         
           <button className="bg-indigo-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg shadow-lg hover:bg-indigo-700 transition-all" onClick={() => navigate('/call-for-papers')}>
             Call For Papers
           </button>
@@ -69,7 +73,8 @@ const HomeSection = () => {
               Dayananda Sagar University (DSU), established in 2014, is a premier private university located in Bengaluru, Karnataka, India. As a proud member of the Dayananda Sagar Institutions (DSI) family, which was founded in the early 1960s by Late Sri Dayananda Sagar, DSU has rapidly evolved into a global educational powerhouse. The university offers a diverse range of undergraduate, postgraduate, and doctoral programs across various disciplines, including engineering, management, health sciences, and arts. With state-of-the-art campuses and a strong emphasis on research and innovation, DSU fosters an environment that encourages creativity, critical thinking, and entrepreneurial spirit.
               <br />
               <div className='m-2'></div>
-              The Department of Electronics & Communication Engineering (ECE) at DSU is dedicated to providing high-quality technical education and fostering innovation in the fields of electronics and communication. The department offers undergraduate (B.Tech) and postgraduate (M.Tech in Embedded Systems) programs designed to equip students with the necessary skills to excel in the industry. In line with our commitment to advancing knowledge and fostering innovation, DSU and the Department of ECE are proud to organize CENTCON 2025 – International Conference on Bridging AI, Sensing, and Embedded Intelligence for a Smarter, Safer, and Sustainable World. This conference aims to serve as a global platform for researchers, industry experts, and academicians to exchange ideas and explore breakthroughs in AI, nanotechnology, embedded intelligence, and autonomous systems.
+              The Department of Electronics & Communication Engineering (ECE) at DSU is dedicated to providing high-quality technical education and fostering innovation in the fields of electronics and communication. The department offers undergraduate (B.Tech) and postgraduate (M.Tech in Embedded Systems) programs designed to equip students with the necessary skills to excel in the industry. In line with our commitment to advancing knowledge and fostering innovation, DSU and the Department of ECE are proud to organize <span className="font-bold">IEEE International Conference on Disruptive Technologies for
+Multi-Disciplinary Research and Applications</span>.This conference aims to serve as a global platform for researchers, industry experts, and academicians to exchange ideas and explore breakthroughs in AI, nanotechnology, embedded intelligence, and autonomous systems.
             </p>
           </div>
           <div className="col-span-1 ">

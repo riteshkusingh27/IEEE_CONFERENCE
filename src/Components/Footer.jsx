@@ -20,14 +20,15 @@ const Footer = () => {
     <footer className="bg-gradient-to-r h-100px from-blue-900 to-blue-600 text-white py-6">
       <div className="w-full px-8 flex flex-col md:flex-row justify-between items-center">
         <div className="text-center md:text-left mb-4 md:mb-0">
-          <h3 className="text-xl font-bold">IEEE CENTCON 2025</h3>
-          <p className="text-sm">Organized by Dayananda Sagar University</p>
+          <h3 className="text-xl font-bold"></h3>
+          <p className="text-md">Organized by : <br />
+           Department of Electronics and Communication  </p>
           <a href="https://www.dsu.edu.in/">
-            <span className="text-sm text-yellow-500 hover:text-black">School Of Engineering Harohalli</span>
+            <span className="text-md text-yellow-500 hover:text-black">Dayananda Sagar University</span>
           </a>
         </div>
         <div className="text-center mb-4 md:mb-0">
-          <p>&copy; 2025 IEEE  Centcon-2025. All rights reserved. <br/> <b className='text-pink-100'>IEEE SPS, IEEE MTTS, IEEE CEDA & IEEE RAS</b></p>
+          <p>&copy; All rights reserved. <br/> <b className='text-pink-100'>IEEE SPS, IEEE MTTS, IEEE CEDA & IEEE RAS</b></p>
         </div>
         <div className="flex space-x-3 justify-center md:justify-end items-center">
           <a href="#"><img src={linkdein} alt="LinkedIn" className="w-6 h-6" /></a>

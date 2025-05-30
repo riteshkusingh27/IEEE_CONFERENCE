@@ -9,7 +9,8 @@ const Paper = () => {
       
       <h1 className='ml-10 mt-3 font-bold text-3xl text-blue-900'>Dear Researcher,</h1>
       <p className='text-lg ml-10 pr-10 mt-2 text-justify'>
-      You are invited to submit your original research work to CENTCON 2025 –  Bridging AI, Sensing, and Embedded Intelligence for a Smarter, Safer, and Sustainable World, to be held on December 4-5, 2025, at Dayananda Sagar University (DSU), Bengaluru, India. The conference provides a platform for academicians, researchers, industry professionals, and students to present their novel contributions in Artificial Intelligence (AI), Sensing Technologies, Embedded Systems, and Automation. Submissions are encouraged in the key focus areas, including but not limited to AI-driven signal/Image processing, intelligent sensing, nanoelectronics, RF technologies, secure computing, cyber-physical systems, embedded intelligence, and autonomous systems. Accepted papers will undergo rigorous peer review, and selected works will be considered for publication in IEEE Xplore. We look forward to your contributions to drive innovation and shape the future of intelligent sensing, computing and automation.
+      You are invited to submit your original research work to IEEE International Conference on Disruptive Technologies for
+Multi-Disciplinary Research and Applications 2026 –  Bridging AI, Sensing, and Embedded Intelligence for a Smarter, Safer, and Sustainable World, to be held on January 23-24, 2025, at Dayananda Sagar University (DSU), Bengaluru, India. The conference provides a platform for academicians, researchers, industry professionals, and students to present their novel contributions in Artificial Intelligence (AI), Sensing Technologies, Embedded Systems, and Automation. Submissions are encouraged in the key focus areas, including but not limited to AI-driven signal/Image processing, intelligent sensing, nanoelectronics, RF technologies, secure computing, cyber-physical systems, embedded intelligence, and autonomous systems. Accepted papers will undergo rigorous peer review, and selected works will be considered for publication in IEEE Xplore. We look forward to your contributions to drive innovation and shape the future of intelligent sensing, computing and automation.
 
       </p>
       
@@ -22,7 +23,7 @@ const Paper = () => {
   <p className='text-3xl ml-10 mt-4 font-bold text-blue-900'>Track Details</p>
   <ul className='text-lg ml-14 mt-2 '>
     <li>
-      <span className='font-bold'>IEEE SPS [AI-Driven Sensing, Signal Processing, and Edge Intelligence for Smart Systems] </span>
+      <span className='font-bold'>TRACK 1 - AI-Driven Sensing, Signal Processing, and Edge Intelligence for Smart Systems </span>
       <ul className='list-disc ml-6 text-justify'>
         <li>AI and ML in Signal Processing: Deep learning for signal enhancement, AI-driven denoising, speech and audio processing, biomedical signal interpretation.</li>
         <li>Edge AI and Distributed Computing: Low-power AI for edge devices, federated learning, real-time inference, neuromorphic computing.</li>
@@ -36,7 +37,7 @@ const Paper = () => {
     </li>
 
     <li className='mt-5'>
-      <span className='font-bold'>IEEE MTTS [Emerging Nanoelectronics, RF, and Photonics Technologies for Future Systems] </span>
+      <span className='font-bold'>TRACK 2 - Emerging Nanoelectronics, RF, and Photonics Technologies for Future Systems</span>
       <ul className='list-disc ml-6'>
         <li>RF and Microwave Innovations: mmWave, THz devices, RF filters, AI-driven RF design.</li>
         <li>Nanoelectronics and Semiconductor Devices: Quantum dots, 2D materials (Graphene, MoS₂), carbon nanotube transistors.</li>
@@ -50,7 +51,7 @@ const Paper = () => {
     </li>
 
     <li className='mt-5'>
-      <span className='font-bold'>IEEE CEDA [AI-Enabled Consumer Electronics, Healthcare, and Human-Centric Systems]</span>
+      <span className='font-bold'>TRACK 3 - Human-Centered AI, Embedded Intelligence, and Smart Consumer Technologies</span>
       <ul className='list-disc ml-6'>
         <li>AI-Powered Consumer Electronics: AI for smart homes, adaptive entertainment, wearable computing.</li>
         <li>Embedded AI for Personalized Healthcare: AI-driven diagnostics, health monitoring, AI in prosthetics and assistive tech.</li>
@@ -64,7 +65,7 @@ const Paper = () => {
     </li>
 
     <li className='mt-5'>
-      <span className='font-bold'>IEEE RAS [AI-Enabled Autonomous Systems and Intelligent Automation] </span>
+      <span className='font-bold'>TRACK 4 - AI-Enabled Autonomous Systems and Intelligent Automatio </span>
       <ul className='list-disc ml-6'>
         <li>Autonomous Robotics and AI: Reinforcement learning for robotics, multi-agent systems, robot perception and navigation.</li>
         <li>Intelligent Transportation and Smart Mobility: AI in self-driving cars, UAVs, AI-powered logistics.</li>
@@ -74,6 +75,31 @@ const Paper = () => {
         <li>Edge AI in Autonomous Systems: Federated learning for autonomous systems, AI-driven decision-making at the edge.</li>
         <li>Energy Efficiency in AI-Enabled Automation: AI-powered optimization, smart grid integration, sustainable automation.</li>
         <li>Applications: AI in space exploration, agricultural robotics, disaster response automation.</li>
+      </ul>
+    </li>
+
+
+    <li className='mt-5'>
+      <span className='font-bold'>TRACK 5 - AI -Enabled Health Care And Other Multi Disciplinary Technologies</span>
+      <ul className='list-disc ml-6'>
+        <li>Artificial Intelligence in Medical Imaging: Exploring AI applications in medical imaging, diagnostics, and disease detection.
+</li>
+        <li>Personalized Medicine and Genomics: Leveraging AI and genomics for tailored treatment plans and targeted therapies.
+</li>
+        <li>Predictive Analytics in Healthcare: Utilizing machine learning and data analytics to predict patient outcomes, disease progression, and treatment efficacy.</li>
+        <li>
+Robotics and Automation in Healthcare: Discussing the role of robotics and automation in surgery, patient care, and hospital operations.</li>
+        <li>Natural Language Processing (NLP) in Healthcare: Examining NLP applications in clinical documentation, patient engagement, and medical research.</li>
+        <li>Internet of Medical Things (IoMT) and Wearables: Exploring the impact of IoMT and wearables on remote patient monitoring, disease management, and health tracking.</li>
+        <li>Cybersecurity in Healthcare: Addressing the growing concern of cybersecurity threats in healthcare and strategies for protecting sensitive patient data.</li>
+
+        <li>
+          AI-Assisted Drug Discovery and Development: Investigating the potential of AI in accelerating drug discovery, development, and repurposing.
+        </li>
+
+        <li>
+          Ethics and Regulatory Frameworks in AI-Enabled Healthcare: Discussing the ethical considerations, regulatory challenges, and governance frameworks for AI adoption in healthcare.
+        </li>
       </ul>
     </li>
   </ul>
