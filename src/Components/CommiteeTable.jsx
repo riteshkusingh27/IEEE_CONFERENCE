@@ -57,22 +57,17 @@ const committees = [
       { name: "Mr. V Sudharsan", role: "Assistant Professor, DSU" },
       { name: "Dr. Supraja Eduru", role: "Assistant Professor, DSU" }
     ]
-  },
-  {
-    title : "Guided by",
-    members:[
-         { name: "Dr. BM Ashwin Desai", role: "Associate Professor, DSU" },
-    ]
-  },
+  }
 
 ];
 
 const student =[
       {
-    title : "Student Volunteers",
+    title : "Guided By",
     members:[
-        {name : "Ritesh Kumar ", role : "Student, DSU"},
-        {name : "Prokshith", role : "Student, DSU"},
+          { name: "Dr. BM Ashwin Desai", role: "Associate Professor, DSU" },
+        {name : "Ritesh Kumar ", role : "Student Volunteer"},
+        {name : "Prokshith J.S", role : "Student Volunteer"},
     ]
   }
 ]
