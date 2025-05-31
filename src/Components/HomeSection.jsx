@@ -89,7 +89,7 @@ Multi-Disciplinary Research and Applications</span>.This conference aims to serv
       <div className="chiefpatron flex justify-center">
       <Guests />
       </div>
-      <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-6 text-center ">Patron</h2>
+      <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-6 text-center ">Patrons</h2>
       <Patron />  
 
         
