@@ -17,6 +17,7 @@ const EventCarousel = () => {
                 showThumbs={false}
                 showStatus={false}
                 dynamicHeight={false}
+                delay={3000}
               >
                     {images.map((img, index) => (
                       <div key={index} className="h-[350px] flex justify-center items-center">
