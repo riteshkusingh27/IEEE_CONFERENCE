@@ -1,4 +1,5 @@
 import React from "react";
+import CommitteeTables from "./CommiteeTable.jsx";
 import drChandrakantaKumar from "/committee/steering/drChandrakantaKumar.jpeg";
 import drPuneetKumarMishra from "/committee/steering/drPuneetKumarMishra.jpeg";
 import drtSrinivas from "/committee/steering/drtSrinivas.jpeg";
@@ -184,225 +185,233 @@ const committeeSections = [
     ],
   
   },
-  ,
-  {
-    title: "Publication Chair",
-    members: [
+  // ,
+  // {
+  //   title: "Publication Chair",
+  //   members: [
     
-      {
-        name: "Dr. Owais Ahmad Shah",
-        role: "Assistant Professor, DSU",
-        image: owais,
-      }
-    ],
+  //     {
+  //       name: "Dr. Owais Ahmad Shah",
+  //       role: "Assistant Professor, DSU",
+  //       image: owais,
+  //     }
+  //   ],
     
   
-  },
-  ,
-  {
-    title: "Publication Committee",
-    members: [
-      {
-        name: "Dr. Pushpamala",
-        role: "Associate Professor, DSU",
-        image: pushpa,
-      },
-      {
-        name: "Dr. Sneha Sharma",
-        role: "Assistant Professor, DSU",
-        image: snehasharma,
-      }
-      ,
-      ,
-      {
-        name: "Dr. Owais Ahmad Shah",
-        role: "Assistant Professor, DSU",
-        image: owais,
-      }
-    ],
+  // },
+  // ,
+  // {
+  //   title: "Publication Committee",
+  //   members: [
+  //     {
+  //       name: "Dr. Pushpamala",
+  //       role: "Associate Professor, DSU",
+  //       image: pushpa,
+  //     },
+  //     {
+  //       name: "Dr. Sneha Sharma",
+  //       role: "Assistant Professor, DSU",
+  //       image: snehasharma,
+  //     }
+      
+  //   ],
   
-  },{
-    title: "Technical Program Committee",
-    members: [
-      {
-        name: "Dr. Theodre Chandra",
-        role: "Associate Professor, DSU",
+  // },{
+  //   title: "Technical Program Committee",
+  //   members: [
+  //     {
+  //       name: "Dr. Theodre Chandra",
+  //       role: "Associate Professor, DSU",
      
-        image: theodre,
-      },
-      {
-        name: "Dr. Gayathri K M",
-        role: "Associate Professor, DSU",
+  //       image: theodre,
+  //     },
+  //     {
+  //       name: "Dr. Gayathri K M",
+  //       role: "Associate Professor, DSU",
   
-        image: gayathri,
-      },
-       {
-        name: "Dr. BM Ashwin Desai",
-        role: "Associate Professor, DSU", 
-        image:   ashwin     ,
-      },
-      {
-        name: "Dr. Shirshendu Roy",
-        role: "Assistant Professor, DSU",
+  //       image: gayathri,
+  //     },
+  //      {
+  //       name: "Dr. BM Ashwin Desai",
+  //       role: "Associate Professor, DSU", 
+  //       image:   ashwin     ,
+  //     },
+  //     {
+  //       name: "Dr. Shirshendu Roy",
+  //       role: "Assistant Professor, DSU",
     
-        image: shirshendu,
-      },
-      {
-        name: "Dr. Godfrey",
-        role: "Assistant Professor, DSU",
-        image: godfrey,
-      },
-      {
-        name: "Dr. Ambar Bajpai",
-        role: "IEEE Bangalore Section Execom Member 2025",
+  //       image: shirshendu,
+  //     },
+  //     {
+  //       name: "Dr. Godfrey",
+  //       role: "Assistant Professor, DSU",
+  //       image: godfrey,
+  //     },
+  //     {
+  //       name: "Dr. Ambar Bajpai",
+  //       role: "IEEE Bangalore Section Execom Member 2025",
    
-        image: amarbajapai,
-      },
-      {
-        name: "Dr. Mahesh A",
-        role: "Treasurer, IEEE Bangalore Section 2025",
+  //       image: amarbajapai,
+  //     },
+  //     {
+  //       name: "Dr. Mahesh A",
+  //       role: "Treasurer, IEEE Bangalore Section 2025",
   
-        image: mahesh,
-      },
-      {
-        name: "Dr. Anandi Giridharan",
-        role: "IEEE Bangalore Section Execom Membe 2025",
+  //       image: mahesh,
+  //     },
+  //     {
+  //       name: "Dr. Anandi Giridharan",
+  //       role: "IEEE Bangalore Section Execom Membe 2025",
         
-        image: anandi,
-      }
-    ],
+  //       image: anandi,
+  //     }
+  //   ],
   
-  },
-  {
-    title: "Publicity Committee",
-    members: [
-      {
-        name: "Dr. Navya R",
-        role: "Associate Professor, DSU", 
-        image:   navya     ,
-      },
-      {
-        name:" Mrs. Manasa K R",
-        role: "Assistant Professor, DSU",
-        image: mansa,
-      },
-      ,
-      {
-        name:"Mr. Puneeth S",
-        role: "Assistant Professor, DSU",
-        image: puneeth,
-      },
-      {
-        name: "Mr. Nadeem Pasha",
-        role: "Assitant Professor, DSU",
-        image:nadeem,
-      }
-    ],
+  // },
+  // {
+  //   title: "Publicity Committee",
+  //   members: [
+  //     {
+  //       name: "Dr. Navya R",
+  //       role: "Associate Professor, DSU", 
+  //       image:   navya     ,
+  //     },
+  //     {
+  //       name:" Mrs. Manasa K R",
+  //       role: "Assistant Professor, DSU",
+  //       image: mansa,
+  //     },
+  //     ,
+  //     {
+  //       name:"Mr. Puneeth S",
+  //       role: "Assistant Professor, DSU",
+  //       image: puneeth,
+  //     },
+  //     {
+  //       name: "Mr. Nadeem Pasha",
+  //       role: "Assitant Professor, DSU",
+  //       image:nadeem,
+  //     }
+  //   ],
   
-  },
-  {
-    "title": "Organizing committee",
-    "members": [
-      {
-        "name": "Dr. Arungalai Vendan",
-        "role": "Associate Professor, DSU",
-        "image": arungalai
-      },
-      {
-        "name": "Dr. Vinu R",
-        "role": "Associate Professor, DSU",
-        "image": vinu
-      },
-      {
-        "name": "Dr. Arun Ananthanarayanan",
-        "role": "Associate Professor, DSU",
-        "image": arunananth
-      },
-      {
-        "name": "Dr. Mukti Chaturvedi",
-        "role": "Assistant Professor, DSU",
-        "image":mukti
-      },
-      {
-        "name": "Dr. Divyashree H B",
-        "role": "Assistant Professor, DSU",
-        "image": divya
-      },
-      {
-        "name": "Dr. Rashmita Sahoo",
-        "role": "Assistant Professor, DSU",
-        "image": rashmitha
-      },
-      {
-        "name": "Dr. Deepthi Chamkur V",
-        "role": "Assistant Professor, DSU",
-        "image":deepthi
-      },
-      {
-        "name": "Dr. G Santhosh",
-        "role": "Assistant Professor, DSU",
-        "image": santhosh
-      },
-      {
-        "name": "Mrs. Kanmani B.S",
-        "role": "Assistant Professor, DSU",
-        "image": kanmani
-      },
-      {
-        "name": "Mr. Abhinav Karan",
-        "role": "Assistant Professor, DSU",
-        "image":boss
-      },
-      {
-        "name": "Mrs. Kokila S",
-        "role": "Assistant Professor, DSU",
-        "image": kokila
-      },
-      {
-        "name": "Mr. Sharanabasavaraj",
-        "role": "Assistant Professor, DSU",
-        "image": sharan
-      },
-      {
-        "name": "Mrs. Shwetha M P",
-        "role": "Assistant Professor, DSU",
-        "image": shwetha
-      },
-      {
-        "name": "Ms. Jaishree Ramadevaru",
-        "role": "Assistant Professor, DSU",
-        "image": jaishree
-      },
-      {
-        "name": "Ms. Jisy N K",
-        "role": "Assistant Professor, DSU",
-        "image": jisy
-      },
-      {
-        "name": "Mr. V Sudharsan",
-        "role": "Assistant Professor, DSU",
-        "image": sudharshan
-      },
-      {
-        "name": "Dr. Supraja Eduru",
-        "role": "Assistant Professor, DSU",
-        "image": supraja
-      }
-    ]
-  }
+  // },
+  // {
+  //   "title": "Organizing committee",
+  //   "members": [
+  //     {
+  //       "name": "Dr. Arungalai Vendan",
+  //       "role": "Associate Professor, DSU",
+  //       "image": arungalai
+  //     },
+  //     {
+  //       "name": "Dr. Vinu R",
+  //       "role": "Associate Professor, DSU",
+  //       "image": vinu
+  //     },
+  //     {
+  //       "name": "Dr. Arun Ananthanarayanan",
+  //       "role": "Associate Professor, DSU",
+  //       "image": arunananth
+  //     },
+  //     {
+  //       "name": "Dr. Mukti Chaturvedi",
+  //       "role": "Assistant Professor, DSU",
+  //       "image":mukti
+  //     },
+  //     {
+  //       "name": "Dr. Divyashree H B",
+  //       "role": "Assistant Professor, DSU",
+  //       "image": divya
+  //     },
+  //     {
+  //       "name": "Dr. Rashmita Sahoo",
+  //       "role": "Assistant Professor, DSU",
+  //       "image": rashmitha
+  //     },
+  //     {
+  //       "name": "Dr. Deepthi Chamkur V",
+  //       "role": "Assistant Professor, DSU",
+  //       "image":deepthi
+  //     },
+  //     {
+  //       "name": "Dr. G Santhosh",
+  //       "role": "Assistant Professor, DSU",
+  //       "image": santhosh
+  //     },
+  //     {
+  //       "name": "Mrs. Kanmani B.S",
+  //       "role": "Assistant Professor, DSU",
+  //       "image": kanmani
+  //     },
+  //     {
+  //       "name": "Mr. Abhinav Karan",
+  //       "role": "Assistant Professor, DSU",
+  //       "image":boss
+  //     },
+  //     {
+  //       "name": "Mrs. Kokila S",
+  //       "role": "Assistant Professor, DSU",
+  //       "image": kokila
+  //     },
+  //     {
+  //       "name": "Mr. Sharanabasavaraj",
+  //       "role": "Assistant Professor, DSU",
+  //       "image": sharan
+  //     },
+  //     {
+  //       "name": "Mrs. Shwetha M P",
+  //       "role": "Assistant Professor, DSU",
+  //       "image": shwetha
+  //     },
+  //     {
+  //       "name": "Ms. Jaishree Ramadevaru",
+  //       "role": "Assistant Professor, DSU",
+  //       "image": jaishree
+  //     },
+  //     {
+  //       "name": "Ms. Jisy N K",
+  //       "role": "Assistant Professor, DSU",
+  //       "image": jisy
+  //     },
+  //     {
+  //       "name": "Mr. V Sudharsan",
+  //       "role": "Assistant Professor, DSU",
+  //       "image": sudharshan
+  //     },
+  //     {
+  //       "name": "Dr. Supraja Eduru",
+  //       "role": "Assistant Professor, DSU",
+  //       "image": supraja
+  //     }
+  //   ]
+  // }
  
 ];
-           const Committee = ({ title, members }) => {
+  
+
+const Committee = ({ title, members }) => {
+  const length = members.length;
+
+  let containerClass = "px-20 gap-6";
+    
+  // dynammic css 
+
+  if (length <= 2) {
+    containerClass += " flex justify-center flex-wrap";
+  } else {
+    containerClass += " grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 ";
+  }
+
   return (
     <div className="text-center py-10">
       <h2 className="text-3xl font-bold mb-8 text-orange-600">{title}</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center px-10">
+      <div className={containerClass}>
         {members.map((member, index) => (
-          <div 
-            key={index} 
-            className="rounded-lg overflow-hidden shadow-md transition-all duration-300  hover:scale-95 hover:shadow-lg"
+          <div
+            key={index}
+            className="rounded-lg overflow-hidden shadow-md transition-all duration-300 hover:scale-95 hover:shadow-lg m-4"
           >
-            <div className="bg-gradient-to-b from-[#dcd8facb] to-[#00796B]0 p-3 ">
+            <div className="bg-gradient-to-b from-[#dcd8facb] to-[#00796B]0 p-3">
               <img
                 src={member.image}
                 className="h-60 w-60 object-contain mx-auto rounded-lg shadow-sm"
@@ -420,12 +429,15 @@ const committeeSections = [
   );
 };
 
+
 const Committees = () => {
   return (
     <div>
       {committeeSections.map((section, index) => (
         <Committee key={index} title={section.title} members={section.members} />
+       
       ))}
+       <CommitteeTables/>
     </div>
   );
 };

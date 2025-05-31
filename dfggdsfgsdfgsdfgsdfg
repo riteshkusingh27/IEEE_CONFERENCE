@@ -1,0 +1,109 @@
+* [33m4db6f01[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;32mdevelopment[m[33m)[m Title Change
+* [33me1e5b62[m remove DrPrashant
+* [33m500f483[m order
+*   [33m2c9ce68[m merge
+[32m|[m[33m\[m  
+[32m|[m * [33m8fcf7c4[m[33m ([m[1;31morigin/development[m[33m)[m comming soon
+[32m|[m * [33m60bef9e[m photo update
+* [33m|[m [33me9fdcb5[m metatags
+* [33m|[m [33mef386f8[m push
+* [33m|[m [33m510c132[m tags , keywords for google search console
+* [33m|[m [33m0459ab4[m Update committee member roles to include IEEE Bangalore Section
+* [33m|[m [33m0fcf2a5[m non author to author
+* [33m|[m [33me984be1[m reorder commitee section
+* [33m|[m [33m49929fb[m initegrated footer component in the speaker comppnent section
+* [33m|[m [33mdcf95e3[m mail and contact
+* [33m|[m [33m9f16cae[m spelling and grammer fixes
+* [33m|[m [33m72dc4b1[m FIX : ENTRIES IN NEWS
+[33m|[m[33m/[m  
+* [33mbcaba17[m fix : patrons divs to center
+* [33m11e3b0d[m[33m ([m[1;32mUi[m[33m)[m ADDED MISSING COMMAS .:)
+* [33m915cba3[m fix: correct capitalization in registrar's description
+* [33m0e911f3[m grammer correction
+* [33me5af804[m fdf66
+* [33mb9c3fb5[m bg-pink
+* [33ma932198[m some mediocre changes
+* [33m2edff83[m update committee section styling with gradient background
+* [33m7e68347[m assitant
+* [33m87809f0[m replaced carousel images
+* [33mc7a1211[m lastcommit
+* [33m138edd7[m role and designation changes
+* [33m3cc6ca9[m removed gc
+* [33m4d1dc49[m added general chair in the home page , removed gc from committee
+* [33me944b3c[m ui
+* [33m8d25a06[m reviewed  home section component  for responsiveness for smaller screen
+* [33mb34bf33[m dsfdsfas
+* [33me863ffa[m listdisc
+* [33m0fd0e60[m ordering
+* [33m0678bee[m updated aboutus homepage duplicated paras , changed duplicated images
+* [33mc9cf212[m added cnfdate below the heading
+* [33me089347[m  improved layout
+* [33mbb1741d[m fixed component outage
+* [33m8178147[m added respective committees photos , refacdtor image width to be similar throughout the commitees section maintaining aspect ration
+* [33m83bca82[m added cfpaper in the header section refactor about us design
+* [33m1a58249[m rearrange chief patron ordering
+* [33m17c2768[m added map pin and video playback component in about us section
+* [33mccb4edf[m add map icon to homepage, update footer styling refactor ui
+* [33m5a9b423[m capitalize 'CENTCON' in the welcome message
+* [33m1ac7c63[m styling
+* [33mf538e4a[m modified colour updated important dates styling
+* [33ma4551ae[m refactor routes and improve layout; rename 'dates' to 'imp-dates', enhance author guidelines and footer, and update paper section
+* [33m4f22e0e[m updated centcon header font to canva logo , separarted homepage guest to chief patron and patron
+* [33me2e84da[m colour-orng
+* [33mcc64629[m spell
+* [33m32768ad[m underdevelopment
+* [33m7baed71[m updtreadme
+* [33m537bc8d[m committee sections
+* [33ma7eb2e2[m added commitee section
+* [33mc6f50e3[m home:mbchg
+* [33mb42a6d6[m mf05
+* [33m63fcdae[m contactmailto
+* [33mc9f407a[m contact us
+* [33m5259720[m readmeupdt
+* [33mffe5a5e[m readmeupdt
+* [33me62e220[m favicon
+* [33m3f2f468[m redirectfix
+* [33m8a97994[m fd
+* [33mdb056bf[m redicrect toml
+* [33m1e43803[m redirects to index
+* [33m1d0fbcb[m committe
+* [33mf61324b[m welcomeheading
+* [33m85b2a2b[m chiefpatreom
+* [33m0896f32[m ..
+* [33m2c3853b[m added submit component made some changes as directed
+* [33mb3772e6[m default name and des
+* [33m634bb71[m deploymentstage
+* [33m9e5361d[m responsive
+* [33m840f88e[m footer
+* [33mf2ecd7a[m guidelinestoauthor
+*   [33m92c2589[m toogle components
+[34m|[m[35m\[m  
+[34m|[m * [33m8ce914c[m ..
+* [35m|[m [33m83f6039[m dropdown nav link
+[35m|[m[35m/[m  
+* [33md851bed[m undo header position
+* [33m08ad63d[m registration section
+* [33mab18ea4[m routes
+* [33m7e3f9bd[m whitebgorg
+* [33m9458098[m orgnlogo
+* [33m57ae68b[m logo width
+* [33macb1b0b[m logobangalore
+* [33m3ce7c17[m change in name Centcon
+* [33m3393585[m object-organizer bg-green
+* [33mf25c451[m about page content
+* [33m71cc2d5[m navlink removal
+* [33md05e39e[m navlink routing
+* [33med1bd89[m padding changes
+* [33md6a01fd[m added newssection gird
+* [33m48868af[m visual correction
+* [33mef58e06[m Event carousel and footer
+* [33m368f8f9[m hero section page with timer counter and speaker
+* [33m53aa819[m title
+* [33m3aea83f[m a
+* [33m13680fa[m header
+*   [33m39d1da3[m Merge branch 'master' of https://github.com/riteshkusingh27/conferencePage2025
+[36m|[m[1;31m\[m  
+[36m|[m * [33mab78205[m tailwindcss-setup
+* [1;31m|[m [33m26ce413[m settingup
+[1;31m|[m[1;31m/[m  
+* [33m20ec94d[m[33m ([m[1;32mremotefile[m[33m, [m[1;32mremote[m[33m)[m gitconnect

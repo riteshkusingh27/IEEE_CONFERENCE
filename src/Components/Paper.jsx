@@ -15,7 +15,7 @@ Multi-Disciplinary Research and Applications 2026 –  Bridging AI, Sensing, and
       </p>
       
       <p className='text-lg ml-10 pr-10 mt-2'>
-        You are invited to submit your original research work in any of the following:
+        You are invited to submit your original research work in any of the following and not limited to:
       </p>
       
       
