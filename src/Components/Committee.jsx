@@ -143,18 +143,18 @@ const committeeSections = [
   //   ],
   
   // },
-  {
-    title: "Conference Chair",
-    members: [
-      {
-        name: "Dr. Arun Balodi",
-        role: "Chairman-ECE, DSU",
-        image:drarun,
-      },
+  // {
+  //   title: "Conference Chair",
+  //   members: [
+  //     {
+  //       name: "Dr. Arun Balodi",
+  //       role: "Chairman-ECE, DSU",
+  //       image:drarun,
+  //     },
       
-    ],
+  //   ],
   
-  }
+  // }
   // ,
   // {
   //   title: "Conference Co-Chairs",

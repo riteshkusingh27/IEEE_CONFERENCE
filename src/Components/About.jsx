@@ -23,12 +23,13 @@ const About = () => {
     
             <div className="w-full md:w-1/2">
               <h4 className="text-2xl font-bold  text-orange-600 mb-3">Contact</h4>
+              <h4 className="text-xl font-bold  text-orange-600 ">Oraganizing Committee</h4>
               <ul className="text-black">
                 <li className="text-xl font-semibold">Department of Electronics And Communication</li>
                 <li className="text-md font-semibold mb-2">DSU SOE (Schoool Of Engineering) </li>
-                <li><span className="font-bold">Dr. Arun Balodi</span> <br />Head of Department</li>
+               
                 <li className='text-black font-semibold'>Email   : </li>
-                <li className="text-black font-semibold">Contact : </li>
+              
               </ul>
             </div>  
            {/* venue section with address link to dsucampus harohalli   */}

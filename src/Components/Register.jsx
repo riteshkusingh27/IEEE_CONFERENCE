@@ -2,38 +2,49 @@ import React from "react";
 import Footer from './Footer.jsx';
 
 const registrationData = [
-    { title: "Early Bird IEEE Student (Indian)", price: 3500 },
-    { title: "Early Bird IEEE Member (Indian)", price: 5000 },
-    { title: "Early Bird Non-IEEE Student (Indian)", price: 6000 },
-    { title: "Early Bird Non-IEEE Member (Indian)", price: 8000 },
-    { title: "Regular IEEE Student (Indian)", price: 4500 },
-    { title: "Regular IEEE Member (Indian)", price: 6500 },
-    { title: "Regular Non-IEEE Student (Indian)", price: 7500 },
-    { title: "Regular Non-IEEE Member (Indian)", price: 9500 },
+  {
+    particulars: "Delegates from Industry",
+    indiandelegates: "10000",
+    indianDelegateIeee: "8500",
+  },
+  {
+    particulars: "Delegates from Academia",
+    indiandelegates: "8500",
+    indianDelegateIeee: "7000",
+
+  },
+  {
+    particulars: "Accompanying Person",
+    indiandelegates: "2000",
+    indianDelegateIeee: "1000",
+  }
 ];
 
 const Register = () => {
-    return (
-        <div className="main">
-            <div className="text-black py-12 px-4 sm:px-6">
-                <h2 className="text-4xl font-bold text-center mb-8 text-orange-500">
-                    Registrations
-                </h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
-                    {registrationData.map((item, index) => (
-                        <div key={index} className="border border-black p-6 rounded-lg text-center">
-                            <h3 className="text-lg font-semibold mb-4">{item.title}</h3>
-                            <p className="text-2xl font-bold mb-4">₹ {item.price}</p>
-                            <button className="text-black border border-black px-4 py-2 rounded-3xl hover:bg-white hover:text-blue-900">
-                                REGISTER NOW
-                            </button>
-                        </div>
-                    ))}
-                </div>
-            </div>
-            <Footer />
-        </div>
-    );
+  return (
+    <div className="space-y-8 p-4 px-10">
+        
+   <h2 className="text-3xl font-bold mb-7 text-center text-orange-500">Registration Fees </h2>
+      <table className="min-w-full border border-gray-300">
+        <thead className="bg-gray-200">
+          <tr>
+            <th className="w-1/2 border px-4 py-2 text-left">Particulars</th>
+            <th className="border px-4 py-2 text-left">Indian Delegates</th>
+            <th className="border px-4 py-2 text-left">Indian Delegates-IEEE Members</th>
+          </tr>
+        </thead>
+        <tbody>
+          {registrationData.map((member, i) => (
+            <tr key={i} className="hover:bg-gray-50">
+              <td className="border px-4 py-2">{member.particulars}</td>
+              <td className="border px-4 py-2">{member.indiandelegates}</td>
+              <td className="border px-4 py-2">{member.indianDelegateIeee}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
 };
 
 export default Register;

@@ -1,6 +1,13 @@
 import React from 'react';
 
 const committees = [
+  
+  {
+    title: "Conference Chair",
+    members: [
+      { name: "Dr. Arun Balodi", role: "Chairman-ECE, DSU" },
+    ]
+  },
   {
     title: "Conference Co-Chairs",
     members: [
@@ -15,29 +22,37 @@ const committees = [
     ]
   },
   {
-    title: "Publication Chair",
-    members: [
-      { name: "Dr. Owais Ahmad Shah", role: "Assistant Professor, DSU" }
-    ]
-  },
-  {
     title: "Publication Committee",
     members: [
+       { name: "Dr. Owais Ahmad Shah       [Publication Chair]", role: "Assistant Professor, DSU" },
       { name: "Dr. Pushpamala", role: "Associate Professor, DSU" },
-      { name: "Dr. Sneha Sharma", role: "Assistant Professor, DSU" }
+      { name: "Dr. Sneha Sharma", role: "Assistant Professor, DSU" },
+      
     ]
   },
   {
     title: "Technical Program Committee",
     members: [
-      { name: "Dr. Theodre Chandra", role: "Associate Professor, DSU" },
-      { name: "Dr. Gayathri K M", role: "Associate Professor, DSU" },
-      { name: "Dr. BM Ashwin Desai", role: "Associate Professor, DSU" },
-      { name: "Dr. Shirshendu Roy", role: "Assistant Professor, DSU" },
-      { name: "Dr. Godfrey", role: "Assistant Professor, DSU" },
+      { name: "Dr. Theodre Chandra [Track-1 Chair]", role: "Associate Professor, DSU" },
+      { name: "Dr. Gayathri K M  [Track-2 Chair]", role: "Associate Professor, DSU" },
+     
+      { name: "Dr. Shirshendu Roy  [[Track-3 Chair]]", role: "Assistant Professor, DSU" },
+      { name: "Dr. Godfrey  [Track-4 Chair]", role: "Assistant Professor, DSU" },
+       { name: "Dr. BM Ashwin Desai [Track-5 Chair]", role: "Associate Professor, DSU" },
       { name: "Dr. Ambar Bajpai", role: "IEEE Bangalore Section Execom Member 2025" },
       { name: "Dr. Mahesh A", role: "Treasurer, IEEE Bangalore Section 2025" },
-      { name: "Dr. Anandi Giridharan", role: "IEEE Bangalore Section Execom Membe 2025" }
+      { name: "Dr. Anandi Giridharan", role: "IEEE Bangalore Section Execom Membe 2025" },
+      { name: "Dr. Manoj Tolani", role: "Assistant Professor, MIT, MAHE, Manipal, India" },
+      { name: "Dr. Karan Verma", role: "Assistant Professor, NIT Delhi, India" },
+      { name: "Dr. Yogesh Saria", role: "Assistant Professor, SGSITS Indore, India" },
+      { name: "Dr. KSH Milan", role: "Assistant Professor, NIT Manipur, India" },
+      { name: "Dr. Vrince Vimal", role: "Professor, GEHU Dehradun, India" },
+      { name: "Dr. Arvind R Yadav", role: "Professor, Parul University, Vadodara, India" },
+      { name: "Dr. Lunchakorn Wuttisittikulkij", role: "Associate Professor, Chulalongkorn University, Thailand" },
+      { name: "Dr. Deepika Koundal", role: "Senior Researcher, University of Eastern Finland, Finland" },
+      { name: "Dr. Anuj Tiwari ", role: "Senior Research Associate, University of Illinois System, Chicago" },
+      { name: "Wen Cheng Lai", role: "Professor , National Taiwan University of Science and Technology, Taiwan" },
+      { name: "Dr. Debabrata Samanta", role: "Assistant Professor, Rochester Institute of Technology, Kosovo" },
     ]
   },
   {
@@ -71,22 +86,21 @@ const committees = [
       { name: "Dr. Supraja Eduru", role: "Assistant Professor, DSU" }
     ]
   }
-
 ];
 
 const student =[
       {
-    title : "Guided By",
+    title : "Web Master",
     members:[
           { name: "Dr. BM Ashwin Desai", role: "Associate Professor, DSU" },
-        {name : "Ritesh Kumar ", role : "Student Volunteer"},
-        {name : "Prokshith J.S", role : "Student Volunteer"},
+        {name : "Mr. Ritesh Kumar ", role : "Student Volunteer"},
+        {name : "Mr. Prokshith J.S", role : "Student Volunteer"},
     ]
   }
 ]
 const CommitteeTables = () => {
   return (
-    <div>
+    <div className="mb-2.5">
       <div className="space-y-8 p-4 px-20">
         {committees.map((committee, idx) => (
           <div key={idx}>
@@ -118,7 +132,7 @@ const CommitteeTables = () => {
             <table className="min-w-full border border-gray-300">
               <thead className="bg-gray-200">
                 <tr>
-                  <th className="  border px-4 py-2 text-left">Name</th>
+                  <th className=" w-1/2 border px-4 py-2 text-left">Name</th>
                   <th className=" border px-4 py-2 text-left">Role</th>
                 </tr>
               </thead>

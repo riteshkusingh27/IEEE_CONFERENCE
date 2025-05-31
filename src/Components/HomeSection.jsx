@@ -46,13 +46,13 @@ const HomeSection = () => {
       </div>
 
       <EventCarousel />
-      <section className="w-full min-h-screen flex flex-col items-center justify-center px-4 md:px-6 py-10">
+      <section className="w-full min-h-screen flex flex-col items-center justify-center px-4 md:px-6 py-5">
         {/* Content */}
         <div className="text-center mb-10 px-4 md:px-0">
           <h1 className="text-2xl md:text-3xl font-bold text-gray-800">
          
-             <span className="bg-gradient-to-r from-blue-800 to-orange-600 text-transparent bg-clip-text md:text-4xl md:mb-3">
-    IEEE International Conference on Disruptive Technologies for <br /> Multi-Disciplinary Research and Applications
+             <span className="text-orange-600  bg-clip-text md:text-4xl md:mb-3">
+     International Conference on Disruptive Technologies for <br /> Multi-Disciplinary Research and Applications
   </span>
           </h1>
            <p className="text-sm md:text-xl text-black px-2  md:mt-2 md:px-0">
@@ -85,7 +85,7 @@ Multi-Disciplinary Research and Applications</span>.This conference aims to serv
         {/* Chief Patron & Patron Sections */}
       <div className="patronsection">
       
-      <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-6 text-center">Chief Patron</h2>
+      <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-6 text-center">Chief Patrons</h2>
       <div className="chiefpatron flex justify-center">
       <Guests />
       </div>
