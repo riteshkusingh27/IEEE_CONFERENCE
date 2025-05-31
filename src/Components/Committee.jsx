@@ -155,36 +155,36 @@ const committeeSections = [
     ],
   
   }
-  ,
-  {
-    title: "Conference Co-Chairs",
-    members: [
-      {
-        name: "Dr. BM Ashwin Desai",
-        role: "Associate Professor, DSU", 
-        image:   ashwin     ,
-      },
-      {
-        name:" Dr. Gaythri KM",
-        role: "Associate Professor, DSU",
-        image: gaythri,
-      },
+  // ,
+  // {
+  //   title: "Conference Co-Chairs",
+  //   members: [
+  //     {
+  //       name: "Dr. BM Ashwin Desai",
+  //       role: "Associate Professor, DSU", 
+  //       image:   ashwin     ,
+  //     },
+  //     {
+  //       name:" Dr. Gaythri KM",
+  //       role: "Associate Professor, DSU",
+  //       image: gaythri,
+  //     },
      
-    ],
+  //   ],
   
-  },
-  {
-    title: "Finance Chair",
-    members: [
+  // },
+  // {
+  //   title: "Finance Chair",
+  //   members: [
       
-      {
-        name: "Dr. Sneha Sharma",
-        role: "Assistant Professor, DSU",
-        image:snehasharma,
-      }
-    ],
+  //     {
+  //       name: "Dr. Sneha Sharma",
+  //       role: "Assistant Professor, DSU",
+  //       image:snehasharma,
+  //     }
+  //   ],
   
-  },
+  // },
   // ,
   // {
   //   title: "Publication Chair",

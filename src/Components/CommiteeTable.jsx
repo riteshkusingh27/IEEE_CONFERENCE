@@ -2,6 +2,19 @@ import React from 'react';
 
 const committees = [
   {
+    title: "Conference Co-Chairs",
+    members: [
+      { name: "Dr. BM Ashwin Desai", role: "Associate Professor, DSU" },
+      { name: "Dr. Gaythri KM", role: "Associate Professor, DSU" },
+    ]
+  },
+  {
+    title: "Finance Chair",
+    members: [
+      { name: "Dr. Sneha Sharma", role: "Assistant Professor, DSU" }
+    ]
+  },
+  {
     title: "Publication Chair",
     members: [
       { name: "Dr. Owais Ahmad Shah", role: "Assistant Professor, DSU" }
