@@ -6,7 +6,7 @@ const   Patron = () => {
         {[
         { name: 'Dr. Amit R Bhatt', desc: ' Vice Chancellor, DSU', img: './images/dramitbhatt.jpeg' },
           { name: 'Prof. R Janardhan', desc: 'Pro-Vice Chancellor, DSU', img: './images/udk.jpg' }, 
-          {name:'Dr.Prakash Sheelvanthmath' , desc : 'Pro-Vice Chancellor, DSU' , img : './images/covice.png'},
+          {name:'Dr. Prakash Sheelvanthmath' , desc : 'Pro-Vice Chancellor, DSU' , img : './images/covice.png'},
            { name: 'Dr Puttamadappa C', desc: 'Registrar, DSU', img: './images/drputtamadappa.jpeg' },
           
         ].map((person, index) => (
