@@ -19,7 +19,7 @@ const committees = [
     title: "Finance Committee",
     members: [
       { name: "Dr. Vinu R", role: "Associate Professor, DSU" },
-       { name: "Dr. Navya R", role: "Associate Professor, DSU" },
+       { name: "Dr. Navya R", role: "Assistant Professor, DSU" },
     ]
   },
   {
@@ -45,7 +45,7 @@ const committees = [
        { name: "Dr. Lunchakorn Wuttisittikulkij", role: "Associate Professor, Chulalongkorn University, Thailand" },
       { name: "Dr. Deepika Koundal", role: "Senior Researcher, University of Eastern Finland, Finland" },
       { name: "Dr. Anuj Tiwari ", role: "Senior Research Associate, University of Illinois System, Chicago" },
-      { name: "Wen Cheng Lai", role: "Professor , National Taiwan University of Science and Technology, Taiwan" },
+      { name: "Dr. Wen Cheng Lai", role: "Professor , National Taiwan University of Science and Technology, Taiwan" },
       { name: "Dr. Debabrata Samanta", role: "Assistant Professor, Rochester Institute of Technology, Kosovo" },
       { name: "Dr. Girisha G S", role: "Professor & Chairperson CSE, DSU" },
       { name: "Dr. Jayavrinda Vrindavanam V", role: "Professor and Chairperson, CSE(AI and ML), DSU" },
@@ -70,7 +70,7 @@ const committees = [
 
 
 
-      { name: "Dr. Ambar Bajpai", role: "Associate. Prof ,Gitam University, Bangalore, India" },
+      { name: "Dr. Ambar Bajpai", role: "Associate Professor ,Gitam University, Bangalore, India" },
       { name: "Dr. Mahesh A", role: "Associate Professor ,ECE Dept ,RV College of Engineering, Banglore,India" },
       { name: "Dr. Anandi Giridharan", role: "Principal Research Scientist  ECE Dept, IISc, Banglore,India" },
       { name: "Dr. Manoj Tolani", role: "Assistant Professor, MIT, MAHE, Manipal, India" },
@@ -102,6 +102,7 @@ const committees = [
       { name: "Dr. Divyashree H B", role: "Assistant Professor, DSU" },
       { name: "Dr. Rashmita Sahoo", role: "Assistant Professor, DSU" },
       { name: "Dr. Deepthi Chamkur V", role: "Assistant Professor, DSU" },
+       { name: "Dr. Supraja Eduru", role: "Assistant Professor, DSU" },
       { name: "Dr. G Santhosh", role: "Assistant Professor, DSU" },
       { name: "Mrs. Kanmani B.S", role: "Assistant Professor, DSU" },
       { name: "Mr. Abhinav Karan", role: "Assistant Professor, DSU" },
@@ -111,7 +112,7 @@ const committees = [
       { name: "Ms. Jaishree Ramadevaru", role: "Assistant Professor, DSU" },
       { name: "Ms. Jisy N K", role: "Assistant Professor, DSU" },
       { name: "Mr. V Sudharsan", role: "Assistant Professor, DSU" },
-      { name: "Dr. Supraja Eduru", role: "Assistant Professor, DSU" }
+     
     ]
   }
 ];
