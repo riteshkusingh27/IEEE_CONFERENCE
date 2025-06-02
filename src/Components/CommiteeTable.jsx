@@ -85,7 +85,7 @@ const committees = [
   {
     title: "Publicity Committee",
     members: [
-      { name: "Dr. Navya R  [Publicity Chair]", role: "Associate Professor, DSU" },
+      { name: "Dr. Navya R  [Publicity Chair]", role: "Assistant Professor, DSU" },
       { name: "Mrs. Manasa K R", role: "Assistant Professor, DSU" },
       { name: "Mr. Puneeth S", role: "Assistant Professor, DSU" },
       { name: "Mr. Nadeem Pasha", role: "Assitant Professor, DSU" },
