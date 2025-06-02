@@ -28,7 +28,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="text-center mb-4 md:mb-0">
-          <p>&copy; All rights reserved. <br/> <b className='text-pink-100'>IEEE SPS, IEEE MTTS, IEEE CEDA & IEEE RAS</b></p>
+          <p>&copy; All rights reserved. <br/> <b className='text-pink-100'>IEEE SPS, IEEE MTTS, IEEE CEDA, IEEE TEMS & IEEE RAS</b></p>
         </div>
         <div className="flex space-x-3 justify-center md:justify-end items-center">
           <a href="#"><img src={linkdein} alt="LinkedIn" className="w-6 h-6" /></a>

@@ -16,17 +16,20 @@ const committees = [
     ]
   },
   {
-    title: "Finance Chair",
+    title: "Finance Committee",
     members: [
-      { name: "Dr. Sneha Sharma", role: "Assistant Professor, DSU" }
+      { name: "Dr. Vinu R", role: "Associate Professor, DSU" },
+       { name: "Dr. Navya R", role: "Associate Professor, DSU" },
     ]
   },
   {
     title: "Publication Committee",
     members: [
-       { name: "Dr. Owais Ahmad Shah       [Publication Chair]", role: "Assistant Professor, DSU" },
+        { name: "Dr. Sneha Sharma [Publication Chair]", role: "Assistant Professor, DSU" },
+       { name: "Dr. Owais Ahmad Shah       ", role: "Assistant Professor, DSU" },
       { name: "Dr. Pushpamala", role: "Associate Professor, DSU" },
-      { name: "Dr. Sneha Sharma", role: "Assistant Professor, DSU" },
+    
+      { name: "Dr. Godfrey", role: "Assistant Professor, DSU" },
       
     ]
   },
@@ -36,32 +39,57 @@ const committees = [
       { name: "Dr. Theodre Chandra [Track-1 Chair]", role: "Associate Professor, DSU" },
       { name: "Dr. Gayathri K M  [Track-2 Chair]", role: "Associate Professor, DSU" },
      
-      { name: "Dr. Shirshendu Roy  [[Track-3 Chair]]", role: "Assistant Professor, DSU" },
-      { name: "Dr. Godfrey  [Track-4 Chair]", role: "Assistant Professor, DSU" },
+      { name: "Dr. Shirshendu Roy  [Track-3 Chair]", role: "Assistant Professor, DSU" },
+      { name: "Dr. Arungalai Vendan [Track-4 Chair]", role: "Associate Professor, DSU" },
        { name: "Dr. BM Ashwin Desai [Track-5 Chair]", role: "Associate Professor, DSU" },
-      { name: "Dr. Ambar Bajpai", role: "IEEE Bangalore Section Execom Member 2025" },
-      { name: "Dr. Mahesh A", role: "Treasurer, IEEE Bangalore Section 2025" },
-      { name: "Dr. Anandi Giridharan", role: "IEEE Bangalore Section Execom Membe 2025" },
+       { name: "Dr. Lunchakorn Wuttisittikulkij", role: "Associate Professor, Chulalongkorn University, Thailand" },
+      { name: "Dr. Deepika Koundal", role: "Senior Researcher, University of Eastern Finland, Finland" },
+      { name: "Dr. Anuj Tiwari ", role: "Senior Research Associate, University of Illinois System, Chicago" },
+      { name: "Wen Cheng Lai", role: "Professor , National Taiwan University of Science and Technology, Taiwan" },
+      { name: "Dr. Debabrata Samanta", role: "Assistant Professor, Rochester Institute of Technology, Kosovo" },
+      { name: "Dr. Girisha G S", role: "Professor & Chairperson CSE, DSU" },
+      { name: "Dr. Jayavrinda Vrindavanam V", role: "Professor and Chairperson, CSE(AI and ML), DSU" },
+      { name: "Dr. Shaila S G", role: "Professor and Chairperson, CSE(AI and Data Science), DSU" },
+      { name: "Dr. Durbadal Chattaraj", role: "Associate Professor and Chairperson, CSE(Cyber Security" },
+      { name: "Dr. Pramod Kumar Naik", role: "Associate Professor and Chairperson, AI & Robotics, DSU" },
+      { name: "Dr. Vinayak B Hemadri", role: "Professor and Chairperson, ME , DSU" },
+      { name: "Dr M Shahina Parveen", role: "Professor and Chairperson, CST , DSU" },
+      { name: "Dr. Nagaraja S R", role: "Professor and Chairperson, Aerospace , DSU" },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      { name: "Dr. Ambar Bajpai", role: "Associate. Prof ,Gitam University, Bangalore, India" },
+      { name: "Dr. Mahesh A", role: "Associate Professor ,ECE Dept ,RV College of Engineering, Banglore,India" },
+      { name: "Dr. Anandi Giridharan", role: "Principal Research Scientist  ECE Dept, IISc, Banglore,India" },
       { name: "Dr. Manoj Tolani", role: "Assistant Professor, MIT, MAHE, Manipal, India" },
       { name: "Dr. Karan Verma", role: "Assistant Professor, NIT Delhi, India" },
       { name: "Dr. Yogesh Saria", role: "Assistant Professor, SGSITS Indore, India" },
       { name: "Dr. KSH Milan", role: "Assistant Professor, NIT Manipur, India" },
       { name: "Dr. Vrince Vimal", role: "Professor, GEHU Dehradun, India" },
       { name: "Dr. Arvind R Yadav", role: "Professor, Parul University, Vadodara, India" },
-      { name: "Dr. Lunchakorn Wuttisittikulkij", role: "Associate Professor, Chulalongkorn University, Thailand" },
-      { name: "Dr. Deepika Koundal", role: "Senior Researcher, University of Eastern Finland, Finland" },
-      { name: "Dr. Anuj Tiwari ", role: "Senior Research Associate, University of Illinois System, Chicago" },
-      { name: "Wen Cheng Lai", role: "Professor , National Taiwan University of Science and Technology, Taiwan" },
-      { name: "Dr. Debabrata Samanta", role: "Assistant Professor, Rochester Institute of Technology, Kosovo" },
+      
     ]
   },
   {
     title: "Publicity Committee",
     members: [
-      { name: "Dr. Navya R", role: "Associate Professor, DSU" },
+      { name: "Dr. Navya R  [Publicity Chair]", role: "Associate Professor, DSU" },
       { name: "Mrs. Manasa K R", role: "Assistant Professor, DSU" },
       { name: "Mr. Puneeth S", role: "Assistant Professor, DSU" },
-      { name: "Mr. Nadeem Pasha", role: "Assitant Professor, DSU" }
+      { name: "Mr. Nadeem Pasha", role: "Assitant Professor, DSU" },
+      { name: "Mrs. Kanmani B.S", role: "Assistant Professor, DSU" },
     ]
   },
   {

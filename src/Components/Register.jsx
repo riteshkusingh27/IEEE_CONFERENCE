@@ -4,20 +4,26 @@ import Footer from './Footer.jsx';
 const registrationData = [
   {
     particulars: "Delegates from Industry",
-    indiandelegates: "10000",
-    indianDelegateIeee: "8500",
+    indiandelegates: "₹10000",
+    indianDelegateIeee: "₹8500",
   },
   {
     particulars: "Delegates from Academia",
-    indiandelegates: "8500",
-    indianDelegateIeee: "7000",
+    indiandelegates: "₹8500",
+    indianDelegateIeee: "₹7000",
   },
   {
     particulars: "Accompanying Person",
-    indiandelegates: "2000",
-    indianDelegateIeee: "1000",
+    indiandelegates: "₹2000",
+    indianDelegateIeee: "₹1000",
+  },
+  {
+    particulars:"Foreign Delegates",
+    indiandelegates : "$250",
+    indianDelegateIeee :"$150"
   }
 ];
+
 
 const Register = () => {
   return (
@@ -28,8 +34,8 @@ const Register = () => {
           <thead className="bg-gray-200">
             <tr>
               <th className="w-1/2 border px-4 py-2 text-left">Particulars</th>
-              <th className="border px-4 py-2 text-left">Indian Delegates</th>
-              <th className="border px-4 py-2 text-left">Indian Delegates-IEEE Members</th>
+              <th className="border px-4 py-2 text-left">Non IEEE Members</th>
+              <th className="border px-4 py-2 text-left">IEEE Members</th>
             </tr>
           </thead>
           <tbody>

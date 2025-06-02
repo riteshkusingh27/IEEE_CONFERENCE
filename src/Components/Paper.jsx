@@ -60,12 +60,13 @@ Multi-Disciplinary Research and Applications 2026 –  Bridging AI, Sensing, and
         <li>Wearable and Ubiquitous Computing: Smart textiles, AI-powered wearables, bio-feedback systems.</li>
         <li>Edge and Embedded AI Systems: On-device ML, hardware acceleration for AI, AI-powered IoT.</li>
         <li>AI in Education and Learning Technologies: Personalized learning, AI tutors, gamification in education.</li>
+         <li>Network Security & Cybersecurity: AI-driven threat detection, automated security protocols, AI-enhanced cyber defense systems.</li>
         <li>Applications: Smart cities, AI in personal assistants, cognitive AI in entertainment.</li>
       </ul>
     </li>
 
     <li className='mt-5'>
-      <span className='font-bold'>TRACK 4 - AI-Enabled Autonomous Systems and Intelligent Automatio </span>
+      <span className='font-bold'>TRACK 4 - AI-Enabled Autonomous Systems and Intelligent Automation </span>
       <ul className='list-disc ml-6'>
         <li>Autonomous Robotics and AI: Reinforcement learning for robotics, multi-agent systems, robot perception and navigation.</li>
         <li>Intelligent Transportation and Smart Mobility: AI in self-driving cars, UAVs, AI-powered logistics.</li>
@@ -75,6 +76,7 @@ Multi-Disciplinary Research and Applications 2026 –  Bridging AI, Sensing, and
         <li>Edge AI in Autonomous Systems: Federated learning for autonomous systems, AI-driven decision-making at the edge.</li>
         <li>Energy Efficiency in AI-Enabled Automation: AI-powered optimization, smart grid integration, sustainable automation.</li>
         <li>Applications: AI in space exploration, agricultural robotics, disaster response automation.</li>
+       
       </ul>
     </li>
 
@@ -91,7 +93,7 @@ Multi-Disciplinary Research and Applications 2026 –  Bridging AI, Sensing, and
 Robotics and Automation in Healthcare: Discussing the role of robotics and automation in surgery, patient care, and hospital operations.</li>
         <li>Natural Language Processing (NLP) in Healthcare: Examining NLP applications in clinical documentation, patient engagement, and medical research.</li>
         <li>Internet of Medical Things (IoMT) and Wearables: Exploring the impact of IoMT and wearables on remote patient monitoring, disease management, and health tracking.</li>
-        <li>Cybersecurity in Healthcare: Addressing the growing concern of cybersecurity threats in healthcare and strategies for protecting sensitive patient data.</li>
+        {/* <li>Cybersecurity in Healthcare: Addressing the growing concern of cybersecurity threats in healthcare and strategies for protecting sensitive patient data.</li> */}
 
         <li>
           AI-Assisted Drug Discovery and Development: Investigating the potential of AI in accelerating drug discovery, development, and repurposing.
