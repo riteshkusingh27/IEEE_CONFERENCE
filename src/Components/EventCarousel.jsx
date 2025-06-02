@@ -8,7 +8,7 @@ const EventCarousel = () => {
     
     
    
-    '/images/dsunight.jpg',
+    '/images/12.jpg',
      './images/image3.jpg',
     '/images/poster1.jpg',
   ];
