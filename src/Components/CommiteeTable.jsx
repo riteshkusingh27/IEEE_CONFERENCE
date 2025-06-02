@@ -95,8 +95,8 @@ const committees = [
   {
     title: "Organizing committee",
     members: [
-      { name: "Dr. Arungalai Vendan", role: "Associate Professor, DSU" },
-      { name: "Dr. Vinu R", role: "Associate Professor, DSU" },
+      // // { name: "Dr. Arungalai Vendan", role: "Associate Professor, DSU" },
+      // { name: "Dr. Vinu R", role: "Associate Professor, DSU" },
       { name: "Dr. Arun Ananthanarayanan", role: "Associate Professor, DSU" },
       { name: "Dr. Mukti Chaturvedi", role: "Assistant Professor, DSU" },
       { name: "Dr. Divyashree H B", role: "Assistant Professor, DSU" },
@@ -104,7 +104,7 @@ const committees = [
       { name: "Dr. Deepthi Chamkur V", role: "Assistant Professor, DSU" },
        { name: "Dr. Supraja Eduru", role: "Assistant Professor, DSU" },
       { name: "Dr. G Santhosh", role: "Assistant Professor, DSU" },
-      { name: "Mrs. Kanmani B.S", role: "Assistant Professor, DSU" },
+    
       { name: "Mr. Abhinav Karan", role: "Assistant Professor, DSU" },
       { name: "Mrs. Kokila S", role: "Assistant Professor, DSU" },
       { name: "Mr. Sharanabasavaraj", role: "Assistant Professor, DSU" },
