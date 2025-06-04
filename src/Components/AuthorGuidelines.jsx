@@ -45,7 +45,7 @@ Multi-Disciplinary Research and Applications 2026  shall contain original work b
             Please note that all accepted papers that are registered and presented in the conference will be sent for possible
             inclusion in IEEE Xplore. The authors must agree to the IEEE copyright conditions and sign the IEEE copyright form
             as part of the online submission process. All submitted papers will be peer-reviewed by the Technical Program
-            Committees (TPC). All papers must be submitted in PDF via EDAS:
+            Committees (TPC). All papers must be Uploaded in PDF via CMT:
             <a href="https://www.ieee.org/conferences/publishing/templates.html" className="text-blue-500 hover:underline"> Click here</a>
           </p>
         </div>

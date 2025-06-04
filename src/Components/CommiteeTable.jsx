@@ -78,7 +78,7 @@ const committees = [
       { name: "Dr. Yogesh Saria", role: "Assistant Professor, SGSITS Indore, India" },
       { name: "Dr. KSH Milan", role: "Assistant Professor, NIT Manipur, India" },
       { name: "Dr. Vrince Vimal", role: "Professor, GEHU Dehradun, India" },
-      { name: "Dr. Arvind R Yadav", role: "Professor, Parul University, Vadodara, India" },
+      { name: "Dr. Arvind R Yadav", role: "Nirma University, Ahmedabad, Gujarat, India" },
       
     ]
   },
