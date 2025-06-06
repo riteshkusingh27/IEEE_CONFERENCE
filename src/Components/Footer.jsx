@@ -7,7 +7,7 @@ import xcom from '../Images/icons/xcom.svg';
 
 const ContactUsButton = () => {
   return (
-  <a href="mailto:riteshkusingh27@gmail.com">
+  <a href="mailto:centcon@dsu.edu.in">
       <button className="flex items-center gap-2 px-4 py-2 bg-black text-white font-semibold rounded-2xl shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all transform hover:scale-105 active:scale-95">
       <Mail size={20} /> Contact Us
     </button>

@@ -28,7 +28,7 @@ const About = () => {
                 <li className="text-xl font-semibold">Department of Electronics And Communication</li>
                 <li className="text-md font-semibold mb-2">DSU SOE (Schoool Of Engineering) </li>
                
-                <li className='text-black font-semibold'>email   : </li>
+                <li className='text-black font-semibold'>email   : <a href="mailto:centcon@dsu.edu.in">centcon@dsu.edu.in</a> </li>
               
               </ul>
             </div>  

@@ -13,7 +13,7 @@ Multi-Disciplinary Research and Applications 2026 :
           
           <h3 className="text-2xl font-bold text-blue-900 mt-4">ORIGINALITY OF SUBMITTED PAPERS</h3>
           <p className="text-lg text-justify">
-            Papers submitted to  IEEE International Conference on Disruptive Technologies for
+            Papers submitted to International Conference on Disruptive Technologies for
 Multi-Disciplinary Research and Applications 2026  shall contain original work by the author(s) that have not been published
             or submitted for publication elsewhere. The IEEE anti-plagiarism policy is applicable to all submissions.
             The author(s) are solely responsible for any plagiarized submission.
