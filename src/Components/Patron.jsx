@@ -4,7 +4,7 @@ const   Patron = () => {
   return (
     <div className="relative z-1 grid grid-cols-1 md:grid-cols-4 gap-10 mb-10  ">
         {[
-        { name: 'Dr. Amit R Bhatt', desc: ' Vice Chancellor, DSU', img: './images/dramitbhatt.jpeg' },
+        { name: 'Prof. B. S. Satyanarayana', desc: ' Vice Chancellor, DSU', img: './images/vc.jpeg' },
           { name: 'Prof. R Janardhan', desc: 'Pro-Vice Chancellor, DSU', img: './images/udk.jpg' }, 
           {name:'Dr. Prakash Sheelvanthmath' , desc : 'Pro-Vice Chancellor, DSU' , img : './images/covice.png'},
            { name: 'Dr Puttamadappa C', desc: 'Registrar, DSU', img: './images/drputtamadappa.jpeg' },
