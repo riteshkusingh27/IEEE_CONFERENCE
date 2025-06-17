@@ -13,18 +13,18 @@ import DrAbhishekAppaji from "/committee/advisory/DrAbhishekAppaji.jpeg";
 import nippun from "/committee/advisory/nippun.jpeg";
 import param from "/committee/advisory/param.jpeg";
 
-// genreal chair 
+// genreal chair
 import udaykumar from "/committee/udaykumar.jpeg";
 
-//conference chair 
+//conference chair
 import drarun from "/committee/drarun.jpeg";
- 
+
 // cochair
-import ashwin from "/committee/cochair/ashwin.jpeg";
+import ashwin from "/committee/cochair/ashwin-new.jpg";
 import gaythri from "/committee/cochair/gaythri.jpeg";
 import snehasharma from "/committee/cochair/snehasharma.jpg";
 
-// technical 
+// technical
 import theodre from "/committee/technical/theodre.jpg";
 import gayathri from "/committee/technical/gayathri.jpeg";
 import shirshendu from "/committee/technical/shirshendu.jpg";
@@ -32,8 +32,6 @@ import godfrey from "/committee/technical/godfrey.jpeg";
 import amarbajapai from "/committee/technical/amarbajapai.jpeg";
 import mahesh from "/committee/technical/mahesh.jpeg";
 import anandi from "/committee/technical/anandi.jpeg";
-
-
 
 // publicity commitee
 import navya from "/committee/publicity/navya.jpeg";
@@ -63,22 +61,13 @@ import sudharshan from "/committee/organizing/sudharshan.jpeg";
 import supraja from "/committee/organizing/supraja2.jpeg";
 import pushpa from "/committee/organizing/pushpa.jpeg";
 
-
-
-
-
-
-
-
-
-
 const committeeSections = [
   {
     title: "Steering Committee",
     members: [
       {
         name: "Dr. Chandrakanta Kumar",
-        role: "ISRO, Chair-2025, IEEE Bangalore Section  ", 
+        role: "ISRO, Chair-2025, IEEE Bangalore Section  ",
         image: drChandrakantaKumar,
       },
       {
@@ -89,48 +78,45 @@ const committeeSections = [
       {
         name: "Dr. T Srinivas ",
         role: "Professor IISC Bengaluru, Chair-2024 IEEE Bangalore Section",
-  
+
         image: drtSrinivas,
       },
     ],
-  
   },
   {
     title: "Advisory Committee ",
     members: [
-    
       {
         name: "Dr. Aloknath De",
         role: "IEEE Bangalore Section Chair 2023",
-        image:aloknath,
+        image: aloknath,
       },
       {
         name: "Dr. Chengappa Munjandira",
         role: "IEEE Bangalore Section Vice-Chair Technical Activities 2025",
-        image:chengappa,
+        image: chengappa,
       },
       {
         name: "Dr. Ashutosh Kedar",
         role: "Execom Member IEEE Bangalore Section",
-        image:ashutosh,
+        image: ashutosh,
       },
       {
         name: "Dr. Abhishek Appaji",
         role: "Treasurer IEEE Education Society (EdSoc) 2025",
-        image:DrAbhishekAppaji,
+        image: DrAbhishekAppaji,
       },
       {
         name: "Dr. A. A. Nippun Kumaar",
         role: "Chair , IEEE RAS Bangalore Chapter 2025",
-        image:nippun,
+        image: nippun,
       },
       {
         name: "Dr. Parameshachari B D	",
         role: "Chair, IEEE CEDA Bangalore Chapter",
-        image:param,
-      }
+        image: param,
+      },
     ],
-  
   },
   // {
   //   title: "General Chair",
@@ -141,105 +127,127 @@ const committeeSections = [
   //       image: udaykumar,
   //     }
   //   ],
-  
+
   // },
-  // {
-  //   title: "Conference Chair",
-  //   members: [
-  //     {
-  //       name: "Dr. Arun Balodi",
-  //       role: "Chairman-ECE, DSU",
-  //       image:drarun,
-  //     },
-      
-  //   ],
-  
-  // }
+  {
+    title: "Conference Chairs",
+    members: [
+      {
+        name: "Dr. Arun Balodi",
+        role: "Chairman-ECE, DSU",
+        desig: "Conference Chair",
+        image: drarun,
+      },
+      {
+        name: "Dr. BM Ashwin Desai",
+        role: "Associate Professor, DSU",
+        desig: "Conference Co-Chair",
+        image: ashwin,
+      },
+      {
+        name: "Dr. Sneha Sharma",
+        role: "Assistant Professor, DSU",
+        desig: "Finance Chair",
+        image: snehasharma,
+      },
+      {
+        name: "Dr. Pushpamala",
+        role: "Associate Professor, DSU",
+        desig: "Publication Chair",
+        image: pushpa,
+      },
+      {
+        name: "Dr. Navya R",
+        role: "Associate Professor, DSU",
+        desig: "Publicity Chair",
+        image: navya,
+      },
+    ],
+  },
   // ,
   // {
   //   title: "Conference Co-Chairs",
   //   members: [
-  //     {
-  //       name: "Dr. BM Ashwin Desai",
-  //       role: "Associate Professor, DSU", 
-  //       image:   ashwin     ,
-  //     },
+  // {
+  //   name: "Dr. BM Ashwin Desai",
+  //   role: "Associate Professor, DSU",
+  //   image:   ashwin     ,
+  // },
   //     {
   //       name:" Dr. Gaythri KM",
   //       role: "Associate Professor, DSU",
   //       image: gaythri,
   //     },
-     
+
   //   ],
-  
+
   // },
   // {
   //   title: "Finance Chair",
   //   members: [
-      
-  //     {
-  //       name: "Dr. Sneha Sharma",
-  //       role: "Assistant Professor, DSU",
-  //       image:snehasharma,
-  //     }
+
+  // {
+  //   name: "Dr. Sneha Sharma",
+  //   role: "Assistant Professor, DSU",
+  //   image:snehasharma,
+  // }
   //   ],
-  
+
   // },
   // ,
   // {
   //   title: "Publication Chair",
   //   members: [
-    
+
   //     {
   //       name: "Dr. Owais Ahmad Shah",
   //       role: "Assistant Professor, DSU",
   //       image: owais,
   //     }
   //   ],
-    
-  
+
   // },
   // ,
   // {
   //   title: "Publication Committee",
   //   members: [
-  //     {
-  //       name: "Dr. Pushpamala",
-  //       role: "Associate Professor, DSU",
-  //       image: pushpa,
-  //     },
+  // {
+  //   name: "Dr. Pushpamala",
+  //   role: "Associate Professor, DSU",
+  //   image: pushpa,
+  // },
   //     {
   //       name: "Dr. Sneha Sharma",
   //       role: "Assistant Professor, DSU",
   //       image: snehasharma,
   //     }
-      
+
   //   ],
-  
+
   // },{
   //   title: "Technical Program Committee",
   //   members: [
   //     {
   //       name: "Dr. Theodre Chandra",
   //       role: "Associate Professor, DSU",
-     
+
   //       image: theodre,
   //     },
   //     {
   //       name: "Dr. Gayathri K M",
   //       role: "Associate Professor, DSU",
-  
+
   //       image: gayathri,
   //     },
   //      {
   //       name: "Dr. BM Ashwin Desai",
-  //       role: "Associate Professor, DSU", 
+  //       role: "Associate Professor, DSU",
   //       image:   ashwin     ,
   //     },
   //     {
   //       name: "Dr. Shirshendu Roy",
   //       role: "Assistant Professor, DSU",
-    
+
   //       image: shirshendu,
   //     },
   //     {
@@ -250,32 +258,32 @@ const committeeSections = [
   //     {
   //       name: "Dr. Ambar Bajpai",
   //       role: "IEEE Bangalore Section Execom Member 2025",
-   
+
   //       image: amarbajapai,
   //     },
   //     {
   //       name: "Dr. Mahesh A",
   //       role: "Treasurer, IEEE Bangalore Section 2025",
-  
+
   //       image: mahesh,
   //     },
   //     {
   //       name: "Dr. Anandi Giridharan",
   //       role: "IEEE Bangalore Section Execom Membe 2025",
-        
+
   //       image: anandi,
   //     }
   //   ],
-  
+
   // },
   // {
   //   title: "Publicity Committee",
   //   members: [
-  //     {
-  //       name: "Dr. Navya R",
-  //       role: "Associate Professor, DSU", 
-  //       image:   navya     ,
-  //     },
+  // {
+  //   name: "Dr. Navya R",
+  //   role: "Associate Professor, DSU",
+  //   image:   navya     ,
+  // },
   //     {
   //       name:" Mrs. Manasa K R",
   //       role: "Assistant Professor, DSU",
@@ -293,7 +301,7 @@ const committeeSections = [
   //       image:nadeem,
   //     }
   //   ],
-  
+
   // },
   // {
   //   "title": "Organizing committee",
@@ -385,16 +393,14 @@ const committeeSections = [
   //     }
   //   ]
   // }
- 
 ];
-  
 
 const Committee = ({ title, members }) => {
   const length = members.length;
 
   let containerClass = "px-20 gap-6";
-    
-  // dynammic css 
+
+  // dynammic css
 
   if (length <= 2) {
     containerClass += " flex justify-center flex-wrap";
@@ -419,7 +425,10 @@ const Committee = ({ title, members }) => {
             </div>
             <div className="p-4 text-center">
               <h3 className="text-lg font-semibold">{member.name}</h3>
-              <p className="text-sm text-gray-500 font-medium">{member.institution}</p>
+              <p className="text-sm text-gray-500 font-medium">
+                {member.institution}
+              </p>
+              <p className="text-sm text-gray-900 font-semibold">{member.desig}</p>
               <p className="text-sm text-gray-600">{member.role}</p>
             </div>
           </div>
@@ -429,15 +438,17 @@ const Committee = ({ title, members }) => {
   );
 };
 
-
 const Committees = () => {
   return (
     <div>
       {committeeSections.map((section, index) => (
-        <Committee key={index} title={section.title} members={section.members} />
-       
+        <Committee
+          key={index}
+          title={section.title}
+          members={section.members}
+        />
       ))}
-       <CommitteeTables/>
+      <CommitteeTables />
     </div>
   );
 };
