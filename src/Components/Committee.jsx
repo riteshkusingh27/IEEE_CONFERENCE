@@ -141,7 +141,7 @@ const committeeSections = [
       {
         name: "Dr. BM Ashwin Desai",
         role: "Associate Professor, DSU",
-        desig: "Conference Co-Chair & TCP Chair",
+        desig: "Conference Co-Chair & TPC Chair",
         image: ashwin,
       },
       {
