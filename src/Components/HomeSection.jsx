@@ -136,9 +136,7 @@ const HomeSection = () => {
 
           <div className="gc flexgap-12 justify-center">
             <div>
-              <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-6 text-center ">
-                Patrons
-              </h2>
+             
               <GeneralChair />
             </div>
 
