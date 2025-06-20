@@ -135,13 +135,13 @@ const committeeSections = [
       {
         name: "Dr. Arun Balodi",
         role: "Chairman-ECE, DSU",
-        desig: "Conference Chair",
+        desig: "General Chair",
         image: drarun,
       },
       {
         name: "Dr. BM Ashwin Desai",
         role: "Associate Professor, DSU",
-        desig: "Conference Co-Chair",
+        desig: "Conference Co-Chair & TCP Chair",
         image: ashwin,
       },
       {

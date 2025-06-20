@@ -2,12 +2,12 @@ import React from 'react'
 // import drhemachandra from '../images/drhemachandra.jpeg'
 const   Patron = () => {
   return (
-    <div className="relative z-1 grid grid-cols-1 md:grid-cols-4 gap-10 mb-10  ">
+    <div className="relative z-1 grid grid-cols-1 md:grid-cols-3 gap-10 mb-10  ">
         {[
         { name: 'Prof. B. S. Satyanarayana', desc: ' Vice Chancellor, DSU', img: './images/vc.jpeg' },
           { name: 'Prof. R Janardhan', desc: 'Pro-Vice Chancellor, DSU', img: './images/udk.jpg' }, 
           {name:'Dr. Prakash Sheelvanthmath' , desc : 'Pro-Vice Chancellor, DSU' , img : './images/covice.png'},
-           { name: 'Dr Puttamadappa C', desc: 'Registrar, DSU', img: './images/drputtamadappa.jpeg' },
+          
           
         ].map((person, index) => (
           <div key={index} className="p-6 bg-white bg-opacity-80 rounded-xl shadow-md text-center hover:shadow-xl transition-all w-70">
