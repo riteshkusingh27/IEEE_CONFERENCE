@@ -55,8 +55,8 @@ const committees = [
         role: "Associate Professor, DSU",
       },
       {
-        name: "Dr. Arungalai Vendan [Track-4 Chair]",
-        role: "Associate Professor, DSU",
+        name: "Dr. Arungalai [Track-4 Chair]",
+        role: "Professor, DSU",
       },
       {
         name: "Dr. BM Ashwin Desai [Track-5 Chair]",
