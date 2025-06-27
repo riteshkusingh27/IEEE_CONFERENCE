@@ -42,11 +42,12 @@ const About = () => {
               </a>
              </did>
             <div>
-            <p className="text-xl font-semibold text-black">Dayananda Sagar University Devarakaggalahalli, Harohalli,</p>
-           <a href="https://maps.app.goo.gl/A8f3w5wD62Y21JdD8" className=''>
+              <a href="https://maps.app.goo.gl/A8f3w5wD62Y21JdD8" className=''>
+            <p className="text-xl font-semibold text-blue-900">Dayananda Sagar University  <br />Devarakaggalahalli, Harohalli, Kanakapura Road <br /> Bengaluru South District - 562112</p>
+           
            <div className="dirtodsu text-blue-900">
-             <p className="text-lg  ">Kanakapura Road, Ramanagara District,</p>
-             <p className="text-lg  ">Bengaluru – 562 112, Karnataka, India. </p>
+             {/* <p className="text-lg  ">Kanakapura Road, Bengaluru South District - 562112</p> */}
+             {/* <p className="text-lg  ">Bengaluru – 562 112, Karnataka, India. </p> */}
              </div>
            </a>
             </div>
