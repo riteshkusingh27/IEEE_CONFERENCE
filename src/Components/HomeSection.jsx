@@ -66,6 +66,7 @@ const HomeSection = () => {
             Safer, and Sustainable World.
           </p>
           <p className="text-md md:text-lg bold font-bold md:mb-3 ">
+            <span className="pt-3 font-bold font">CENTCON 2026 </span> <br /> 
             23rd & 24th January 2026
           </p>
 
@@ -95,7 +96,7 @@ const HomeSection = () => {
       (M.Tech in Embedded Systems) programs designed to equip students with the necessary skills to excel in the industry. In line with our
       commitment to advancing knowledge and fostering innovation, DSU and the Department of ECE are proud to organize{" "}
       <span className="font-bold">
-        International Conference on Disruptive Technologies for Multi-Disciplinary Research and Applications
+        International Conference on Disruptive Technologies for Multi-Disciplinary Research and Applications (Centcon 2026)
       </span>
       . This conference aims to serve as a global platform for researchers, industry experts, and academicians to exchange ideas and explore
       breakthroughs in AI, nanotechnology, embedded intelligence, and autonomous systems.
