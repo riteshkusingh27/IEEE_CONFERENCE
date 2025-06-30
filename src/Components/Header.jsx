@@ -51,7 +51,7 @@ const Header = () => {
             </li>
             <li>
               <NavLink to="/register" className="text-indigo-700 hover:text-black text-lg font-semibold">
-                Register
+                Registration
               </NavLink>
             </li>
             

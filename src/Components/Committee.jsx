@@ -158,7 +158,7 @@ const committeeSections = [
       },
       {
         name: "Dr. Navya R",
-        role: "Associate Professor, DSU",
+        role: "Assistant Professor, DSU",
         desig: "Publicity Chair",
         image: navya,
       },
