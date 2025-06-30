@@ -428,7 +428,9 @@ const Committee = ({ title, members }) => {
               <p className="text-sm text-gray-500 font-medium">
                 {member.institution}
               </p>
-              <p className="text-sm text-gray-900 font-semibold">{member.desig}</p>
+              <p className="text-sm text-gray-900 font-semibold">
+                {member.desig}
+              </p>
               <p className="text-sm text-gray-600">{member.role}</p>
             </div>
           </div>

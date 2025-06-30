@@ -282,8 +282,6 @@ const Paper = () => {
         </ul>
       </div> */}
 
-       
-
         <div className="ml-10 text-xl mt-2 pr-5 flex flex-col text-center">
           <p className="mb-3 text-justify ml-4 underline text-orange-800">
             To ensure a rigorous and transparent review process, the following
@@ -293,38 +291,44 @@ const Paper = () => {
           <ul className="text=justify list-disc ml-8">
             <li className="text-justify pb-3">
               <span className="font-bold text-justify">
-                Paper Identification :  
+                Paper Identification :
               </span>
               Each submitted paper is assigned a unique Paper ID to anonymize
               author details, ensuring a double-blind review process.
             </li>
             <li className="text-justify pb-3">
-              <span className="font-bold text-justify">
-                Plagiarism Check :
-              </span>
+              <span className="font-bold text-justify">Plagiarism Check :</span>
               All papers undergo a thorough plagiarism check. Submissions with a
               similarity index exceeding 10% will be rejected, and authors will
               be notified accordingly.
             </li>
             <li className="text-justify pb-3">
               <span className="font-bold text-justify">
-               Initial Shortlisting : 
+                Initial Shortlisting :
               </span>
-              Papers passing the plagiarism check are shortlisted and sent for two rounds of peer review. Reviewers will receive a link to provide their comments and feedback.
+              Papers passing the plagiarism check are shortlisted and sent for
+              two rounds of peer review. Reviewers will receive a link to
+              provide their comments and feedback.
             </li>
             <li className="text-justify">
-              <span className="font-bold text-justify">
-               Final Selection : 
-              </span>
-              Authors of selected papers will be notified to submit their camera-ready versions in the specified conference template. Details regarding registration fees and deadlines will be communicated along with the notification.
+              <span className="font-bold text-justify">Final Selection :</span>
+              Authors of selected papers will be notified to submit their
+              camera-ready versions in the specified conference template.
+              Details regarding registration fees and deadlines will be
+              communicated along with the notification.
             </li>
           </ul>
-          <p className="font-bold mt-6 text-gray-900">This structured process ensures the highest standards of academic integrity and quality for all papers presented at the conference.Accepted papers will undergo rigorous peer review, and selected works will be considered for publication in IEEE Xplore.</p>
+          <p className="font-bold mt-6 text-gray-900">
+            This structured process ensures the highest standards of academic
+            integrity and quality for all papers presented at the
+            conference.Accepted papers will undergo rigorous peer review, and
+            selected works will be considered for publication in IEEE Xplore.
+          </p>
 
-           <p className="text-lg ml-10 pr-10 mt-2 font-bold">
-          Kindly note that Papers once submitted can not be updated. Paper
-          review process will immediately start as soon as it is submitted.
-        </p>
+          <p className="text-lg ml-10 pr-10 mt-2 font-bold">
+            Kindly note that Papers once submitted can not be updated. Paper
+            review process will immediately start as soon as it is submitted.
+          </p>
         </div>
         <div className="submit mt-6 flex text-center justify-center ">
           <a href="https://www.ieee.org/" className=" ">

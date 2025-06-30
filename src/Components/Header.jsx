@@ -5,7 +5,6 @@ import ieebangalore from "../Images/icons/ieeeblue.jpeg";
 import centcon from "../Images/centcon.png";
 import centcon2 from "../Images/centcon2.png";
 
-
 const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -14,11 +13,17 @@ const Header = () => {
       <div className="w-full flex flex-col md:flex-row items-center justify-between px-4 py-3  ">
         {/* Logo Section */}
         <div className="flex align-middle items-center space-x-2 mb-4 md:mb-0">
-        <a href="https://www.dsu.edu.in/" className="dsu">  <img src={logo} className="h-16 object-contain mr-0.5" alt="Logo" /></a>
+          <a href="https://www.dsu.edu.in/" className="dsu">
+            {" "}
+            <img src={logo} className="h-16 object-contain mr-0.5" alt="Logo" />
+          </a>
 
-
-        {/* iee banaglore  */}
-          <a href="https://www.ieee.org/" target="_blank" rel="noopener noreferrer">
+          {/* iee banaglore  */}
+          <a
+            href="https://www.ieee.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={ieebangalore} className="h-13 w-40 " alt="IEEE Logo" />
           </a>
           {/* appending centcon logo here */}
@@ -29,45 +34,56 @@ const Header = () => {
         <div className="flex-1 flex justify-center">
           <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6">
             <li>
-              <NavLink to="/" className="text-indigo-700 hover:text-black text-lg font-semibold">
+              <NavLink
+                to="/"
+                className="text-indigo-700 hover:text-black text-lg font-semibold"
+              >
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink to="/about" className="text-indigo-700 hover:text-black text-lg font-semibold">
+              <NavLink
+                to="/about"
+                className="text-indigo-700 hover:text-black text-lg font-semibold"
+              >
                 About
               </NavLink>
             </li>
-            
+
             <li>
-              <NavLink to="/committee" className="text-indigo-700 hover:text-black text-lg font-semibold">
-               Committee
+              <NavLink
+                to="/committee"
+                className="text-indigo-700 hover:text-black text-lg font-semibold"
+              >
+                Committee
               </NavLink>
             </li>
             <li>
-              <NavLink to="/call-for-papers" className="text-indigo-700 hover:text-black text-lg font-semibold">
-               Call for Papers
+              <NavLink
+                to="/call-for-papers"
+                className="text-indigo-700 hover:text-black text-lg font-semibold"
+              >
+                Call for Papers
               </NavLink>
             </li>
             <li>
-              <NavLink to="/register" className="text-indigo-700 hover:text-black text-lg font-semibold">
+              <NavLink
+                to="/register"
+                className="text-indigo-700 hover:text-black text-lg font-semibold"
+              >
                 Registration
               </NavLink>
             </li>
-            
+
             <li>
-              
-              <NavLink to="/speakers" className="text-indigo-700 hover:text-black text-lg font-semibold">
+              <NavLink
+                to="/speakers"
+                className="text-indigo-700 hover:text-black text-lg font-semibold"
+              >
                 Speakers
               </NavLink>
             </li>
-           
-            
-          
-                  
-                  
 
-          
             <li className="relative">
               <button
                 onClick={() => setIsDropdownOpen(!isDropdownOpen)}
@@ -77,7 +93,6 @@ const Header = () => {
               </button>
               {isDropdownOpen && (
                 <ul className="absolute left-0  w-48 bg-white border border-gray-300 rounded-lg shadow-lg z-20 ">
-                 
                   <li>
                     <NavLink
                       to="/author-guidelines"
@@ -99,7 +114,6 @@ const Header = () => {
                 </ul>
               )}
             </li>
-           
           </ul>
         </div>
 
@@ -115,7 +129,7 @@ const Header = () => {
           </a>
         </div>
         <div className="submit flex text-center justify-center mt-4 md:mt-0">
-    {/* <a href="https://www.ieee.org/" className=' '>
+          {/* <a href="https://www.ieee.org/" className=' '>
            <button
              type="button"
              className="text-white text-sm bg-gradient-to-r from-orange-500 to-orange-600   focus:ring-indigo-300 font-bold rounded-xl px-7 py-2 mx-5shadow-lg transition-transform duration-300 hover:scale-105  "
@@ -123,8 +137,7 @@ const Header = () => {
              SUBMIT
            </button> 
          </a> */}
-    </div>
-        
+        </div>
       </div>
     </nav>
   );

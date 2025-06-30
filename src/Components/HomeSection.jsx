@@ -66,7 +66,10 @@ const HomeSection = () => {
             Safer, and Sustainable World.
           </p>
           <p className="text-md md:text-lg bold font-bold md:mb-3  text-stone-900">
-            <span className="pt-3 font-extrabold font text-indigo-600">CENTCON 2026 </span> <br /> 
+            <span className="pt-3 font-extrabold font text-indigo-600">
+              CENTCON 2026{" "}
+            </span>{" "}
+            <br />
             23rd & 24th January 2026
           </p>
 
@@ -79,55 +82,88 @@ const HomeSection = () => {
         </div>
 
         {/* About Us Section */}
-       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-7 px-4 md:px-0">
-  <div className="md:col-span-2 p-4 md:p-6 bg-white rounded-lg shadow-lg">
-    <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-4">About Us</h2>
-    <p className="text-black text-sm md:text-lg text-justify">
-      Dayananda Sagar University (DSU), established in 2014, is a premier private university located in Bengaluru, Karnataka, India.
-      As a proud member of the Dayananda Sagar Institutions (DSI) family, which was founded in the early 1960s by Late Sri Dayananda Sagar,
-      DSU has rapidly evolved into a global educational powerhouse. The university offers a diverse range of undergraduate, postgraduate,
-      and doctoral programs across various disciplines, including engineering, management, health sciences, and arts. With state-of-the-art
-      campuses and a strong emphasis on research and innovation, DSU fosters an environment that encourages creativity, critical thinking,
-      and entrepreneurial spirit.
-      <br />
-      <div className="m-2"></div>
-      The Department of Electronics & Communication Engineering (ECE) at DSU is dedicated to providing high-quality technical education
-      and fostering innovation in the fields of electronics and communication. The department offers undergraduate (B.Tech) and postgraduate
-      (M.Tech in Embedded Systems) programs designed to equip students with the necessary skills to excel in the industry. In line with our
-      commitment to advancing knowledge and fostering innovation, DSU and the Department of ECE are proud to organize{" "}
-      <span className="font-bold">
-        International Conference on Disruptive Technologies for Multi-Disciplinary Research and Applications (Centcon 2026)
-      </span>
-      . This conference aims to serve as a global platform for researchers, industry experts, and academicians to exchange ideas and explore
-      breakthroughs in AI, nanotechnology, embedded intelligence, and autonomous systems.
-    </p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-7 px-4 md:px-0">
+          <div className="md:col-span-2 p-4 md:p-6 bg-white rounded-lg shadow-lg">
+            <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-4">
+              About Us
+            </h2>
+            <p className="text-black text-sm md:text-lg text-justify">
+              Dayananda Sagar University (DSU), established in 2014, is a
+              premier private university located in Bengaluru, Karnataka, India.
+              As a proud member of the Dayananda Sagar Institutions (DSI)
+              family, which was founded in the early 1960s by Late Sri Dayananda
+              Sagar, DSU has rapidly evolved into a global educational
+              powerhouse. The university offers a diverse range of
+              undergraduate, postgraduate, and doctoral programs across various
+              disciplines, including engineering, management, health sciences,
+              and arts. With state-of-the-art campuses and a strong emphasis on
+              research and innovation, DSU fosters an environment that
+              encourages creativity, critical thinking, and entrepreneurial
+              spirit.
+              <br />
+              <div className="m-2"></div>
+              The Department of Electronics & Communication Engineering (ECE) at
+              DSU is dedicated to providing high-quality technical education and
+              fostering innovation in the fields of electronics and
+              communication. The department offers undergraduate (B.Tech) and
+              postgraduate (M.Tech in Embedded Systems) programs designed to
+              equip students with the necessary skills to excel in the industry.
+              In line with our commitment to advancing knowledge and fostering
+              innovation, DSU and the Department of ECE are proud to organize{" "}
+              <span className="font-bold">
+                International Conference on Disruptive Technologies for
+                Multi-Disciplinary Research and Applications (Centcon 2026)
+              </span>
+              . This conference aims to serve as a global platform for
+              researchers, industry experts, and academicians to exchange ideas
+              and explore breakthroughs in AI, nanotechnology, embedded
+              intelligence, and autonomous systems.
+            </p>
 
-    {/* 🔽 Key Highlights Section */}
-   
-  </div>
+            {/* 🔽 Key Highlights Section */}
+          </div>
 
-  <div className="col-span-1">
-    <News />
-  </div>
-</div>
+          <div className="col-span-1">
+            <News />
+          </div>
+        </div>
         <div className="flex justify-center mb-7 ">
-           <div className="mt-5  rounded-lg bg-white py-7 px-4  shadow md:shadow-xl">
-      <h3 className="text-xl md:text-3xl font-bold text-gray-800 mb-4 pl-3 pb-2">Key Highlights</h3>
-      <ul className="list-disc pl-5 space-y-3 text-md md:text-lg text-justify text-black font-medium px-6">
-        <li>
-          <span className="font-bold text-black">Global Expertise:</span> Esteemed international speakers will deliver keynote addresses and technical sessions.
-        </li>
-        <li>
-          <span className="font-bold text-black">Publication Opportunities:</span> All peer-reviewed, selected, and presented papers will be submitted for potential inclusion in reputed Scopus-indexed journals, ensuring global visibility for the research.
-        </li>
-        <li>
-          <span className="font-bold text-black">Collaborative Engagement:</span> The conference provides a unique opportunity for participants to network with global experts, industry leaders, and fellow researchers, fostering collaborations that extend beyond the event.
-        </li>
-        <li>
-          <span className="font-bold text-black">Knowledge Exchange:</span> Attendees will gain exposure to the latest advancements and trends, inspiring innovative solutions to real-world challenges.
-        </li>
-      </ul>
-    </div>
+          <div className="mt-5  rounded-lg bg-white py-7 px-4  shadow md:shadow-xl">
+            <h3 className="text-xl md:text-3xl font-bold text-gray-800 mb-4 pl-3 pb-2">
+              Key Highlights
+            </h3>
+            <ul className="list-disc pl-5 space-y-3 text-md md:text-lg text-justify text-black font-medium px-6">
+              <li>
+                <span className="font-bold text-black">Global Expertise:</span>{" "}
+                Esteemed international speakers will deliver keynote addresses
+                and technical sessions.
+              </li>
+              <li>
+                <span className="font-bold text-black">
+                  Publication Opportunities:
+                </span>{" "}
+                All peer-reviewed, selected, and presented papers will be
+                submitted for potential inclusion in reputed Scopus-indexed
+                journals, ensuring global visibility for the research.
+              </li>
+              <li>
+                <span className="font-bold text-black">
+                  Collaborative Engagement:
+                </span>{" "}
+                The conference provides a unique opportunity for participants to
+                network with global experts, industry leaders, and fellow
+                researchers, fostering collaborations that extend beyond the
+                event.
+              </li>
+              <li>
+                <span className="font-bold text-black">
+                  Knowledge Exchange:
+                </span>{" "}
+                Attendees will gain exposure to the latest advancements and
+                trends, inspiring innovative solutions to real-world challenges.
+              </li>
+            </ul>
+          </div>
         </div>
         {/* Chief Patron & Patron Sections */}
         <div className="patronsection">
@@ -144,7 +180,6 @@ const HomeSection = () => {
 
           <div className="gc flexgap-12 justify-center">
             <div>
-             
               <GeneralChair />
             </div>
 

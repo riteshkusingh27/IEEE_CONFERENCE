@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const AbtVerbose = () => {
   return (
     <div>
@@ -36,14 +35,15 @@ const AbtVerbose = () => {
         world.
         <br />
       </p>
-          <div className="text-center mt-3  rounded-2xl md:shadow-md ">
-            
-            <h1 className="font-bold text-2xl text-orange-500 block ">Conference Mode : </h1> 
-      
-            <p className="font-bold text-xl pb-3 text-green-600">Physical Mode/In-person - Live Conference</p>
+      <div className="text-center mt-3  rounded-2xl md:shadow-md ">
+        <h1 className="font-bold text-2xl text-orange-500 block ">
+          Conference Mode :{" "}
+        </h1>
 
-          </div>
- 
+        <p className="font-bold text-xl pb-3 text-green-600">
+          Physical Mode/In-person - Live Conference
+        </p>
+      </div>
     </div>
   );
 };

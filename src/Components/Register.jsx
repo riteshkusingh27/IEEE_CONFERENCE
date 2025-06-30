@@ -98,8 +98,12 @@ const Register = () => {
           </ul>
 
           <div className="text-center mt-5 w-full ">
-            <button className=" border-gray-500 rounded-full px-5 py-1 bg-gradient-to-r from-amber-500 to-orange-500 
-            hover:from-orange-500 hover:to-amber-500 text-white outline-none hover:scale-105 transition-all shadow hover:shadow-gray-600 font-medium">Register</button>
+            <button
+              className=" border-gray-500 rounded-full px-5 py-1 bg-gradient-to-r from-amber-500 to-orange-500 
+            hover:from-orange-500 hover:to-amber-500 text-white outline-none hover:scale-105 transition-all shadow hover:shadow-gray-600 font-medium"
+            >
+              Register
+            </button>
           </div>
         </div>
       </div>
