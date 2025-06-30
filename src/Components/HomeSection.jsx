@@ -111,7 +111,7 @@ const HomeSection = () => {
 </div>
         <div className="flex justify-center mb-7 ">
            <div className="mt-5  rounded-lg bg-white py-7 px-4  shadow md:shadow-xl">
-      <h3 className="text-xl md:text-3xl font-bold text-gray-800 mb-4 text-center pb-2">Key Highlights</h3>
+      <h3 className="text-xl md:text-3xl font-bold text-gray-800 mb-4 pl-3 pb-2">Key Highlights</h3>
       <ul className="list-disc pl-5 space-y-3 text-md md:text-lg text-justify text-black font-medium px-6">
         <li>
           <span className="font-bold text-black">Global Expertise:</span> Esteemed international speakers will deliver keynote addresses and technical sessions.
