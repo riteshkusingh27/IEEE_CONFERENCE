@@ -65,8 +65,8 @@ const HomeSection = () => {
             Bridging AI, Sensing, and Embedded Intelligence for a Smarter,
             Safer, and Sustainable World.
           </p>
-          <p className="text-md md:text-lg bold font-bold md:mb-3 ">
-            <span className="pt-3 font-bold font">CENTCON 2026 </span> <br /> 
+          <p className="text-md md:text-lg bold font-bold md:mb-3  text-stone-900">
+            <span className="pt-3 font-extrabold font text-indigo-600">CENTCON 2026 </span> <br /> 
             23rd & 24th January 2026
           </p>
 

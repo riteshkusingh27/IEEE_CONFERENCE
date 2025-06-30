@@ -2,7 +2,7 @@
 const ImportantDates = () => {
   const dates = [
     { title: "Paper Submission start date", date: "1st September, 2025", bold: true },
-    { title: "Last Date of Paper Submission", date: "15th October, 2025'", bold: true },
+    { title: "Last Date of Paper Submission", date: "15th October, 2025", bold: true },
     { title: "Notification of Acceptance", date: "30th November, 2025", bold:'true' },
     
     { title: "Last Date of Author Registration", date: "10th December, 2025",bold:'true' },
