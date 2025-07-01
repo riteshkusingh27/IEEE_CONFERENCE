@@ -8,7 +8,7 @@ export default function AuthorGuidelines() {
         <div className="text-left">
           <p className="text-lg">
             Below are some useful instructions to assist the authors for submit their papers fo International Conference on Disruptive Technologies for
-Multi-Disciplinary Research and Applications 2026 :
+Multi-Disciplinary Research and Applications (Centcon 2026) :
           </p>
           
           <h3 className="text-2xl font-bold text-blue-900 mt-4">ORIGINALITY OF SUBMITTED PAPERS</h3>
