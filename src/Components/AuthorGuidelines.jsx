@@ -7,7 +7,7 @@ export default function AuthorGuidelines() {
         <h2 className="text-3xl font-bold text-orange-500  text-center mb-3">GUIDELINES TO AUTHORS</h2>
         <div className="text-left">
           <p className="text-lg">
-            Below are some useful instructions to assist the authors for submit their papers fo IEEE International Conference on Disruptive Technologies for
+            Below are some useful instructions to assist the authors for submit their papers fo International Conference on Disruptive Technologies for
 Multi-Disciplinary Research and Applications 2026 :
           </p>
           
