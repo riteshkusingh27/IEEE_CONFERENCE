@@ -31,26 +31,35 @@ const Footer = () => {
             </span>
           </a>
         </div>
-        <div className="text-center mb-4 md:mb-0">
+        <div className="text-center mb-4 md:mb-0 font-mono font-light text-gray-300 ">
           <p>
-            &copy; All rights reserved. <br />{" "}
-            <b className="text-pink-100">IEEE TEMS BENGALURU</b>
+            &copy; 2026 All rights reserved. <br />{" "}
+            <b className="">IEEE TEMS BENGALURU</b>
           </p>
         </div>
+
+        
+        
         <div className="flex space-x-3 justify-center md:justify-end items-center">
+              <div>
+     <a href="https://info.flagcounter.com/uS6a"><img  src="https://s01.flagcounter.com/count2/CVic/bg_0E50E4/txt_FFFFFF/border_0E50E3/columns_2/maxflags_10/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0" className="h-22 rounded-md  font-black"/></a>
+        </div>
+          
+         
           <a href="#">
             <img src={linkdein} alt="LinkedIn" className="w-6 h-6" />
           </a>
-          <a href="#">
+          {/* <a href="#">
             <img src={instagram} alt="Instagram" className="w-6 h-6" />
-          </a>
-          <a href="#">
+          </a> */}
+          {/* <a href="#">
             <img src={fb} alt="Facebook" className="w-6 h-6" />
-          </a>
+          </a> */}
           <a href="#">
             <img src={xcom} alt="X" className="w-6 h-6 mr-2" />
           </a>
           <ContactUsButton />
+       
         </div>
       </div>
     </footer>

@@ -10,6 +10,7 @@ import Footer from "../Components/Footer.jsx";
 import News from "./News.jsx";
 import { NavLink, useNavigate } from "react-router-dom";
 
+
 const HomeSection = () => {
   const [timeLeft, setTimeLeft] = useState("");
   const navigate = useNavigate();
@@ -40,7 +41,8 @@ const HomeSection = () => {
   }, []);
 
   return (
-    <div>
+    <div className="realtive">
+     
       <div className="fixed bottom-34 right-3 z-50">
         <NavLink to="https://maps.app.goo.gl/n1AvmHUBrhZgc1Lx5" target="_blank">
           <img
