@@ -42,7 +42,7 @@ const Footer = () => {
         
         <div className="flex space-x-3 justify-center md:justify-end items-center">
               <div>
-     <a href="https://info.flagcounter.com/uS6a"><img  src="https://s01.flagcounter.com/count2/CVic/bg_0E50E4/txt_FFFFFF/border_0E50E3/columns_2/maxflags_10/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0" className="h-22 rounded-md  font-black"/></a>
+     <img  src="https://s01.flagcounter.com/count2/CVic/bg_0E50E4/txt_FFFFFF/border_0E50E3/columns_2/maxflags_10/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0" className="h-22 rounded-md  font-black"/>
         </div>
           
          
