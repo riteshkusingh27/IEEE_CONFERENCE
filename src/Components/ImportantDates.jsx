@@ -40,7 +40,7 @@ const ImportantDates = () => {
     title: "Last Date To Submit Camera-Ready Manuscript ",
     date: (
       <>
-        25<sup>th</sup> December, 2025
+        24<sup>th</sup> December, 2025
       </>
     ),
     bold: true,
