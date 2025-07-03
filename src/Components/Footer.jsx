@@ -44,7 +44,7 @@ const Footer = () => {
               src="https://s01.flagcounter.com/count2/CVic/bg_0E50E4/txt_FFFFFF/border_0E50E3/columns_2/maxflags_10/viewers_0/labels_0/pageviews_1/flags_0/percent_0/"
               alt="Flag Counter"
               border="0"
-              className="h-22 sm:h-15 rounded-md  font-black"
+              className="md:h-19 sm:h-15 rounded-md  font-black"
             />
           </div>
 
