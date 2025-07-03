@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../Images/logo.png";
-import ieebangalore from "../Images/icons/ieeeblue.jpeg";
+import ieebangalore from "../Images/icons/ieeeblue.png";
 import centcon from "../Images/centcon.png";
 import centcon2 from "../Images/centcon2.png";
 
