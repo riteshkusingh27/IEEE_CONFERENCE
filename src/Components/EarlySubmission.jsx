@@ -2,7 +2,7 @@ import React from 'react';
 
 const EarlySubmission = () => {
   return (
-    <div className='bg-gray-100 p-10'>
+    <div className=' p-10'>
       <h2 className='text-3xl font-bold mb-1 text-blue-900'>
         <span className='underline'>Early Submission Advantage</span>
       </h2>

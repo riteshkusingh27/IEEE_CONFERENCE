@@ -9,7 +9,7 @@ const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   return (
-    <nav className="bg-white border-gray-200 relative top-0 z-20 w-full">
+    <nav className=" bg-cover bg-center   border-gray-200  relative top-0 z-20 w-full ">
       <div className="w-full flex flex-col md:flex-row items-center justify-between px-4 py-3  ">
         {/* Logo Section */}
         <div className="flex align-middle items-center space-x-2 mb-4 md:mb-0">

@@ -9,7 +9,7 @@ import video from "/images/video.mp4";
 const About = () => {
   return (
     <section
-      className="h-full bg-gradient-to-r bg-white from-blue-50 to-blue-100"
+      className="h-full bg-gradient-to-r "
       id="about"
     >
       <div className="mx-auto pt-5 ml-8 pl-6 pr-5">
