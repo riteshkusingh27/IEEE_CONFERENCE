@@ -10,7 +10,6 @@ import Footer from "../Components/Footer.jsx";
 import News from "./News.jsx";
 import { NavLink, useNavigate } from "react-router-dom";
 
-
 const HomeSection = () => {
   const [timeLeft, setTimeLeft] = useState("");
   const navigate = useNavigate();
@@ -42,7 +41,6 @@ const HomeSection = () => {
 
   return (
     <div className="realtive">
-     
       <div className="fixed bottom-34 right-3 z-50">
         <NavLink to="https://maps.app.goo.gl/n1AvmHUBrhZgc1Lx5" target="_blank">
           <img
@@ -63,16 +61,16 @@ const HomeSection = () => {
               Multi-Disciplinary Research and Applications
             </span>
           </h1>
-          <p className="text-sm md:text-xl text-black px-2  md:mt-2 md:px-0">
+          <p className="text-sm md:text-xl text-black px-2 pb-3 md:mt-2 md:px-0">
             Bridging AI, Sensing, and Embedded Intelligence for a Smarter,
             Safer, and Sustainable World.
           </p>
           <p className="text-md md:text-lg bold font-bold md:mb-3  text-stone-900">
             <span className="pt-3 font-extrabold font text-indigo-600">
-              CENTCON 2026{" "}
+              3<sup>rd</sup> CENTCON 2026{" "}
             </span>{" "}
             <br />
-            23rd & 24th January 2026
+            23<sup>rd</sup> & 24<sup>th</sup>January 2026
           </p>
 
           <button
@@ -145,8 +143,7 @@ const HomeSection = () => {
                   Publication Opportunities:
                 </span>{" "}
                 All peer-reviewed, selected, and presented papers will be
-                submitted for potential inclusion in reputed Scopus-indexed
-                journals, ensuring global visibility for the research.
+                submitted for potential inclusion in IEEE Xplore, ensuring global visibility for the research.
               </li>
               <li>
                 <span className="font-bold text-black">

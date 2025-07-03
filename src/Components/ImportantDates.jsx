@@ -1,37 +1,60 @@
 const ImportantDates = () => {
   const dates = [
-    {
-      title: "Paper Submission start date",
-      date: "1st September, 2025",
-      bold: true,
-    },
-    {
-      title: "Last Date of Paper Submission",
-      date: "15th October, 2025",
-      bold: true,
-    },
-    {
-      title: "Notification of Acceptance",
-      date: "30th November, 2025",
-      bold: "true",
-    },
-
-    {
-      title: "Last Date of Author Registration",
-      date: "10th December, 2025",
-      bold: "true",
-    },
-    {
-      title: "Last Date To Submit Camera-Ready Manuscript ",
-      date: "25th December, 2025",
-      bold: "true",
-    },
-    {
-      title: "Date Of Conference",
-      date: "23rd & 34th January, 2026",
-      bold: true,
-    },
-  ];
+  {
+    title: "Paper Submission start date",
+    date: (
+      <>
+        1<sup>st</sup> September, 2025
+      </>
+    ),
+    bold: true,
+  },
+  {
+    title: "Last Date of Paper Submission",
+    date: (
+      <>
+        15<sup>th</sup> October, 2025
+      </>
+    ),
+    bold: true,
+  },
+  {
+    title: "Notification of Acceptance",
+    date: (
+      <>
+        30<sup>th</sup> November, 2025
+      </>
+    ),
+    bold: true,
+  },
+  {
+    title: "Last Date of Author Registration",
+    date: (
+      <>
+        10<sup>th</sup> December, 2025
+      </>
+    ),
+    bold: true,
+  },
+  {
+    title: "Last Date To Submit Camera-Ready Manuscript ",
+    date: (
+      <>
+        25<sup>th</sup> December, 2025
+      </>
+    ),
+    bold: true,
+  },
+  {
+    title: "Date Of Conference",
+    date: (
+      <>
+        23<sup>rd</sup> & 24<sup>th</sup> January, 2026
+      </>
+    ),
+    bold: true,
+  },
+];
 
   return (
     <div className="p-6  w-full  pl-8 mt-5">

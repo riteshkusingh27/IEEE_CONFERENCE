@@ -21,7 +21,7 @@ const AbtVerbose = () => {
         and next-generation computing.
         <br />
         <br />
-        Organized by DSU and the Department of Electronics & Communication
+        Organized by Dayananda Sagar University (DSU) and the Department of Electronics & Communication
         Engineering (ECE), this two-day event will feature keynote speeches,
         technical paper presentations, hands-on workshops, and industry
         exhibits, fostering collaboration across AI, embedded systems,

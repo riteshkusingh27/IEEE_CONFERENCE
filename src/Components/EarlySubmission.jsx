@@ -19,21 +19,11 @@ const EarlySubmission = () => {
           </thead>
           <tbody>
             <tr className='bg-blue-200 text-lg font-normal'>
-              <td className='border border-blue-300 px-4 py-2'>Dec 1 - Dec 15</td>
+              <td className='border border-blue-300 px-4 py-2'>December 1<sup>st</sup> - December 15<sup>th</sup></td>
               <td className='border border-blue-300 px-4 py-2'>25%</td>
             </tr>
-            <tr className='bg-blue-200 text-lg font-normal'>
-              <td className='border border-blue-300 px-4 py-2'>Dec 16 - Dec 31</td>
-              <td className='border border-blue-300 px-4 py-2'>20%</td>
-            </tr>
-            <tr className='bg-blue-200 text-lg font-normal'>
-              <td className='border border-blue-300 px-4 py-2'>Jan 1 - Jan 15</td>
-              <td className='border border-blue-300 px-4 py-2'>15%</td>
-            </tr>
-            <tr className='bg-blue-200 text-lg font-normal'>
-              <td className='border border-blue-300 px-4 py-2'>Jan 16 - Jan 31</td>
-              <td className='border border-blue-300 px-4 py-2'>10%</td>
-            </tr>
+            
+            
           </tbody>
         </table>
       </div>

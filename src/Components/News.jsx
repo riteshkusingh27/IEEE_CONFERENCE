@@ -2,28 +2,60 @@ import React from "react";
 
 const News = () => {
   const newsUpdates = [
-    { id: 1, date: "1st September, 2025", content: "Paper Submission Starts" },
     {
       id: 1,
-      date: "15th October, 2025",
+      date: (
+        <>
+          1<sup>st</sup> September, 2025
+        </>
+      ),
+      content: "Paper Submission Starts",
+    },
+    {
+      id: 2,
+      date: (
+        <>
+          15<sup>th</sup> October, 2025
+        </>
+      ),
       content: "Last Date of Paper Submission",
     },
     {
-      id: 1,
-      date: "30th November, 2025",
+      id: 3,
+      date: (
+        <>
+          30<sup>th</sup> November, 2025
+        </>
+      ),
       content: "Notification of Acceptance",
     },
     {
-      id: 1,
-      date: "10th December, 2025",
+      id: 4,
+      date: (
+        <>
+          10<sup>th</sup> December, 2025
+        </>
+      ),
       content: "Last Date of Author Registration",
     },
     {
-      id: 1,
-      date: "25th December, 2025",
-      content: "Last Date To Submit Camera-Ready Manuscript ",
+      id: 5,
+      date: (
+        <>
+          24<sup>th</sup> December, 2025
+        </>
+      ),
+      content: "Last Date To Submit Camera-Ready Manuscript",
     },
-    { id: 1, date: "23rd & 34th January, 2026", content: "Conference Dated" },
+    {
+      id: 6,
+      date: (
+        <>
+          23<sup>rd</sup> & 24<sup>th</sup> January, 2026
+        </>
+      ),
+      content: "Conference Dates",
+    },
   ];
 
   return (

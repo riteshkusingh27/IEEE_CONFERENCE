@@ -19,7 +19,7 @@ const committees = [
     members: [
       // { name: "Dr. Vinu R", role: "Associate Professor, DSU" },
       // { name: "Dr. Navya R", role: "Assistant Professor, DSU" },
-       {
+      {
         name: "Dr. Shirshendu Roy ",
         role: "Assistant Professor, DSU",
       },
@@ -189,6 +189,7 @@ const student = [
     title: "Web Master",
     members: [
       { name: "Dr. BM Ashwin Desai", role: "Associate Professor, DSU" },
+      { name: "Dr. Navya R", role: "Assistant Professor, DSU" },
       { name: "Mr. Ritesh Kumar ", role: "Student Volunteer" },
       { name: "Mr. Prokshith J.S", role: "Student Volunteer" },
     ],
@@ -235,7 +236,7 @@ const CommitteeTables = () => {
               <thead className="bg-gray-200">
                 <tr>
                   <th className=" w-1/2 border px-4 py-2 text-left">Name</th>
-                  <th className=" border px-4 py-2 text-left">Role</th>
+                  <th className=" border px-4 py-2 text-left">Designation</th>
                 </tr>
               </thead>
               <tbody>
