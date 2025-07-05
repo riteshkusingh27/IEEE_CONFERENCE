@@ -180,6 +180,9 @@ const committees = [
       { name: "Ms. Jaishree Ramadevaru", role: "Assistant Professor, DSU" },
       { name: "Ms. Jisy N K", role: "Assistant Professor, DSU" },
       { name: "Mr. V Sudharsan", role: "Assistant Professor, DSU" },
+      { name: "Dr. A Ramesh", role: "Assistant Professor, DSU" },
+      { name: "Mr. Srinivas", role: "Assistant Professor, DSU" },
+      { name: "Mr. Sahil Patil", role: "Assistant Professor, DSU" },
     ],
   },
 ];
@@ -197,7 +200,7 @@ const student = [
 ];
 const CommitteeTables = () => {
   return (
-    <div className="mb-2.5">
+    <div className="mb-2.5 bg-pink-50">
       <div className="space-y-8 p-4 px-20">
         {committees.map((committee, idx) => (
           <div key={idx}>

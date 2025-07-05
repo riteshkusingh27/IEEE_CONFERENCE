@@ -409,7 +409,7 @@ const Committee = ({ title, members }) => {
   }
 
   return (
-    <div className="text-center py-10">
+    <div className="text-center py-10 bg-pink-50">
       <h2 className="text-3xl font-bold mb-8 text-orange-600">{title}</h2>
       <div className={containerClass}>
         {members.map((member, index) => (
