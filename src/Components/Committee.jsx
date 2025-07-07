@@ -161,31 +161,7 @@ const committeeSections = [
         role: "Assistant Professor, DSU",
         desig: "Publicity Chair",
         image: navya,
-      },
-      {
-        name: "Dr. Theodre Chandra",
-        role: "Associate Professor, DSU",
-        desig: "Track-1 Chair",
-        image: theodre,
-      },
-      {
-        name: "Dr. Gayathri K M",
-        role: "Associate Professor, DSU",
-        desig: "Track-2 Chair",
-        image: gayathri,
-      },
-      {
-        name: "Dr. Vinu R",
-        role: "Associate Professor, DSU",
-        desig: "Track-3 Chair",
-        image: vinu,
-      },
-      {
-        name: "Dr. Arungalai Vendan",
-        role: "Professor, DSU",
-        desig: "Track-4 Chair",
-        image: arungalai,
-      },
+      }
     ],
   },
 
