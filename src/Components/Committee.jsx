@@ -141,7 +141,7 @@ const committeeSections = [
       {
         name: "Dr. BM Ashwin Desai",
         role: "Associate Professor, DSU",
-        desig: "Conference Co-Chair & TPC Chair , Track-5 Chair",
+        desig: "Conference Co-Chair & TPC Chair",
         image: ashwin,
       },
       {
@@ -162,29 +162,65 @@ const committeeSections = [
         desig: "Publicity Chair",
         image: navya,
       },
-        {
+      {
         name: "Dr. Theodre Chandra",
         role: "Associate Professor, DSU",
-        desig : "Track-1 Chair",
+        desig: "Track-1 Chair",
         image: theodre,
       },
-       {
+      {
         name: "Dr. Gayathri K M",
         role: "Associate Professor, DSU",
-             desig : "Track-2 Chair",
+        desig: "Track-2 Chair",
         image: gayathri,
       },
-        {
-        "name": "Dr. Vinu R",
-        "role": "Associate Professor, DSU",
-          desig : "Track-3 Chair",
-        "image": vinu
+      {
+        name: "Dr. Vinu R",
+        role: "Associate Professor, DSU",
+        desig: "Track-3 Chair",
+        image: vinu,
       },
-        {
-        "name": "Dr. Arungalai Vendan",
-        "role": "Professor, DSU",
-         desig : "Track-4 Chair",
-        "image": arungalai
+      {
+        name: "Dr. Arungalai Vendan",
+        role: "Professor, DSU",
+        desig: "Track-4 Chair",
+        image: arungalai,
+      },
+    ],
+  },
+
+  {
+    title: "Track Chairs",
+    members: [
+      {
+        name: "Dr. Theodre Chandra",
+        role: "Associate Professor, DSU",
+        desig: "Track-1 Chair",
+        image: theodre,
+      },
+      {
+        name: "Dr. Gayathri K M",
+        role: "Associate Professor, DSU",
+        desig: "Track-2 Chair",
+        image: gayathri,
+      },
+      {
+        name: "Dr. Vinu R",
+        role: "Associate Professor, DSU",
+        desig: "Track-3 Chair",
+        image: vinu,
+      },
+      {
+        name: "Dr. Arungalai Vendan",
+        role: "Professor, DSU",
+        desig: "Track-4 Chair",
+        image: arungalai,
+      },
+      {
+        name: "Dr. BM Ashwin Desai",
+        role: "Associate Professor, DSU",
+        desig: "Track-5 Chair",
+        image: ashwin,
       },
     ],
   },
