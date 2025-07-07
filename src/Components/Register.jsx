@@ -28,7 +28,7 @@ const registrationData = [
 const Register = () => {
   return (
     <div className="w-full flex flex-col min-h-screen">
-      <div className="px-10 mt-4">
+      <div className="px-10 mt-4 mb-5">
         <p className="text-3xl font-bold mb-7 text-center text-orange-500">
           Instructions for Registration
         </p>
@@ -97,7 +97,7 @@ const Register = () => {
             </li>
           </ul>
 
-          <div className="text-center mt-5 w-full ">
+          <div className="text-center mt-9 w-full ">
             <button
               className=" border-gray-500 rounded-full px-5 py-1 bg-gradient-to-r from-amber-500 to-orange-500 
             hover:from-orange-500 hover:to-amber-500 text-white outline-none hover:scale-105 transition-all shadow hover:shadow-gray-600 font-medium"
