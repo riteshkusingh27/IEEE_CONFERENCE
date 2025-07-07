@@ -83,7 +83,7 @@ const HomeSection = () => {
 
         {/* About Us Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-7 px-4 md:px-0">
-          <div className="md:col-span-2 p-4 md:p-6 bg-white rounded-lg shadow-lg">
+          <div className="md:col-span-2 p-4 md:p-6 bg-gray-100 rounded-lg shadow-md">
             <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-4">
               About Us
             </h2>
@@ -123,12 +123,12 @@ const HomeSection = () => {
             {/* 🔽 Key Highlights Section */}
           </div>
 
-          <div className="col-span-1">
+          <div className="col-span-1 ">
             <News />
           </div>
         </div>
         <div className="flex justify-center mb-7 ">
-          <div className="mt-5  rounded-lg bg-white py-7 px-4  shadow md:shadow-xl">
+          <div className="mt-5  rounded-lg bg-gray-100 py-7 px-4  shadow md:shadow-md">
             <h3 className="text-xl md:text-3xl font-bold text-gray-800 mb-4 pl-3 pb-2">
               Key Highlights
             </h3>

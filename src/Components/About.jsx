@@ -8,10 +8,7 @@ import video from "/images/video.mp4";
 
 const About = () => {
   return (
-    <section
-      className="h-full bg-gradient-to-r "
-      id="about"
-    >
+    <section className="h-full bg-gradient-to-r " id="about">
       <div className="mx-auto pt-5 ml-8 pl-6 pr-5">
         <h2 className="text-3xl md:text-4xl font-bold text-orange-500 mb-6">
           About the Conference

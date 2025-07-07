@@ -59,7 +59,7 @@ const News = () => {
   ];
 
   return (
-    <div className=" p-4 bg-gradient-to-r from-pal-50 to-purple-50 rounded-lg shadow-md w-full">
+    <div className=" p-4 bg-gray-100 rounded-lg shadow-md w-full">
       <h2 className="text-xl font-bold mb-4 text-purple-700">
         Important Dates
       </h2>
