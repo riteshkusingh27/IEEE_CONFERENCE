@@ -41,13 +41,13 @@ const HomeSection = () => {
 
   return (
     <div className="realtive">
-      <div className="fixed bottom-34 right-3 z-50">
+      <div className="fixed bottom-40 right-7 z-50">
         <NavLink to="https://maps.app.goo.gl/n1AvmHUBrhZgc1Lx5" target="_blank">
-          <img
+          {/* <img
             src={map}
             alt="Map Icon"
-            className="h-10 w-12 md:h-13 md:w-15 object-contain"
-          />
+            className="h-8 w-12 md:h-13 md:w-11 object-contain"
+          /> */}
         </NavLink>
       </div>
 
@@ -143,7 +143,8 @@ const HomeSection = () => {
                   Publication Opportunities:
                 </span>{" "}
                 All peer-reviewed, selected, and presented papers will be
-                submitted for potential inclusion in IEEE Xplore, ensuring global visibility for the research.
+                submitted for potential inclusion in IEEE Xplore, ensuring
+                global visibility for the research.
               </li>
               <li>
                 <span className="font-bold text-black">
