@@ -288,20 +288,20 @@ const Paper = () => {
           </p>
           <ul className="text=justify list-disc ml-8">
             <li className="text-justify pb-3">
-              <span className="font-bold text-justify">
-                Paper Identification :
+              <span className="font-bold text-justify pr-2">
+                Paper Identification :  
               </span>
-              Each submitted paper is assigned a unique Paper ID to anonymize
+                Each submitted paper is assigned a unique Paper ID to anonymize
               author details, ensuring a double-blind review process.
             </li>
-            <li className="text-justify pb-3">
-              <span className="font-bold text-justify">Plagiarism Check :</span>
+            <li className="text-justify pb-3 ">
+              <span className="font-bold text-justify pr-2">Plagiarism Check :</span>
               All papers undergo a thorough plagiarism check. Submissions with a
               similarity index exceeding 10% will be rejected, and authors will
               be notified accordingly.
             </li>
-            <li className="text-justify pb-3">
-              <span className="font-bold text-justify">
+            <li className="text-justify pb-3 ">
+              <span className="font-bold text-justify pr-2">
                 Initial Shortlisting :
               </span>
               Papers passing the plagiarism check are shortlisted and sent for
@@ -309,7 +309,7 @@ const Paper = () => {
               provide their comments and feedback.
             </li>
             <li className="text-justify">
-              <span className="font-bold text-justify">Final Selection :</span>
+              <span className="font-bold text-justify pr-2">Final Selection :</span>
               Authors of selected papers will be notified to submit their
               camera-ready versions in the specified conference template.
               Details regarding registration fees and deadlines will be

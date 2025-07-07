@@ -41,27 +41,27 @@ const committees = [
   {
     title: "Technical Program Committee",
     members: [
-      {
-        name: "Dr. Theodre Chandra [Track-1 Chair]",
-        role: "Associate Professor, DSU",
-      },
-      {
-        name: "Dr. Gayathri K M  [Track-2 Chair]",
-        role: "Associate Professor, DSU",
-      },
+      // {
+      //   name: "Dr. Theodre Chandra [Track-1 Chair]",
+      //   role: "Associate Professor, DSU",
+      // },
+      // {
+      //   name: "Dr. Gayathri K M  [Track-2 Chair]",
+      //   role: "Associate Professor, DSU",
+      // },
 
-      {
-        name: "Dr. Vinu R [Track-3 Chair]",
-        role: "Associate Professor, DSU",
-      },
-      {
-        name: "Dr. Arungalai [Track-4 Chair]",
-        role: "Professor, DSU",
-      },
-      {
-        name: "Dr. BM Ashwin Desai [Track-5 Chair]",
-        role: "Associate Professor, DSU",
-      },
+      // {
+      //   name: "Dr. Vinu R [Track-3 Chair]",
+      //   role: "Associate Professor, DSU",
+      // },
+      // {
+      //   name: "Dr. Arungalai [Track-4 Chair]",
+      //   role: "Professor, DSU",
+      // },
+      // {
+      //   name: "Dr. BM Ashwin Desai [Track-5 Chair]",
+      //   role: "Associate Professor, DSU",
+      // },
       {
         name: "Dr. Lunchakorn Wuttisittikulkij",
         role: "Associate Professor, Chulalongkorn University, Thailand",
