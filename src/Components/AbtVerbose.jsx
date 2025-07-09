@@ -7,8 +7,8 @@ const AbtVerbose = () => {
         International Conference on Disruptive Technologies for
         Multi-Disciplinary Research and Applications 2026 – International
         Conference on Bridging AI, Sensing, and Embedded Intelligence for a
-        Smarter, Safer, and Sustainable World will be held on January 23 <sup>rd</sup> &
-        24 <sup>th</sup>, 2026 in physical mode/In-person, at Dayananda Sagar University
+        Smarter, Safer, and Sustainable World will be held on January 23<sup>rd</sup> &
+        24<sup>th</sup>, 2026 in physical mode/In-person, at Dayananda Sagar University
         (DSU), Bengaluru, India. This conference aims to provide a global
         platform for researchers, industry professionals, and academicians to
         exchange ideas and showcase cutting-edge advancements in AI-driven
