@@ -25,7 +25,7 @@ import gaythri from "/committee/cochair/gaythri.jpeg";
 import snehasharma from "/committee/cochair/snehasharma.jpg";
 
 // technical
-import theodre from "/committee/technical/theodre.jpg";
+import theodre from "/committee/technical/theodre.jpeg";
 import gayathri from "/committee/technical/gayathri.jpeg";
 import shirshendu from "/committee/technical/shirshendu.jpg";
 import godfrey from "/committee/technical/godfrey.jpeg";

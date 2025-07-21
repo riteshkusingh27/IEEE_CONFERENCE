@@ -316,23 +316,27 @@ const Paper = () => {
               communicated along with the notification.
             </li>
           </ul>
-          <p className="font-bold mt-6 text-gray-900">
+          <p className="mt-6 pr-10  text-justify">
             This structured process ensures the highest standards of academic
             integrity and quality for all papers presented at the
             conference.Accepted papers will undergo rigorous peer review, and
             selected works will be considered for publication in IEEE Xplore.
           </p>
 
-          <p className="text-lg ml-10 pr-10 mt-2 font-bold">
-            Kindly note that Papers once submitted can not be updated. Paper
-            review process will immediately start as soon as it is submitted.
+          <p className="text-lg ml-5 pr-10 mt-2 font-extrabold text-red-600">
+            **Kindly note that Papers once submitted can not be updated. Paper
+            review process will immediately start as soon as it is submitted.**
           </p>
         </div>
-        <div className="submit mt-6 flex text-center justify-center ">
+  <hr className="border-t-2 border-gray-300 my-4" />
+             <div className="text-lg ml-10 pr-10 mt-4 mb-4 font-bold">
+              The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+             </div>
+        <div className="submit mt-6  flex text-center justify-center ">
           <a href="https://www.ieee.org/" className=" ">
             <button
               type="button"
-              className="text-white text-xl w-sm bg-gradient-to-r from-orange-500 to-orange-600  focus:ring-4  focus:ring-indigo-300 font-bold rounded-xl px-7 py-2 mx-5 shadow-lg transition-transform duration-300 hover:scale-105 mb-6  "
+              className="text-white text-xl w-sm bg-gradient-to-r from-orange-500 to-orange-600  focus:ring-4  focus:ring-indigo-300 font-bold rounded-xl px-7 py-2 mx-5 shadow-lg transition-transform duration-300 hover:scale-105 mb-10  "
             >
               SUBMIT YOUR PAPER
             </button>
