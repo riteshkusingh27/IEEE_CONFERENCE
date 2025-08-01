@@ -36,7 +36,7 @@ const Paper = () => {
         </p>
 
         <div className="tracks mb-4">
-          <p className="text-3xl ml-10 mt-4 font-bold text-blue-900">
+          <p className="text-3xl ml-10 mt-4 font-bold text-blue-900 mb-7 ">
             Track Details
           </p>
           <ul className="text-lg ml-14 mt-2 ">
@@ -281,47 +281,6 @@ const Paper = () => {
       </div> */}
 
         <div className="ml-10 text-xl mt-2 pr-5 flex flex-col text-center">
-          <p className="mb-3 text-justify ml-4 underline text-orange-800">
-            To ensure a rigorous and transparent review process, the following
-            steps are followed for all research papers submitted to the
-            conference :
-          </p>
-          <ul className="text=justify list-disc ml-8">
-            <li className="text-justify pb-3">
-              <span className="font-bold text-justify pr-2">
-                Paper Identification :  
-              </span>
-                Each submitted paper is assigned a unique Paper ID to anonymize
-              author details, ensuring a double-blind review process.
-            </li>
-            <li className="text-justify pb-3 ">
-              <span className="font-bold text-justify pr-2">Plagiarism Check :</span>
-              All papers undergo a thorough plagiarism check. Submissions with a
-              similarity index exceeding 10% will be rejected, and authors will
-              be notified accordingly.
-            </li>
-            <li className="text-justify pb-3 ">
-              <span className="font-bold text-justify pr-2">
-                Initial Shortlisting :
-              </span>
-              Papers passing the plagiarism check are shortlisted and sent for
-              two rounds of peer review. Reviewers will receive a link to
-              provide their comments and feedback.
-            </li>
-            <li className="text-justify">
-              <span className="font-bold text-justify pr-2">Final Selection :</span>
-              Authors of selected papers will be notified to submit their
-              camera-ready versions in the specified conference template.
-              Details regarding registration fees and deadlines will be
-              communicated along with the notification.
-            </li>
-          </ul>
-          <p className="mt-6 pr-10  text-justify">
-            This structured process ensures the highest standards of academic
-            integrity and quality for all papers presented at the
-            conference.Accepted papers will undergo rigorous peer review, and
-            selected works will be considered for publication in IEEE Xplore.
-          </p>
 
           <p className="text-lg ml-5 pr-10 mt-2 font-extrabold text-red-600">
             **Kindly note that Papers once submitted can not be updated. Paper
@@ -329,17 +288,17 @@ const Paper = () => {
           </p>
         </div>
   <hr className="border-t-2 border-gray-300 my-4" />
-             <div className="text-lg ml-10 pr-10 mt-4 mb-4 font-bold">
+             <div className="text-lg ml-10 pr-10 mt-4 mb-4 ">
               The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
              </div>
         <div className="submit mt-6  flex text-center justify-center ">
           <a href="https://www.ieee.org/" className=" ">
-            <button
+            {/* <button
               type="button"
               className="text-white text-xl w-sm bg-gradient-to-r from-orange-500 to-orange-600  focus:ring-4  focus:ring-indigo-300 font-bold rounded-xl px-7 py-2 mx-5 shadow-lg transition-transform duration-300 hover:scale-105 mb-10  "
             >
               SUBMIT YOUR PAPER
-            </button>
+            </button> */}
           </a>
         </div>
       </div>

@@ -193,6 +193,8 @@ const student = [
     members: [
       { name: "Dr. BM Ashwin Desai", role: "Associate Professor, DSU" },
       { name: "Dr. Navya R", role: "Assistant Professor, DSU" },
+      { name: "Mr. Ritesh Kumar ", role: "Student Volunteer" },
+      { name: "Mr. Prajwal M", role: "Student Volunteer" },
       { name: "Mr. Prokshith J.S", role: "Student Volunteer" },
     ],
   },

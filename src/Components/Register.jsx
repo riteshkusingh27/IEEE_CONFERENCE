@@ -4,24 +4,24 @@ import Footer from "./Footer.jsx";
 const registrationData = [
   {
     particulars: "Delegates from Industry",
-    indiandelegates: "₹10000",
-    indianDelegateIeee: "₹8500",
+    indiandelegates: "₹11200",
+    indianDelegateIeee: "₹9500",
   },
   {
     particulars:
       "Delegates from Academia (Academicians / Graduate Students / Post Graduate Students / Research Scholars)",
-    indiandelegates: "₹8500",
-    indianDelegateIeee: "₹7000",
+    indiandelegates: "₹9500",
+    indianDelegateIeee: "₹7800",
   },
   {
     particulars: "Accompanying Person",
-    indiandelegates: "₹2000",
-    indianDelegateIeee: "₹1000",
+    indiandelegates: "₹2300",
+    indianDelegateIeee: "₹1200",
   },
   {
     particulars: "Foreign Delegates",
-    indiandelegates: "$250",
-    indianDelegateIeee: "$150",
+    indiandelegates: "$280",
+    indianDelegateIeee: "$170",
   },
 ];
 
@@ -97,14 +97,14 @@ const Register = () => {
             </li>
           </ul>
 
-          <div className="text-center mt-9 w-full ">
+          {/* <div className="text-center mt-9 w-full ">
             <button
               className=" border-gray-500 rounded-full px-5 py-1 bg-gradient-to-r from-amber-500 to-orange-500 
             hover:from-orange-500 hover:to-amber-500 text-white outline-none hover:scale-105 transition-all shadow hover:shadow-gray-600 font-medium"
             >
               Register
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
 
