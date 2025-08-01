@@ -24,7 +24,7 @@ const News = () => {
       id: 3,
       date: (
         <>
-          30<sup>th</sup> November, 2025
+          15<sup>th</sup> November, 2025
         </>
       ),
       content: "Notification of Acceptance",
