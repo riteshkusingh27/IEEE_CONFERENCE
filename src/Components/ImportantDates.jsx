@@ -22,7 +22,7 @@ const ImportantDates = () => {
     title: "Notification of Acceptance",
     date: (
       <>
-        30<sup>th</sup> November, 2025
+        15<sup>th</sup> November, 2025
       </>
     ),
     bold: true,
