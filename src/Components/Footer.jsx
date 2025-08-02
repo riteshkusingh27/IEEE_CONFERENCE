@@ -47,7 +47,6 @@ const Footer = () => {
               className="md:h-20 sm:h-15 rounded-md  font-black"
             />
           </div>
-
           <a href="#">
             <img src={linkdein} alt="LinkedIn" className="w-6 h-6" />
           </a>
