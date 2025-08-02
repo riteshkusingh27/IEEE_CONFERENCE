@@ -7,7 +7,7 @@ const EarlySubmission = () => {
         <span className='underline'>Early Registration Advantage</span>
       </h2>
       <p className='text-lg mb-3'>
-        Discount on Registration Fee to Authors who will submit their paper early and will not wait for the last date of submission. This discount is available on all categories of Authors.
+       Discount on Registration Fee for Authors who register early and do not wait until the last date. This discount is available on all categories of Authors.
       </p>
       <div className='overflow-x-auto'>
         <table className='w-full border-collapse border border-blue-300'>
@@ -22,8 +22,6 @@ const EarlySubmission = () => {
               <td className='border border-blue-300 px-4 py-2'>15<sup>th</sup> November  -  30<sup>th</sup> November</td>
               <td className='border border-blue-300 px-4 py-2'>10%</td>
             </tr>
-            
-            
           </tbody>
         </table>
       </div>
